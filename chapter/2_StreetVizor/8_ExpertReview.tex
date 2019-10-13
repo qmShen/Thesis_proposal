@@ -1,0 +1,60 @@
+\section{Expert Review}
+
+To evaluate the effectiveness of StreetVizor, we conducted expert interviews with two independent domain experts other than our collaborating senior researcher $SR$.
+One of them focuses on designing livable public space (denoted as $EA$), and the other is an urban ecologist aiming at improving greenery in cities (denoted as $EB$).
+Hence, the experts are from different backgrounds: $SR$ and $EA$ in urban planning, while $EB$ in ecology.
+In the interviews, we started with explaining the visual encodings and interface design, and demonstrated to them how our system works.
+Then, we showed them the case studies, and allowed them to explore the system by themselves for about twenty minutes in the end.
+In general, both experts agrees that the way we study human-scale urban forms with street view images is a promising direction.
+Their detailed feedbacks are summarized below.
+
+\vspace*{2mm}
+\noindent
+\textit{Methodology and Approach}.
+$EA$ agreed with $SR$ that evidence-based urban design is becoming a trend in urban planning.
+He commented, ``StreetVizor is far more than simply a visualization platform. 
+Rather, it is an excellent combination of machine learning and visualization techniques, together with classical urban design theories in place-making''.
+$EB$ also expressed that ``street view images as an emerging data source can reflect urban environments well", and a visual analytics system can greatly facilitate the exploration of street views.
+
+\vspace*{2mm}
+\noindent
+\textit{Interactive Visual Design}.
+Both experts confirmed that StreetVizor is nicely designed according to the problem domain.
+They appreciated the visual consistency across different views.
+$EA$ highlighted ``it is very important to use the same colors in different views". 
+$SR$ agreed the workflow of ranking multiple AOIs/streets with Ranking Explorer, and comparing two AOIs/streets for details through AOI and Street Explorer is helpful.
+``It is easier for me to identify interested regions, such as those in Hong Kong (Fig.~\ref{fig:region-funcitonality})", commented by $SR$.
+% They agreed the workflow of over-viewing human-scale urban forms at city- and region-scale first, and examining details at street-scale is helpful.
+The AOI Explorer is nicely designed with intuitive map and statistic views.
+In particular, ``the statistic view seamlessly integrates three easily understandable plots'', commented by $EB$.
+By referring to the scatterplot matrix in Fig.~\ref{fig:statistic_view} \& Fig.~\ref{fig:study_1_statistic}, $EA$ was excited to see the negative correlation between $greenery$ and $building$ $-$ ``there are much space to improve".
+$EA$ also liked the visual comparison of human-scale urban form distributions over space (Fig.~\ref{fig:study_1_spatial}), as it reflects the differences of urbanization process and master plans in different cities.
+
+The experts thought presenting street view images in the Street Explorer is intuitive, and mouse hover over to show tree map is helpful.
+In contrary, it was difficult in the beginning for both experts to understand the PCP enhanced with street layout information, especially the themeriver plot.
+But after exploration, they agreed it is an excellent idea, as it clearly reveals the feature distributions along street.
+``Though not common, I believe there are many applications and potentials for the enhanced PCP'', commented by $EB$. 
+
+\vspace*{2mm}
+\noindent
+\textit{Applicability}.
+Both domain experts would like to apply our system to deal with practical problems in their domains. 
+Expertized in urban planning and design, $EA$ emphasized ``the lack of efficient tools for human-scale management and design obstacles creating high-quality urban streets.''
+ StreetVizor has a great potential to be employed by planners and designers to ``build more pedestrian-oriented and livable streets.'' 
+$EA$ also commented ``StreetVizor is highly applicable for evaluating case studies in urban planning''. 
+For example, planners can select several key areas, e.g., CBDs, among different cities and then compare their spatial features to develop appropriate strategies in urban renewal.
+$EB$ would like to apply our system in environment monitoring, since ``the large amount of GSV images can provide rich information of urban environment''.
+He suggested to extend our system in exploring a time-series street view dataset, so that it would allow him to monitor environment changes.
+
+\vspace*{2mm}
+\noindent
+\textit{Limitations and Improvements}.
+The experts pointed out some limitations in our system.
+In this work, we explore only six features of human-scale urban forms.
+Both experts suggested to extract more urban forms, such as aesthetic amenities and mental well-being, from street view images.
+This will advance our system's analytical capabilities and extend its applicabilities.
+For instance, a recent study~\cite{jiang_2014_dose} shows that certain relationship may exist between street greenery \& sky ratio and the risk of health challenges.
+Besides, they proposed to improve our visual designs.
+$EB$ noticed the feature histogram bars in AOI and Street Statistic View are designed differently: one in horizontal, and the other one in vertical style.
+He felt the vertical histogram bars are confusing, as they ``do not fit our work habits''.
+$EA$ suggested the Street Statistic View can be further improved, by ``encoding neighboring street layouts in the plot'', to reflect spatial information better.

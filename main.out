@@ -1,0 +1,37 @@
+\BOOKMARK [0][-]{Doc-Start}{Title Page}{}% 1
+\BOOKMARK [0][-]{Doc-Start}{Authorization Page}{}% 2
+\BOOKMARK [0][-]{Doc-Start}{Signature Page}{}% 3
+\BOOKMARK [0][-]{chapter*.1}{Table of Contents}{}% 4
+\BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 5
+\BOOKMARK [0][-]{chapter*.3}{List of Tables}{}% 6
+\BOOKMARK [0][-]{chapter*.3}{Abstract}{}% 7
+\BOOKMARK [0][-]{chapter.1}{Chapter 1 Introduction}{}% 8
+\BOOKMARK [0][-]{chapter.2}{Chapter 2 Visual Exploration of Human-Scale Urban Forms Based on Street Views}{}% 9
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{Related Work}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.1}{Street View Analysis}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.2}{Urban Data Visualization}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.3}{Multivariate Geographical Data Visualization}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.4}{Comparative Visualization}{section.2.2}% 15
+\BOOKMARK [1][-]{section.2.3}{Background and Analytical Tasks}{chapter.2}% 16
+\BOOKMARK [2][-]{subsection.2.3.1}{Background}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.2}{Analytical Tasks}{section.2.3}% 18
+\BOOKMARK [1][-]{section.2.4}{System Framework}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.5}{Data Modeling}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.5.1}{Data Collection}{section.2.5}% 21
+\BOOKMARK [2][-]{subsection.2.5.2}{Feature Extraction}{section.2.5}% 22
+\BOOKMARK [2][-]{subsection.2.5.3}{Data Querying and Filtering}{section.2.5}% 23
+\BOOKMARK [1][-]{section.2.6}{Visualization Design}{chapter.2}% 24
+\BOOKMARK [2][-]{subsection.2.6.1}{Design Rationales}{section.2.6}% 25
+\BOOKMARK [2][-]{subsection.2.6.2}{Ranking Explorer}{section.2.6}% 26
+\BOOKMARK [2][-]{subsection.2.6.3}{AOI Explorer}{section.2.6}% 27
+\BOOKMARK [2][-]{subsection.2.6.4}{Street Explorer}{section.2.6}% 28
+\BOOKMARK [2][-]{subsection.2.6.5}{User Interactions}{section.2.6}% 29
+\BOOKMARK [1][-]{section.2.7}{Case Studies}{chapter.2}% 30
+\BOOKMARK [2][-]{subsection.2.7.1}{City-scale Comparison}{section.2.7}% 31
+\BOOKMARK [2][-]{subsection.2.7.2}{Region-scale Exploration}{section.2.7}% 32
+\BOOKMARK [2][-]{subsection.2.7.3}{Street-scale Comparison}{section.2.7}% 33
+\BOOKMARK [1][-]{section.2.8}{Expert Review}{chapter.2}% 34
+\BOOKMARK [1][-]{section.2.9}{Discussion}{chapter.2}% 35
+\BOOKMARK [1][-]{section.2.10}{Conclusion and Future Work}{chapter.2}% 36
+\BOOKMARK [0][-]{chapter*.8}{References}{}% 37

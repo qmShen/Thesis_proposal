@@ -1,0 +1,34 @@
+\section{Discussion}
+\label{sec:discussion}
+
+In this work, we combine automatic machine learning and interactive visual analytics techniques to explore human-scale urban forms.
+The combination of methods tackles the challenges of integrating information from multiple perspectives and at different scales for analysis.
+This approach is attractive for urban planners~\cite{liu_2015_understanding, long_2017_how} because it shows the possibility of transferring traditional subjective and intuitive-oriented urban design to evidence-based and big-data informed methods.
+%The case studies show that our approach effectively assist domain experts in finding the street view patterns of interest.
+
+The analysis of human-scale urban form in this work relies heavily on a deep learning technique for image classification.
+Therefore, classification accuracy poses serious challenges in our approach.
+We select SegNet, which achieves a global accuracy of 82.8\%, out of the different classification techniques that we tried.
+The case studies show that the classification technique could provide reasonable analytical results on city- and region-scale human-scale urban form patterns.
+Nonetheless, the results remain unsatisfactory in many cases, especially when users would like to examine fine detailed urban forms at street-scale.
+We envision applying a more advanced classification algorithm in the near future, given the rapid evolution of image classification techniques.
+In addition, the classification is preprocessed offline.
+Our system does not support the analysis of street views queried on runtime. 
+Thus, its applicability is limited and domain knowledge of planners are underutilized in exploring street views in other cities.
+This deficiency can also be resolved with advancement in image classification algorithms and machine computing capabilities.
+
+Moreover, we expect that our system will face scalability issues when the number of street view images increase (e.g. when analyzing street views in more cities). 
+To tackle this problem, we can integrate more advanced data structures, such as nanocubes~\cite{lins_2013_nanocubes} or Gaussian cubes~\cite{wang_2017_gaussian} for spatial data querying.
+More levels of detail and abstraction can also be introduced to handle this problem.
+The increase in image number will also burden street view clustering in the interactive exploration process.
+We anticipate that certain pre-configurations will facilitate this process.
+
+Presenting multivariate data with spatial information is challenging.
+We tackle this challenge by integrating popular PCP with a themeriver plot along an adjusted street layout.
+The case studies and feedbacks from experts demonstrate the effectiveness of this design.
+Nonetheless, there are some issues with our design.
+First, it represents street layout as a simple spline, which is not sufficiently intuitive when the street is straight.
+We plan to encode more semantic labels, such as neighboring streets, in the design, as suggested by $EA$.
+Second, although the majority of the streets (over 95\%) that we have explored can be rotated and fitted in the rendering space, adjustment does not work in some cases.
+Typical examples are streets in a spiral layout.
+A more general approach should be developed that can reveal the street layout intuitively and seamlessly fit the street layout in the rendering space.

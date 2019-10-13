@@ -1,0 +1,18 @@
+\section{Conclusion and Future Work}
+
+In this paper, we introduce StreetVizor, a visual analytics system for the exploration of human-scale urban forms based on GSV images.
+Through discussions with a collaborating researcher who specializes in evidence-based urban planning, we identify various analysis criteria and formulate a set of analytical tasks.
+We integrate some well-estimated visualization techniques, such as juxtaposition map views, scatterplot matrix, and small multiples, into our system.
+Specifically, we design an enhanced parallel coordinates with street layout to present coordinated feature values and reveal feature distributions along a street layout.
+StreetVizor is used to analyze $\sim$1.7 million street views from Hong Kong, Singapore, Greater London, and New York City.
+Using our system, domain experts detect some interesting patterns, such as the negative correlation between $greenery$ and $building$ features.
+The experts also agree that our system has a wide range of applications, in areas like public space design and  street environment monitoring.
+
+There are several promising directions for future work.
+First, we would like to extract more high-level information, such as signboards, from GSV images.
+The signboards can then be compared with points-of-interest information extracted from other data sources, e.g., Foursquare or Google Places.
+We anticipate revealing some interesting patterns by fusing multiple types of big urban data.
+In addition, to address the scalability issues, we plan to develop more advanced data structures (e.g.,~\cite{lins_2013_nanocubes, wang_2017_gaussian}) to improve the querying and filtering processes in our method.
+Besides, we would like to explore new visual interfaces to compare detailed statistics of human-scale urban forms across multiple AOIs/streets at the same time.
+% In addition, we plan to adopt network-based distance measurement approach, instead of currently employed Euclidean distance, to cluster the human-scale urban forms.
+% We expect to form more representative clusters of street views integrating street network information.

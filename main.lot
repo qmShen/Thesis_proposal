@@ -1,13 +1,2 @@
 \addvspace {1pt}
 \addvspace {1pt}
-\addvspace {1pt}
-\contentsline {table}{\numberline {3.1}{\ignorespaces Mars APIs}}{15}{table.3.1}% 
-\addvspace {1pt}
-\contentsline {table}{\numberline {4.1}{\ignorespaces Modules in the Mars system}}{16}{table.4.1}% 
-\addvspace {1pt}
-\addvspace {1pt}
-\contentsline {table}{\numberline {6.1}{\ignorespaces Machine configurations}}{24}{table.6.1}% 
-\contentsline {table}{\numberline {6.2}{\ignorespaces The input data sizes of the micro-benchmark}}{26}{table.6.2}% 
-\contentsline {table}{\numberline {6.3}{\ignorespaces Comparison of application code size on MarsCPU, MarsCUDA, Phoenix, and CUDA.}}{27}{table.6.3}% 
-\contentsline {table}{\numberline {6.4}{\ignorespaces Comparison on code sizes of MM and SS using MarsBrook and Brook+.}}{30}{table.6.4}% 
-\addvspace {1pt}

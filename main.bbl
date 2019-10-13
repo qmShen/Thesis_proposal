@@ -1,0 +1,200 @@
+\begin{thebibliography}{10}
+
+\bibitem{anguelov2010google}
+Dragomir Anguelov, Carole Dulong, Daniel Filip, Christian Frueh, St{\'e}phane
+  Lafon, Richard Lyon, Abhijit Ogale, Luc Vincent, and Josh Weaver.
+\newblock Google street view: Capturing the world at street level.
+\newblock {\em Computer}, 43(6):32--38, 2010.
+
+\bibitem{arietta_2014_city}
+Sean~M. Arietta, Alexei~A. Efros, Ravi Ramamoorthi, and Maneesh Agrawala.
+\newblock {City Forensics}: Using visual elements to predict non-visual city.
+\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 20(12):2624 -- 2633, 2014.
+
+\bibitem{Badrinarayanan_2015_segnet}
+Vijay Badrinarayanan, Alex Kendall, and Roberto Cipolla.
+\newblock {SegNet}: {A} deep convolutional encoder-decoder architecture for
+  image segmentation.
+\newblock {\em arXiv preprint}, abs/1511.00561, 2015.
+
+\bibitem{chen_2015_interactive}
+Siming Chen, Xiaoru Yuan, Zhenhuang Wang, Cong Guo, Jie Liang, Zuchao Wang,
+  Xiaolong Zhang, and Jiawan Zhang.
+\newblock Interactive visual discovering of movement patterns from sparsely
+  sampled geo-tagged social media data.
+\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 22(1):270 -- 279, 2016.
+
+\bibitem{doersch2015makes}
+Carl Doersch, Saurabh Singh, Abhinav Gupta, Josef Sivic, and Alexei~A Efros.
+\newblock What makes {Paris} look like {Paris}?
+\newblock {\em Commun. ACM}, 58(12):103--110, 2015.
+
+\bibitem{ferreira_2011_birdvis}
+Nivan Ferreira, Lauro Lins, Daniel Fink, Steve Kelling, Chris Wood, Juliana
+  Freire, and Cláudio~T. Silva.
+\newblock {BirdVis}: Visualizing and understanding bird populations.
+\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 17(12):2374--2383, 2011.
+
+\bibitem{ferreira_visual_2013}
+Nivan Ferreira, Jorge Poco, Huy~T. Vo, Juliana Freire, and Cláudio~T. Silva.
+\newblock Visual exploration of big spatio-temporal urban data: A study of {New
+  York} city taxi trips.
+\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 19(12):2149--2158, 2013.
+
+\bibitem{fua1999hierarchical}
+Ying-Huey Fua, Matthew~O Ward, and Elke~A Rundensteiner.
+\newblock Hierarchical parallel coordinates for exploration of large datasets.
+\newblock In {\em Proc. IEEE Conf. Vis.}, pages 43--50, 1999.
+
+\bibitem{gebru2017using}
+Timnit Gebru, Jonathan Krause, Yilun Wang, Duyun Chen, Jia Deng, Erez~Lieberman
+  Aiden, and Fei-Fei Li.
+\newblock Using deep learning and {Google} street view to estimate the
+  demographic makeup of the {US}.
+\newblock {\em arXiv preprint arXiv:1702.06683}, 2017.
+
+\bibitem{gehl_1971_life}
+Jan Gehl.
+\newblock {\em Life between Buildings: Using Public Space}.
+\newblock Van Nostrand Reinhold, 1971.
+
+\bibitem{gleicher_2011_visual}
+Michael Gleicher, Danielle Albers, Rick Walker, Ilir Jusufi, Charles~D. Hansen,
+  and Jonathan~C. Roberts.
+\newblock Visual comparison for information visualization.
+\newblock {\em Inf. Vis.}, 10(4):289--309, 2011.
+
+\bibitem{goodwin_2016_visualizing}
+S.~Goodwin, J.~Dykes, A.~Slingsby, and C.~Turkay.
+\newblock Visualizing multiple variables across scale and geography.
+\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 22(1):599--608, 2016.
+
+\bibitem{gsv_api}
+Google.
+\newblock {Street View Image API}.
+\newblock https://developers.google.com/maps/documentation/streetview/.
+\newblock Accessed: 2017-03-20.
+
+\bibitem{heinrich_2012_state}
+Julian Heinrich and Daniel Weiskopf.
+\newblock State of the art of parallel coordinates.
+\newblock In {\em Eurographics - State of The Art Report}, pages 95 -- 116,
+  2013.
+
+\bibitem{holten_2010_evaluation}
+Danny Holten and Jarke~J. van Wijk.
+\newblock Evaluation of cluster identification performance for different {PCP}
+  variants.
+\newblock {\em Comput. Graph. Forum}, 29(3):793--802, 2010.
+
+\bibitem{jacobs_1961_life}
+Jane Jacobs.
+\newblock {\em The Life and Death of Great American Cities}.
+\newblock Random House, New York, 1961.
+
+\bibitem{li_2015_accessing}
+Xiaojiang Li, Chuanrong Zhang, Weidong Li, Robert Ricard, Qingyan Meng, and
+  Weixing Zhang.
+\newblock Assessing street-level urban greenery using {Google} street view and
+  a modified green view index.
+\newblock {\em Urban For. Urban Gree.}, 14(3):675--685, 2015.
+
+\bibitem{liu_2015_understanding}
+Xingjian Liu, Yan Song, Kang Wu, Jianghao Wang, Dong Li, and Ying Long.
+\newblock Understanding urban {China} with open data.
+\newblock {\em Cities}, 47:53 -- 61, 2015.
+
+\bibitem{long_2017_how}
+Ying Long and Liu Liu.
+\newblock How green are the streets? an analysis for central areas of {Chinese}
+  cities using {Tencent} street view.
+\newblock {\em PLOS ONE}, 12(2):1--18, 02 2017.
+
+\bibitem{long_2016_human-scale}
+Ying Long and Yu~Ye.
+\newblock Human-scale urban form: Measurements, performances, and urban
+  planning \& design interventions.
+\newblock {\em South Architecture}, 36(5):39 -- 45, 2016.
+
+\bibitem{Naik_2014_streetscore}
+Nikhil Naik, Jade Philipoom, Ramesh Raskar, and Cear Hidalgo.
+\newblock Streetscore -- predicting the perceived safety of one million
+  streetscapes.
+\newblock In {\em Proc. IEEE Conf. Comput. Vision and Pattern Recognition
+  Workshops}, pages 793--799, 2014.
+
+\bibitem{ortner_2016_vis-a-ware}
+T.~Ortner, J.~Sorger, H.~Steinlechner, G.~Hesina, H.~Piringer, and E.~Groeller.
+\newblock {Vis-A-Ware}: Integrating spatial and non-spatial visualization for
+  visibility-aware urban planning.
+\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 23(2):1139 -- 1151, 2016.
+
+\bibitem{qu_2007_visual}
+Huamin Qu, Wing-Yi Chan, Anbang Xu, Kai-Lun Chung, Kai-Hon Lau, and Ping Guo.
+\newblock Visual analysis of the air pollution problem in {Hong Kong}.
+\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 13(6):1408--1415, 2007.
+
+\bibitem{rundle_2011_using}
+Andrew~G Rundle, Michael~DM Bader, Catherine~A Richards, Kathryn~M Neckerman,
+  and Julien~O Teitler.
+\newblock Using {Google} street view to audit neighborhood environments.
+\newblock {\em Am. J. Prev. Med.}, 40(1):94--100, 2011.
+
+\bibitem{sun_2013_survey}
+Guodao Sun, Yingcai Wu, Ronghua Liang, and Shixia Liu.
+\newblock A survey of visual analytics techniques and applications:
+  State-of-the-art research and future challenges.
+\newblock {\em J. Comput. Sci. Technol.}, 28(5):852--867, 2013.
+
+\bibitem{turkay_2014_attribute}
+Cagatay Turkay, Aidan Slingsby, Helwig Hauser, Jo~Wood, and Jason Dykes.
+\newblock Attribute signatures: Dynamic visual summaries for analyzing
+  multivariate geographical data.
+\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 20(12):2033--2042, 2014.
+
+\bibitem{vanegas_2009_visualization}
+C.~A. Vanegas, D.~G. Aliaga, B.~Benes, and P.~Waddell.
+\newblock Visualization of simulated urban spaces: Inferring parameterized
+  generation of streets, parcels, and aerial imagery.
+\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 15(3):424--435, 2009.
+
+\bibitem{wang_2013_visual}
+Zuchao Wang, Min Lu, Xiaoru Yuan, Junping Zhang, and Huub van~de Wetering.
+\newblock Visual traffic jam analysis based on trajectory data.
+\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 19(12):2159--2168, 2013.
+
+\bibitem{xu_2013_visual}
+Panpan Xu, Yingcai Wu, Enxun Wei, Tai-Quan Peng, Shixia Liu, Jonathan J.~H.
+  Zhu, and Huamin Qu.
+\newblock Visual analysis of topic competition on social media.
+\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 19(12):2012--2021, 2013.
+
+\bibitem{yang_2017_blockwise}
+X.~Yang, L.~Shi, M.~Daianu, H.~Tong, Q.~Liu, and P.~Thompson.
+\newblock Blockwise human brain network visual comparison using nodetrix
+  representation.
+\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 23(1):181 -- 190, 2017.
+
+\bibitem{zeng_2017_visualizing}
+Wei Zeng, Chi-Wing Fu, Stefan M\"{u}ller~Arisona, Simon Schubiger, Remo
+  Burkhard, and Kwan-Liu Ma.
+\newblock Visualizing the relationship between human mobility and
+  points-of-interest.
+\newblock {\em IEEE Trans. Intell. Transp. Syst.}, 2017.
+
+\bibitem{zhao_2012_structure}
+Xin Zhao and Arie Kaufman.
+\newblock Structure revealing techniques based on parallel coordinates plot.
+\newblock {\em Vis. Comput.}, 28(6):541--551, 2012.
+
+\bibitem{zheng_2016_visual}
+Y.~Zheng, W.~Wu, Y.~Chen, H.~Qu, and L.~M. Ni.
+\newblock Visual analytics in urban computing: An overview.
+\newblock {\em IEEE Trans. Big Data}, 2(3):276--296, 2016.
+
+\bibitem{zhou2008visual}
+Hong Zhou, Xiaoru Yuan, Huamin Qu, Weiwei Cui, and Baoquan Chen.
+\newblock Visual clustering in parallel coordinates.
+\newblock In {\em Comput. Graph. Forum}, volume~27, pages 1047--1054, 2008.
+
+\end{thebibliography}
