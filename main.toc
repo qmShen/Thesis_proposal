@@ -3,8 +3,8 @@
 \contentsline {chapter}{Signature Page}{\nbi iii}{Doc-Start}% 
 \contentsline {chapter}{Table of Contents}{\nbi iv}{chapter*.1}% 
 \contentsline {chapter}{List of Figures}{\nbi vi}{chapter*.2}% 
-\contentsline {chapter}{List of Tables}{\nbi vii}{chapter*.3}% 
-\contentsline {chapter}{Abstract}{\nbi viii}{chapter*.3}% 
+\contentsline {chapter}{List of Tables}{\nbi viii}{chapter*.3}% 
+\contentsline {chapter}{Abstract}{\nbi ix}{chapter*.3}% 
 \contentsline {chapter}{{Chapter 1}\hspace {1em}Introduction}{1}{chapter.1}% 
 \contentsline {chapter}{{Chapter 2}\hspace {1em}Visual Exploration of Human-Scale Urban Forms Based on Street Views}{2}{chapter.2}% 
 \contentsline {section}{\numberline {2.1}Introduction}{2}{section.2.1}% 
@@ -23,19 +23,19 @@
 \contentsline {subsection}{\numberline {2.5.3}Data Querying and Filtering}{13}{subsection.2.5.3}% 
 \contentsline {section}{\numberline {2.6}Visualization Design}{14}{section.2.6}% 
 \contentsline {subsection}{\numberline {2.6.1}Design Rationales}{14}{subsection.2.6.1}% 
-\contentsline {subsection}{\numberline {2.6.2}Ranking Explorer}{15}{subsection.2.6.2}% 
+\contentsline {subsection}{\numberline {2.6.2}Ranking Explorer}{16}{subsection.2.6.2}% 
 \contentsline {subsection}{\numberline {2.6.3}AOI Explorer}{16}{subsection.2.6.3}% 
 \contentsline {subsubsection}{AOI Map View}{16}{section*.4}% 
-\contentsline {subsubsection}{AOI Statistic View}{17}{section*.5}% 
+\contentsline {subsubsection}{AOI Statistic View}{18}{section*.5}% 
 \contentsline {subsection}{\numberline {2.6.4}Street Explorer}{20}{subsection.2.6.4}% 
 \contentsline {subsubsection}{Street Map View}{20}{section*.6}% 
-\contentsline {subsubsection}{Street Statistic View}{20}{section*.7}% 
+\contentsline {subsubsection}{Street Statistic View}{21}{section*.7}% 
 \contentsline {subsection}{\numberline {2.6.5}User Interactions}{23}{subsection.2.6.5}% 
-\contentsline {section}{\numberline {2.7}Case Studies}{24}{section.2.7}% 
+\contentsline {section}{\numberline {2.7}Case Studies}{25}{section.2.7}% 
 \contentsline {subsection}{\numberline {2.7.1}City-scale Comparison}{25}{subsection.2.7.1}% 
 \contentsline {subsection}{\numberline {2.7.2}Region-scale Exploration}{26}{subsection.2.7.2}% 
 \contentsline {subsection}{\numberline {2.7.3}Street-scale Comparison}{28}{subsection.2.7.3}% 
-\contentsline {section}{\numberline {2.8}Expert Review}{29}{section.2.8}% 
-\contentsline {section}{\numberline {2.9}Discussion}{31}{section.2.9}% 
+\contentsline {section}{\numberline {2.8}Expert Review}{30}{section.2.8}% 
+\contentsline {section}{\numberline {2.9}Discussion}{32}{section.2.9}% 
 \contentsline {section}{\numberline {2.10}Conclusion and Future Work}{33}{section.2.10}% 
-\contentsline {chapter}{References}{34}{chapter*.8}% 
+\contentsline {chapter}{References}{35}{chapter*.8}% 

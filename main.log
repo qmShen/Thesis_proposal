@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.9)  13 OCT 2019 13:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.9)  13 OCT 2019 13:36
 entering extended mode
 **./main.tex
 (main.tex
@@ -599,7 +599,18 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [5]
 List of Figures
-(main.lof)
+(main.lof
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\nbi' on input line 14.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\nbi' on input line 14.
+
+[6
+
+])
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
@@ -612,9 +623,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\nbi' on input line 136.
 
-[6
-
-]
+[7]
 List of Tables
 (main.lot)
 \tf@lot=\write6
@@ -630,7 +639,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\nbi' on input line 1.
 
-[7
+[8
 
 ]) (chapter/1_Introduction.tex
 
@@ -641,7 +650,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\nbi' on input line 1.
 
-[8]
+[9]
 
 Warning: No acknowledgment page. 
 
@@ -672,16 +681,9 @@ Overfull \hbox (2.69551pt too wide) in paragraph at lines 9--14
 ages of hun-dreds of cities [[]].
  []
 
-[4] [5] [6]
-
-LaTeX Warning: Reference `fig:teaser' on page 7 undefined on input line 71.
-
-
-LaTeX Warning: Reference `fig:teaser' on page 7 undefined on input line 71.
-
-) (chapter/2_StreetVizor/3_BackgroundAndTask.tex [7] [8])
+[4] [5] [6]) (chapter/2_StreetVizor/3_BackgroundAndTask.tex [7] [8])
 (chapter/2_StreetVizor/4_DesignAndSystemOverview.tex
-<figure/streetvizor/fig2_framework/framework.pdf, id=397, 675.9915pt x 612.6378
+<figure/streetvizor/fig2_framework/framework.pdf, id=411, 675.9915pt x 612.6378
 pt>
 File: figure/streetvizor/fig2_framework/framework.pdf Graphic file (type pdf)
 <use figure/streetvizor/fig2_framework/framework.pdf>
@@ -695,7 +697,7 @@ y se-lect-ing two AOIs/streets
  []
 
 ) (chapter/2_StreetVizor/5_DataProcess.tex
-<figure/streetvizor/fig3_data_preprocess/data_process.pdf, id=461, 1379.1525pt 
+<figure/streetvizor/fig3_data_preprocess/data_process.pdf, id=476, 1379.1525pt 
 x 303.1325pt>
 File: figure/streetvizor/fig3_data_preprocess/data_process.pdf Graphic file (ty
 pe pdf)
@@ -704,7 +706,7 @@ Package pdftex.def Info: figure/streetvizor/fig3_data_preprocess/data_process.p
 df  used on input line 7.
 (pdftex.def)             Requested size: 472.03123pt x 103.74825pt.
  [11 <./figure/streetvizor/fig3_data_preprocess/data_process.pdf>] [12]
-<figure/streetvizor/fig4_data_model/data_model.pdf, id=495, 322.20375pt x 174.9
+<figure/streetvizor/fig4_data_model/data_model.pdf, id=509, 322.20375pt x 174.9
 8674pt>
 File: figure/streetvizor/fig4_data_model/data_model.pdf Graphic file (type pdf)
 
@@ -713,28 +715,25 @@ Package pdftex.def Info: figure/streetvizor/fig4_data_model/data_model.pdf  use
 d on input line 95.
 (pdftex.def)             Requested size: 377.62642pt x 205.0941pt.
 )
-(chapter/2_StreetVizor/6_VisualizationDesign.tex [13] [14 <./figure/streetvizor
-/fig4_data_model/data_model.pdf>] [15]
-
-LaTeX Warning: Reference `fig:teaser' on page 16 undefined on input line 57.
-
-
-LaTeX Warning: Reference `fig:teaser' on page 16 undefined on input line 61.
-
-
-LaTeX Warning: Reference `fig:teaser' on page 16 undefined on input line 77.
-
-[16]
-<figure/streetvizor/fig5_statistic_view/statistic_view.pdf, id=538, 768.27928pt
+(chapter/2_StreetVizor/6_VisualizationDesign.tex [13]
+<figure/streetvizor/fig1_teaser/teaser.pdf, id=517, 976.3145pt x 288.15958pt>
+File: figure/streetvizor/fig1_teaser/teaser.pdf Graphic file (type pdf)
+<use figure/streetvizor/fig1_teaser/teaser.pdf>
+Package pdftex.def Info: figure/streetvizor/fig1_teaser/teaser.pdf  used on inp
+ut line 11.
+(pdftex.def)             Requested size: 424.82523pt x 125.38797pt.
+ [14 <./figure/streetvizor/fig4_data_model/data_model.pdf>] [15 <./figure/stree
+tvizor/fig1_teaser/teaser.pdf>] [16]
+<figure/streetvizor/fig5_statistic_view/statistic_view.pdf, id=583, 768.27928pt
  x 421.59105pt>
 File: figure/streetvizor/fig5_statistic_view/statistic_view.pdf Graphic file (t
 ype pdf)
 <use figure/streetvizor/fig5_statistic_view/statistic_view.pdf>
 Package pdftex.def Info: figure/streetvizor/fig5_statistic_view/statistic_view.
-pdf  used on input line 95.
+pdf  used on input line 113.
 (pdftex.def)             Requested size: 401.22942pt x 220.18068pt.
-
-Overfull \hbox (46.90715pt too wide) in paragraph at lines 111--121
+ [17 <./figure/streetvizor/fig5_statistic_view/statistic_view.pdf>]
+Overfull \hbox (46.90715pt too wide) in paragraph at lines 129--139
 \T1/ppl/m/n/12 point $\U/zeur/m/n/12 x[]$ \T1/ppl/m/n/12 is in an eight-dimensi
 onal space, $\U/zeur/m/n/12 R[] \U/zeus/m/n/12 º½ \U/zeur/m/n/12 < lat[]\OT1/pp
 l/m/n/12 ,  \U/zeur/m/n/12 long[]\OT1/ppl/m/n/12 ,  \U/zeur/m/n/12 FV[]\OT1/ppl
@@ -743,61 +742,51 @@ n/12 ,  \U/zeur/m/n/12 FV[]\OT1/ppl/m/n/12 ,  \U/zeur/m/n/12 FV[]\OT1/ppl/m/n/1
 2 ,  \U/zeur/m/n/12 FV[] >$\T1/ppl/m/n/12 .
  []
 
-[17 <./figure/streetvizor/fig5_statistic_view/statistic_view.pdf>] [18]
-<figure/streetvizor/fig6_street_map_view/street_map_view.pdf, id=4765, 781.4354
+[18]
+<figure/streetvizor/fig6_street_map_view/street_map_view.pdf, id=4810, 781.4354
 2pt x 346.27669pt>
 File: figure/streetvizor/fig6_street_map_view/street_map_view.pdf Graphic file 
 (type pdf)
 <use figure/streetvizor/fig6_street_map_view/street_map_view.pdf>
 Package pdftex.def Info: figure/streetvizor/fig6_street_map_view/street_map_vie
-w.pdf  used on input line 175.
+w.pdf  used on input line 193.
 (pdftex.def)             Requested size: 424.82523pt x 188.25471pt.
-
-[19 <./figure/streetvizor/fig6_street_map_view/street_map_view.pdf>] [20]
-<figure/streetvizor/fig7_street_model/street_pcp.pdf, id=4794, 374.0645pt x 322
+ [19] [20 <./figure/streetvizor/fig6_street_map_view/street_map_view.pdf>]
+<figure/streetvizor/fig7_street_model/street_pcp.pdf, id=4838, 374.0645pt x 322
 .70563pt>
 File: figure/streetvizor/fig7_street_model/street_pcp.pdf Graphic file (type pd
 f)
 <use figure/streetvizor/fig7_street_model/street_pcp.pdf>
 Package pdftex.def Info: figure/streetvizor/fig7_street_model/street_pcp.pdf  u
-sed on input line 217.
+sed on input line 235.
 (pdftex.def)             Requested size: 424.82523pt x 366.49472pt.
 
-[21 <./figure/streetvizor/fig7_street_model/street_pcp.pdf>] [22]
-<figure/streetvizor/fig8_study_1/study_1_spatial.pdf, id=4858, 1037.26523pt x 3
+[21] [22 <./figure/streetvizor/fig7_street_model/street_pcp.pdf>]
+<figure/streetvizor/fig8_study_1/study_1_spatial.pdf, id=4903, 1037.26523pt x 3
 84.49448pt>
 File: figure/streetvizor/fig8_study_1/study_1_spatial.pdf Graphic file (type pd
 f)
 <use figure/streetvizor/fig8_study_1/study_1_spatial.pdf>
 Package pdftex.def Info: figure/streetvizor/fig8_study_1/study_1_spatial.pdf  u
-sed on input line 277.
+sed on input line 295.
 (pdftex.def)             Requested size: 448.42822pt x 166.22116pt.
-<figure/streetvizor/fig8_study_1/study_1_statistic.pdf, id=4859, 1239.63126pt x
+<figure/streetvizor/fig8_study_1/study_1_statistic.pdf, id=4904, 1239.63126pt x
  499.8675pt>
 File: figure/streetvizor/fig8_study_1/study_1_statistic.pdf Graphic file (type 
 pdf)
 <use figure/streetvizor/fig8_study_1/study_1_statistic.pdf>
 Package pdftex.def Info: figure/streetvizor/fig8_study_1/study_1_statistic.pdf 
- used on input line 288.
+ used on input line 306.
 (pdftex.def)             Requested size: 472.03123pt x 190.3406pt.
-
-
-LaTeX Warning: Reference `fig:teaser' on page 23 undefined on input line 300.
-
-[23 <./figure/streetvizor/fig8_study_1/study_1_spatial.pdf> <./figure/streetviz
-or/fig8_study_1/study_1_statistic.pdf
-
-pdfTeX warning: pdflatex.exe (file ./figure/streetvizor/fig8_study_1/study_1_st
-atistic.pdf): PDF inclusion: multiple pdfs with page group included in a single
- page
->]
-Overfull \hbox (0.63034pt too wide) in paragraph at lines 317--320
+ [23 <./figure/streetvizor/fig8_study_1/study_1_spatial.pdf>]
+Overfull \hbox (0.63034pt too wide) in paragraph at lines 335--338
 []\T1/ppl/m/it/12 Feature Fil-ter-ing\T1/ppl/m/n/12 . Our sys-tem also sup-port
 s fil-ter-ing human-scale ur-ban forms against
  []
 
-) (chapter/2_StreetVizor/7_CaseStudies.tex
-<figure/streetvizor/fig9_study_2/region-functionality.png, id=11833, 1706.375pt
+[24 <./figure/streetvizor/fig8_study_1/study_1_statistic.pdf>])
+(chapter/2_StreetVizor/7_CaseStudies.tex
+<figure/streetvizor/fig9_study_2/region-functionality.png, id=11883, 1706.375pt
  x 982.67125pt>
 File: figure/streetvizor/fig9_study_2/region-functionality.png Graphic file (ty
 pe png)
@@ -805,29 +794,29 @@ pe png)
 Package pdftex.def Info: figure/streetvizor/fig9_study_2/region-functionality.p
 ng  used on input line 8.
 (pdftex.def)             Requested size: 462.5886pt x 266.38937pt.
- [24] [25 <./figure/streetvizor/fig9_study_2/region-functionality.png (PNG copy
-)>]
-<figure/streetvizor/fig9_study_2/study_2_2.pdf, id=11851, 788.50383pt x 454.583
+ [25 <./figure/streetvizor/fig9_study_2/region-functionality.png (PNG copy)>] [
+26]
+<figure/streetvizor/fig9_study_2/study_2_2.pdf, id=11901, 788.50383pt x 454.583
 33pt>
 File: figure/streetvizor/fig9_study_2/study_2_2.pdf Graphic file (type pdf)
 <use figure/streetvizor/fig9_study_2/study_2_2.pdf>
 Package pdftex.def Info: figure/streetvizor/fig9_study_2/study_2_2.pdf  used on
  input line 61.
 (pdftex.def)             Requested size: 472.03123pt x 272.12782pt.
- [26] [27 <./figure/streetvizor/fig9_study_2/study_2_2.pdf>]
-<figure/streetvizor/fig10_study_3/study_3.pdf, id=18243, 718.685pt x 619.0116pt
+ [27 <./figure/streetvizor/fig9_study_2/study_2_2.pdf>] [28]
+<figure/streetvizor/fig10_study_3/study_3.pdf, id=18294, 718.685pt x 619.0116pt
 >
 File: figure/streetvizor/fig10_study_3/study_3.pdf Graphic file (type pdf)
 <use figure/streetvizor/fig10_study_3/study_3.pdf>
 Package pdftex.def Info: figure/streetvizor/fig10_study_3/study_3.pdf  used on 
 input line 110.
 (pdftex.def)             Requested size: 448.42822pt x 386.24846pt.
-) (chapter/2_StreetVizor/8_ExpertReview.tex [28]
-[29 <./figure/streetvizor/fig10_study_3/study_3.pdf>] [30])
+) (chapter/2_StreetVizor/8_ExpertReview.tex [29 <./figure/streetvizor/fig10_stu
+dy_3/study_3.pdf>] [30])
 (chapter/2_StreetVizor/9_Discussion.tex [31])
-(chapter/2_StreetVizor/10_Conclusion.tex [32])) (main.bbl
+(chapter/2_StreetVizor/10_Conclusion.tex [32])) [33] (main.bbl
 References
-[33] [34
+[34] [35
 
 ]
 Overfull \hbox (88.63382pt too wide) in paragraph at lines 88--92
@@ -835,9 +824,9 @@ Overfull \hbox (88.63382pt too wide) in paragraph at lines 88--92
 m/maps/documentation/streetview/.
  []
 
-[35] [36] [37])
+[36] [37] [38])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
- [38]
+ [39]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
  (main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
@@ -846,18 +835,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 76B8FD6D143117969EE359DFC30D463A;2459.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 242.
  ) 
 Here is how much of TeX's memory you used:
- 8629 strings out of 492452
- 127021 string characters out of 3129805
- 226063 words of memory out of 3000000
- 12619 multiletter control sequences out of 15000+200000
+ 8640 strings out of 492452
+ 127376 string characters out of 3129805
+ 226607 words of memory out of 3000000
+ 12625 multiletter control sequences out of 15000+200000
  26494 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,6n,37p,1058b,468s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -869,9 +855,9 @@ public/amsfonts/euler/eurm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/euler/eusm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palati
 no/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (46 pages, 18779829 bytes).
+Output written on main.pdf (48 pages, 20991122 bytes).
 PDF statistics:
- 18382 PDF objects out of 18468 (max. 8388607)
- 148 named destinations out of 1000 (max. 500000)
- 352 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18433 PDF objects out of 18468 (max. 8388607)
+ 151 named destinations out of 1000 (max. 500000)
+ 357 words of extra memory for PDF output out of 10000 (max. 10000000)
 
