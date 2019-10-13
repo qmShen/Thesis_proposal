@@ -4,3 +4,6 @@
 \contentsline {table}{\numberline {3.1}{\ignorespaces Route hierarchy, OSM indicator and hierarchy score}}{45}{table.3.1}% 
 \contentsline {table}{\numberline {3.2}{\ignorespaces Main parameter adaptions in RAEB, in comparison with these in KDEEB.}}{56}{table.3.2}% 
 \contentsline {table}{\numberline {3.3}{\ignorespaces Statistics comparison of KDEEB and RAEB for datasets used in the experiments. }}{58}{table.3.3}% 
+\addvspace {1pt}
+\contentsline {table}{\numberline {4.1}{\ignorespaces There are two types of features taken as input: air pollution and meteorology. }}{67}{table.4.1}% 
+\contentsline {table}{\numberline {4.2}{\ignorespaces Configuration and performance of RNNs, including vanilla RNN, GRU, LSTM, and the RNNs with dense layer (e.g., RNN-Dense). The performance is evaluated by the mean square error (MSE) of $PM_{2.5}$; low MSE represents better performance.}}{83}{table.4.2}% 

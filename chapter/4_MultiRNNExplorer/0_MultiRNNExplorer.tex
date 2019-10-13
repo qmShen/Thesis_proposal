@@ -1,0 +1,20 @@
+\chapter{Visual Interpretation of Recurrent Neural Network on Multi-dimensional Time-series Forecast}\label{chap:c3_intro}
+Recent attempts at utilizing visual analytics to interpret Recurrent Neural Networks (RNNs) mainly focus on natural language processing (NLP) tasks that take symbolic sequences as input.
+However, many real-world problems like environment pollution forecasting apply RNNs on sequences of multi-dimensional data where each dimension represents an individual feature with semantic meaning such as $PM_{2.5}$ and $SO_2$.
+RNN interpretation on multi-dimensional sequences is challenging as users need to analyze what features are important at different time steps to better understand model behavior and gain trust in prediction.
+This requires effective and scalable visualization methods to reveal the complex many-to-many relations between hidden units and features.
+In this work, we propose a visual analytics system to interpret RNNs on multi-dimensional time-series forecasts.  
+Specifically, to provide an overview to reveal the model mechanism, we propose a technique to estimate the hidden unit response by measuring how different feature selections affect the hidden unit output distribution. 
+We then cluster the hidden units and features based on the response embedding vectors. 
+Finally, we propose a visual analytics system which allows users to visually explore the model behavior from the global and individual levels.
+We demonstrate the effectiveness of our approach with case studies using air pollutant forecast applications.
+
+
+\input{chapter/4_MultiRNNExplorer/1_Introduction.tex}
+\input{chapter/4_MultiRNNExplorer/2_RelatedWork.tex}
+\input{chapter/4_MultiRNNExplorer/3_RNN_Modeling_and_background.tex}
+\input{chapter/4_MultiRNNExplorer/4_Analytics_Tasks.tex}
+\input{chapter/4_MultiRNNExplorer/5_Model_interpreter.tex}
+\input{chapter/4_MultiRNNExplorer/6_ViusalizationDesign.tex}
+\input{chapter/4_MultiRNNExplorer/7_Evaluation.tex}
+\input{chapter/4_MultiRNNExplorer/8_Conclusion.tex}

@@ -1,10 +1,7 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: plain.bst
 Database file #1: ref.bib
-Repeated entry---line 1363 of file ref.bib
- : @article{yang_2017_blockwise
- :                             ,
-I'm skipping whatever remains of this entry
 Warning--empty publisher in gudmundsson2011computational
+Warning--can't use both volume and number fields in pezzotti2016hierarchical
 Warning--can't use both volume and number fields in zhou2008visual
-(There was 1 error message)
+(There were 3 warnings)

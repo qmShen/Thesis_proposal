@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7e7175f-5d44-4d5e-b792-a661fa72be3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Thesis_proposal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/2_StreetVizor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/2_StreetVizor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/3_edgebundling/0_edgebundling.tex" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/3_edgebundling/0_edgebundling.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/3_edgebundling/2_Relatedwork.tex" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/3_edgebundling/2_Relatedwork.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/3_edgebundling/3_Overview.tex" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/3_edgebundling/3_Overview.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/3_edgebundling/4_InputAndPreprocessing.tex" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/3_edgebundling/4_InputAndPreprocessing.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/3_edgebundling/5_EdgeBundling.tex" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/3_edgebundling/5_EdgeBundling.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/3_edgebundling/6_Evaluation.tex" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/3_edgebundling/6_Evaluation.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/3_edgebundling/7_ExperimentalResults.tex" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/3_edgebundling/7_ExperimentalResults.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/3_edgebundling/8_Discussion.tex" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/3_edgebundling/8_Discussion.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/main.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.bbl" beforeDir="false" afterPath="$PROJECT_DIR$/main.bbl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.blg" beforeDir="false" afterPath="$PROJECT_DIR$/main.blg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.lof" beforeDir="false" afterPath="$PROJECT_DIR$/main.lof" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/main.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.lot" beforeDir="false" afterPath="$PROJECT_DIR$/main.lot" afterDir="false" />
@@ -23,7 +11,6 @@
       <change beforePath="$PROJECT_DIR$/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/main.synctex.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/main.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/main.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ref.bib" beforeDir="false" afterPath="$PROJECT_DIR$/ref.bib" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,19 +23,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.tex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="146" column="31" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="31" />
+            <state relative-caret-position="240">
+              <caret line="137" column="24" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="24" />
               <folding>
                 <element signature="e#398#482#2" expanded="true" />
-                <element signature="e#727#748#2" expanded="true" />
-                <element signature="e#1060#1087#2" expanded="true" />
-                <element signature="e#1241#1265#2" expanded="true" />
-                <element signature="e#1424#1445#2" expanded="true" />
-                <element signature="e#1536#1557#2" expanded="true" />
-                <element signature="e#1736#1753#2" expanded="true" />
-                <element signature="e#1798#1819#2" expanded="true" />
-                <element signature="e#1973#2006#2" expanded="true" />
-                <element signature="e#1944#1971#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="951" />
     <option name="y" value="180" />
     <option name="width" value="1044" />
@@ -114,8 +92,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pvfinally" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -141,16 +120,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570958056455</updated>
-      <workItem from="1570958069273" duration="196000" />
+      <workItem from="1570958069273" duration="807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196000" />
+    <option name="totallyTimeSpent" value="807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="975" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.249549" />
@@ -181,19 +159,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.tex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="146" column="31" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="31" />
+        <state relative-caret-position="240">
+          <caret line="137" column="24" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="24" />
           <folding>
             <element signature="e#398#482#2" expanded="true" />
-            <element signature="e#727#748#2" expanded="true" />
-            <element signature="e#1060#1087#2" expanded="true" />
-            <element signature="e#1241#1265#2" expanded="true" />
-            <element signature="e#1424#1445#2" expanded="true" />
-            <element signature="e#1536#1557#2" expanded="true" />
-            <element signature="e#1736#1753#2" expanded="true" />
-            <element signature="e#1798#1819#2" expanded="true" />
-            <element signature="e#1973#2006#2" expanded="true" />
-            <element signature="e#1944#1971#2" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -42,7 +42,7 @@
 %\usepackage{newtxtext }
 %\usepackage{mathptmx}                  % use matching math font
 %\usepackage{times}                     % we use Times as the main font
-\renewcommand*\ttdefault{txtt}         % a nicer typewriter font
+%\renewcommand*\ttdefault{txtt}         % a nicer typewriter font -> lead to error
 \usepackage{cite}                      
 \usepackage{tabularx, ragged2e}
 \newcolumntype{C}{>{\Centering\arraybackslash}X} % centered "X" column
@@ -65,6 +65,8 @@
 
 \newcommand{\red}[1]{#1}
 \newcommand{\tab}[1]{\hspace{3mm}}
+
+\usepackage{mathtools}
 
 % \usepackage{latexsym}
     % Use the "latexsym" package when encountering the following error:
@@ -98,6 +100,8 @@
 
 % \PNumberAboveBottomMargin
 
+
+% Define color for 
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -171,8 +175,36 @@
 \definecolor{orange}{RGB}{242, 101, 34}
 \definecolor{purple}{RGB}{197,27,125}
 
-\newcommand{\QM}[1]{{\color{purple}{#1}}}
-\newcommand{\UC}[1]{{\color{purple}{#1}}}
+\newcommand{\QM}[1]{{\color{black}{#1}}}
+% \newcommand{\QM}[1]{{\color{red}{#1}}}
+\newcommand{\zw}[1]{{\color{blue}{#1}}}
+\newcommand{\yh}[1]{{\color{cyan}{#1}}}
+\newcommand{\todo}[1]{\textcolor{orange}{[#1]}}
+% \newcommand{\UC}[1]{{\color{purple}{#1}}}
+\newcommand{\UC}[1]{{\color{black}{#1}}}
+
+% \newcommand{\QM}[1]{{\color{black}{#1}}}
+% \newcommand{\zw}[1]{{\color{black}{#1}}}
+% \newcommand{\yh}[1]{{\color{black}{#1}}}
+% \newcommand{\todo}[1]{\textcolor{black}{[#1]}}
+% \newcommand{\UC}[1]{{\color{black}{#1}}}
+
+
+
+% \newcommand{\UC}[1]{\textcolor{purple}{[#1]}}
+
+
+
+\definecolor{RHColor}{RGB}{24,166,149}
+\definecolor{SLPColor}{RGB}{174,174,30}
+\definecolor{DPColor}{RGB}{100,47,203}
+\definecolor{SPColor}{RGB}{139,7,7}
+\definecolor{NO2Color}{RGB}{51,102,204}
+\definecolor{SO2Color}{RGB}{76,183,215}
+
+\definecolor{WINDColor}{RGB}{106,77,181}
+\definecolor{PM25Color}{RGB}{148,195,76}
+\definecolor{PM10Color}{RGB}{87,181,93}
 
 
 \input{chapter/sec-abstract}
@@ -201,6 +233,7 @@
 \input{chapter/1_Introduction.tex}
 \input{chapter/2_StreetVizor/0_streetvizor.tex}
 \input{chapter/3_edgebundling/0_edgebundling.tex}
+\input{chapter/4_MultiRNNExplorer/0_MultiRNNExplorer.tex}
 % \input{chapter/sec-introduction}
 % \input{chapter/sec-related}
 % \input{chapter/sec-design}

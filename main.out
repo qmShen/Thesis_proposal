@@ -61,4 +61,28 @@
 \BOOKMARK [2][-]{subsection.3.8.2}{Performance}{section.3.8}% 61
 \BOOKMARK [2][-]{subsection.3.8.3}{Applicability and Limitations}{section.3.8}% 62
 \BOOKMARK [1][-]{section.3.9}{Conclusion and future work}{chapter.3}% 63
-\BOOKMARK [0][-]{chapter*.8}{References}{}% 64
+\BOOKMARK [0][-]{chapter.4}{Chapter 4 Visual Interpretation of Recurrent Neural Network on Multi-dimensional Time-series Forecast}{}% 64
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 65
+\BOOKMARK [1][-]{section.4.2}{Related Work}{chapter.4}% 66
+\BOOKMARK [2][-]{subsection.4.2.1}{Recurrent Neural Networks}{section.4.2}% 67
+\BOOKMARK [2][-]{subsection.4.2.2}{Machine Learning Interpretation}{section.4.2}% 68
+\BOOKMARK [1][-]{section.4.3}{Application and Models}{chapter.4}% 69
+\BOOKMARK [2][-]{subsection.4.3.1}{Application}{section.4.3}% 70
+\BOOKMARK [2][-]{subsection.4.3.2}{Data Description}{section.4.3}% 71
+\BOOKMARK [2][-]{subsection.4.3.3}{Models Description}{section.4.3}% 72
+\BOOKMARK [1][-]{section.4.4}{System design}{chapter.4}% 73
+\BOOKMARK [2][-]{subsection.4.4.1}{Task analysis}{section.4.4}% 74
+\BOOKMARK [2][-]{subsection.4.4.2}{System Overview}{section.4.4}% 75
+\BOOKMARK [1][-]{section.4.5}{Model Interpretation}{chapter.4}% 76
+\BOOKMARK [2][-]{subsection.4.5.1}{Relationships between Hidden States and Features}{section.4.5}% 77
+\BOOKMARK [2][-]{subsection.4.5.2}{Hidden Unit and Feature Clustering}{section.4.5}% 78
+\BOOKMARK [2][-]{subsection.4.5.3}{Local Feature Importance}{section.4.5}% 79
+\BOOKMARK [1][-]{section.4.6}{Visualization Design}{chapter.4}% 80
+\BOOKMARK [2][-]{subsection.4.6.1}{Cluster View}{section.4.6}% 81
+\BOOKMARK [2][-]{subsection.4.6.2}{Feature Importance View}{section.4.6}% 82
+\BOOKMARK [2][-]{subsection.4.6.3}{Projection View}{section.4.6}% 83
+\BOOKMARK [2][-]{subsection.4.6.4}{Individual View}{section.4.6}% 84
+\BOOKMARK [2][-]{subsection.4.6.5}{Interactions and Linkage}{section.4.6}% 85
+\BOOKMARK [1][-]{section.4.7}{Case study}{chapter.4}% 86
+\BOOKMARK [1][-]{section.4.8}{Discussion and Conclusion}{chapter.4}% 87
+\BOOKMARK [0][-]{chapter*.10}{References}{}% 88
