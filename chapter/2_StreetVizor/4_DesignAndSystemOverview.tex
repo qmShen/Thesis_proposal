@@ -9,16 +9,16 @@
 	\includegraphics[width=0.9\columnwidth]{figure/streetvizor/fig2_framework/framework}
 	\vspace{-5mm}
 	\caption{Overview of StreetVizor workflow. Our system consists of two phases: data modeling and interactive visual exploration.}
-	\label{fig:sys_overview}
+	\label{fig:c1_sys_overview}
 	\vspace{-6mm}
 \end{figure}
 
-StreetVizor is a web-based application comprising two major phases, as illustrated in Fig.~\ref{fig:sys_overview}.
-In the data modeling phase, our system automatically collects hundreds of thousands of GSV images at sampling positions in each city generated from OpenStreetMap (OSM) (Section~\ref{ssec:data_collection}).
-Then, we classify the pixels of the collected images into 12 classes using SegNet, and extract the desired feature metric from the classification results (Section~\ref{ssec:feature}).
+StreetVizor is a web-based application comprising two major phases, as illustrated in Fig.~\ref{fig:c1_sys_overview}.
+In the data modeling phase, our system automatically collects hundreds of thousands of GSV images at sampling positions in each city generated from OpenStreetMap (OSM) (Section~\ref{ssec:c1_data_collection}).
+Then, we classify the pixels of the collected images into 12 classes using SegNet, and extract the desired feature metric from the classification results (Section~\ref{ssec:c1_feature}).
 Data collection and preprocessing are conducted offline on a high-performance workstation with 12 core 3.40 GHz Intel Core i7-6800K CPU and a GeForce GTX 1080 graphics card.
 Though enabled with GPU acceleration, the computation still takes several to 20 hours to preprocess images from each city.
-Then, we construct data structures, including an octree and a lookup table, to facilitate visual exploration, such as spatial query and filtering (Section~\ref{ssec:query}).
+Then, we construct data structures, including an octree and a lookup table, to facilitate visual exploration, such as spatial query and filtering (Section~\ref{ssec:c1_query}).
 The datasets are stored in a back-end MongoDB server with 2.4 GHz Intel Xeon E5-2620 CPU and 64 GB memory.
 
 The interactive visual exploration phase consists of two stages:

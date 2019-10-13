@@ -1,0 +1,47 @@
+\section{Introduction}
+\label{sec:intro}
+
+Movement can be defined as change of an object's positions or geometric attributes over time~\cite{dodge_2008_towards}.
+Within a specific time period, the movement of an object can be modeled with an origin (O), a destination (D), and consecutive positions (trail) in-between.
+Due to fast development of location sensing technologies, massive amounts of OD trails, such as vessel movements and taxi trips, have been collected.
+Studies of OD trails have revealed many movement patterns and contributed to many applications, e.g. diseases spread control~\cite{brock_2006_scaling} and transportation planning~\cite{wang2012understanding}.
+
+Visualizing OD trails is a hot yet challenging topic.
+Conventional method that connects origins to destinations with lines~\cite{tobler_1987_experiments} can easily cause visual clutter.
+To tackle the problem, methods of aggregating trails into flows are usually employed.
+A number of automatic techniques have emerged, such as intelligent routing layout~\cite{phan2005flow, verbeek_2011_flow} and spatial mapping~\cite{andrienko_spatial_2011-1, guo2014origin}.
+These methods are preferable for revealing overall traffic patterns for answering general questions, e.g., what are popular roads in a city? where do people head to?
+However, the methods mostly ignores information of individual OD trail.
+In certain scenarios such as to find abnormal people movements, additional analytics are required to complement the visualization.
+
+Wrapping up OD trails into bundles can reveal overall traffic patterns, meanwhile keep individual OD trail.
+Many bundling methods including spring-based (e.g.,~\cite{holten2009force, selassie2011divided}), image-based (e.g.,~\cite{hurter2012graph, lhuillier2017ffteb}), and geometry-based (e.g.,~\cite{holten2006hierarchical, cui2008geometry}), have been proposed.
+These techniques have been successfully employed for many different datasets such as Internet connections and migrations.
+In these data, it is flexible to manipulate edges as long as node connections are kept.
+This, however, does not hold for OD trails in urban traffic data.
+In a city, humans and vehicles are moving along roads, and many activities including traffic jams and accidents, are happening on roads.
+Hence, OD trails are constrained by road networks.
+Trail information is equally, if not more, important as ODs for urban traffic data.
+
+Among various edge bundling methods, kernel density estimation (KDEEB)~\cite{hurter2012graph} is in state-of-the-art with advantages in speed and generality.
+However, we identify several inconsiderate settings of KDEEB when applied to OD trails in urban traffic data, including non-optimal kernel size and road neglect.
+These settings wreck applicability of KDEEB for movement visualization, which requires to preserve road network topology and to support multi-scale exploration.
+This work presents a new method, namely route-aware edge bundling (RAEB), specifically designed to address the limitations.
+RAEB employs a comprehensive pipeline consisting of preprocessing, bundling and evaluation processes.
+A series of new parameters such as route awareness and bundling stability, which leverage advanced techniques from geography and image processing fields, are introduced.
+Experiments on artificial and real-world urban traffic data show that RAEB can generate more realistic results, meanwhile achieve fast computation speed comparable to KDEEB.
+
+\vspace{1.5mm}
+The primary contributions of this work include:
+
+\begin{itemize}
+
+\item
+We develop a new edge bundling method of RAEB, which includes a comprehensive pipeline consisting of preprocessing, bundling, and evaluation processes. 
+
+\item
+We adapt existing parameters in KDEEB, and introduce a series of new parameters, to better fit OD trails in urban traffic.
+
+\item
+We conduct several experiments using artificial and real-world urban traffic data to demonstrate effectiveness of RAEB. 
+\end{itemize}

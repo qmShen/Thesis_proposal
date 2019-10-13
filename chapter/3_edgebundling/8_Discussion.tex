@@ -1,0 +1,175 @@
+\section{Discussion}
+\label{sec:discussion}
+
+The experiments demonstrate that RAEB outperforms KDEEB in visualizing OD trails in urban traffic data.
+The first experiment with artificial data shows that the introduction of route awareness $p_{ra}$ in RAEB distinguishes grid and hierarchical network structures.
+The second experiment presents the comparisons between KDEEB and RAEB using New York taxi data, which records only origin and destination positions. 
+The results with different kernel size $p_{r}$ and in multi-scales indicate that, 
+(1) $p_{r}$ should be measured based on not only graph drawing size, but also underlying road network topology;
+and (2) RAEB supports better multi-scale exploration.
+The robustness of RAEB is further demonstrated through the third experiment with Shenzhen taxi data, which records a sequence of GPS positions in every 20 seconds.
+
+The advancements are achieved by parameter settings adopted in RAEB.
+This section presents detailed discussion on the parameters, followed by performance comparison between RAEB and KDEEB. 
+In the end, we discuss about generality and limitation issues.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Parameters}
+\label{ssec:parameters}
+
+\begin{table}[t]
+	\begin{tabularx}{0.5\textwidth}{|>{\hsize=0.23\hsize}X|
+                              >{\hsize=0.23\hsize}X|
+                              >{\hsize=0.4\hsize}X|}
+	\hline
+	\textbf{Parameters} & \textbf{KDEEB} & \textbf{RAEB} \\
+	\hline \hline
+	Route & $-$ & 0 - Number of road \\
+	awareness ($p_{ra}$) & & hierarchies \\
+	\hline
+	Kernel size ($p_r$) & Graph drawing & Graph drawing and road network geometry \\
+	\hline
+	Bundling & 10 - 15 & $-$ \\
+	iterations ($p_n$) &  &  \\
+	\hline
+	Bundling & $-$ & \textit{NMI} between images in \\
+	stability ($p_{s}$) & & consecutive iterations \\
+	
+	\hline
+	Bundling & $-$ & Average Frechet distance\\
+	deviation ($p_{d}$) & &  of bundles to OD trails\\
+	\hline
+	\end{tabularx}
+	\caption{Main parameter adaptions in RAEB, in comparison with these in KDEEB.}
+	\label{tab:parameters}
+\vspace{-6mm}
+\end{table}
+
+RAEB adapts and introduces new parameters to better visualize OD trails in urban traffic data.
+Table~\ref{tab:parameters} presents an overview of these parameter settings in comparison with those in KDEEB.
+
+\begin{itemize}
+
+\item
+\textbf{Route awareness ($p_{ra}$):}
+An input graph for KDEEB is straight lines connecting end nodes directly.
+As discussed in the first experiment with artificial OD trails, such an input graph cannot distinguish grid and hierarchical road networks.
+Instead, we introduce route awareness parameter $p_{ra}$ to control layout of input graph.
+The first experiment also shows that $p_{ra}$ can be manipulated to generate bundles representing levels of details of road network.
+If $p_{ra}$ is set to zero, input graph will be straight lines and the results are the same with KDEEB;
+if $p_{ra}$ is set to the highest number of road hierarchies, input graph will be OD trails in line with road network, and more roads can be preserved.
+
+\vspace{1mm}
+\item
+\textbf{Kernel size ($p_{r}$):}
+In the second experiment with New York taxi data, we show that the parameter kernel size $p_r$ can control bundling coarseness.
+KDEEB computes $p_{r}$ as 5\% of graph drawing size, which will generate coarse bundles that can only reveal main traffic connections (Figure~\ref{fig:nyc_visual}(b)).
+Instead, RAEB suggests $p_{r}$ should be measured based on both graph drawing size and road network geometry.
+In this way, a smaller $p_{r}$ is generated, and fine bundles that reveal details of street networks are generated (Figure~\ref{fig:nyc_visual}(c) \& (d)).
+The advantage of our approach is further demonstrated using Shenzhen taxi data, which exhibits imbalanced distribution of taxi trips in the city.
+
+\vspace{1mm}
+\item
+\textbf{Bundling iteration ($p_{n}$):}
+KDEEB presets bundling iteration $p_{n}$ to a fixed number in between 10 - 15, such that to terminate the bundling process.
+The choice of a suitable $p_{n}$, however, needs much experience and varies among different people. 
+Adjustments in other parameters may also require fitting of the parameter.
+RAEB discards this subjective parameter.
+
+\vspace{1mm}
+\item
+\textbf{Bundling stability $p_{s}$:}
+Instead, RAEB introduces a new parameter $-$ bundling stability $p_{s}$, to control bundling process termination.
+$p_{s}$ is measured as normalized mutual information (\textit{NMI}) between images generated in two consecutive bundling iterations.
+\textit{NMI} is a common metric in image processing field, thus can be easily integrated.
+When $p_{s}$ reaches a predefined threshold, which means that visually a stable structure is generated, the bundling process will be automatically terminated.
+
+
+\vspace{1mm}
+\item
+\textbf{Bundling deviation $p_{d}$:}
+While $p_{s}$ measures bundling stability of a bundling method, it still lacks a method to quantitatively compare multiple ones.
+The parameter bundling deviation $p_{d}$ is introduced to fill the gap.
+$p_{d}$ is measured as average Frechet distance of bundles to corresponding OD trails.
+The measurement is widely employed in geographical science, and we compare KDEEB and RAEB regarding the parameter below.
+
+\end{itemize}
+
+Some of these parameters can be automatically computed, including $p_r$ and $p_d$, while settings of $p_{ra}$ and $p_{s}$ can be consistent across different input data.
+From the experiments, we recommend 1 for $p_{ra}$ (corresponding to top 5\% ranked routes), and 75\% for $p_{s}$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Performance}
+
+\begin{table}[!tb]
+	\setlength\extrarowheight{2pt}
+	\begin{tabularx}{0.485\textwidth}{|
+							  >{\hsize=0.19\hsize}X|
+                              >{\hsize=0.16\hsize}X|
+                              >{\hsize=0.05\hsize}X|
+                              >{\hsize=0.17\hsize}X|
+                              >{\hsize=0.13\hsize}X|
+                              >{\hsize=0.17\hsize}X|
+                              >{\hsize=0.13\hsize}X|}
+	\hline
+	Graph & Edge & $p_n$ & \multicolumn{2}{c}{Time (sec.)} \vline & \multicolumn{2}{c}{Deviation (pixel)} \vline \\
+	& Samples & & KDEEB & RAEB& KDEEB & RAEB \\
+	\hline \hline
+	Random (grid) & 4.6M & 13 & 40.3 & 50.7 & 18.37 & 12.58 \\ 
+	\hline
+	NewYork & 3.1M & 11 & 34.3 & 42.9 & 15.40 & 9.88 \\
+	\hline
+	Shenzhen & 1.3M & 8 & 13.8 & 22.8 & 13.71 & 10.53 \\
+	\hline
+	\end{tabularx}
+	\caption{Statistics comparison of KDEEB and RAEB for datasets used in the experiments. }
+	\label{tab:statistics}
+\vspace{-6mm}
+\end{table}
+
+Table~\ref{tab:statistics} shows comparison of KDEEB and RAEB for the datasets used in the experiments.
+Both methods are implemented in Java running on a MacBook Pro with a 3.1 GHz Core i7 and Radeon Pro 560 graphics.
+We employ the same kernel size $p_r$ and bundling iterations $p_n$ measured by our approach for both methods.
+
+KDEEB's bundling process include sampling, splatting, advecting and smoothing steps.
+Bundling time for each iteration is mainly determined by number of edge samples and kernel size.
+Since kernel size measured by our approach is generally smaller than that by KDEEB, bundling time is reduced. 
+The total running times for KDEEB methods are comparable with those in the original work~\cite{hurter2012graph}.
+RAEB requires an additional step of bundling stability measurement, which is determined by the graph drawing size.
+This adds in a running time of less than 1 seconds in each iteration for all three experiments.
+The measurement is computed in every bundling iteration, thus we can shorten time by reducing the measurement frequency.
+All the steps can be further accelerated using GPU e.g. CUDA~\cite{van2016cubu}.
+
+On the other side, bundles generated by our method are more close to OD trials, as revealed by comparison regarding bundling deviation. 
+From the table, RAEB reduces about 1/3 deviations of those in KDEEB for artificial and New York taxi datasets. 
+The improvement is smaller for Shenzhen taxi data, though graph drawing in Shenzhen experiment is bigger.
+This is probably because taxi trips are concentrated in a small area in the south of Shenzhen.
+Nevertheless, the result image by RAEB shows more improvements than that by KDEEB (Figure~\ref{fig:shenzhen}(c) vs (b)). 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Applicability and Limitations}
+\label{ssec:app}
+
+The experiments have shown the applicability of RAEB for bundling and visualizing OD trails in urban traffic using real-world taxi data.
+RAEB introduces new parameters of route awareness $p_{ra}$ and bundling deviation $p_d$, and adapts existing measurement of kernel size $p_r$, to better fit road network topology.
+The approach can be extended to other types of urban traffic data, such as commuter trips using public transportation, or people traces derived from call detail records.
+These dataset consists of both OD trails and underlying road network.
+Through advanced map matching algorithms, urban traffic's real paths on a road network can be recovered.
+However, the parameters are not applicable to general graphs with information of only node connections, except for bundling stability $p_{bs}$.
+
+Edge bundling methods face a common issue of unrealistic bundle lines.
+Specifically for OD trails in urban traffic, bundle lines should not be far away from real paths.
+RAEB mitigates the issue with route awareness $p_{ra}$ for controlling edge layout of input graph, and bundling stability $p_{bs}$ for generating stable results.
+The first experiment shows that $p_{ra}$ can preserve certain routes on demand, while the second experiment reveals that RAEB supports better multi-scale exploration.
+Experimental results of bundling deviations $p_{d}$ further proves the advantage of RAEB over KDEEB.
+Nevertheless, these parameters can only constrain bundle layout in certain extent, as resulting bundle lines are still displaced from OD trials.
+In scenarios requiring precise positions, such as query movements passing through a waypoint~\cite{kruger_trajectorylenses_2013} or road segment~\cite{wang_2014_visual-reasoning}, visual hints are required to remind the displacement.
+
+Bundles generated by RAEB can show clear traffic patterns, meanwhile preserve road network topology better than KDEEB in a city.
+These main goals of this work have been successfully achieved, as demonstrated by the experiments.
+On the other hand, RAEB is not able to reveal detailed traffic patterns such as directional movements.
+Direction is of recognized importance for studying OD trails in urban traffic~\cite{zeng_2015_visualizing}.
+This limitation can be addressed by including directional information in density estimation or edge advecting functions, as described in CUBu~\cite{van2016cubu}.
+Besides, RAEB is an image-based edge bundling method, constraining its applicability for 2D rendering only.
+Applications such as to bundle movements~\cite{lambert20103d, thony2015vector} and fiber tracts~\cite{hurter_2018_functional} in 3D, and graphs in virtual reality~\cite{kwon_2016_study}, need spring- or geometry-based bundling methods.

@@ -7,15 +7,15 @@ Furthermore, we present the methods for data querying and filtering.
 	\includegraphics[width=\columnwidth]{figure/streetvizor/fig3_data_preprocess/data_process}
 	\vspace{-7mm}
 	\caption{Illustration of data preprocessing: sampling locations in New York City are generated from OpenStreetMap (left), a street view image is collected from Google Street View (center), and the image pixels are classified into six features using SegNet (right).}
-	\label{fig:data_preprocess}
+	\label{fig:c1_data_preprocess}
 	\vspace{-4mm}
 \end{figure}
 
 %===============================================
 \subsection{Data Collection}
-\label{ssec:data_collection}
+\label{ssec:c1_data_collection}
 
-Based on the configurations defined in Section~\ref{sec:bg}, we develop an automatic approach to collect GSV images.
+Based on the configurations defined in Section~\ref{sec:c1_bg}, we develop an automatic approach to collect GSV images.
 We first download the area of a city from OSM~\cite{osm_api} and extract the road network from the OSM data.
 Next, we apply a flood-fill algorithm that recursively goes through the entire road network every 50 meters, starting from a randomly selected location.
 After this operation is completed, a list of sampling locations (\{$pos$\}) with geographic information $(lat \; \& \; long)$ is generated.
@@ -25,16 +25,16 @@ Together with the downloaded image ($Img$), we model urban forms at human-scale 
 
 \vspace*{-2mm}
 \begin{equation}
-\label{eq_sv}
+\label{c1_eq_sv}
 UF_{hs} \; := \; <pos, \; SI, \; Img>
 \end{equation}
 
 We have collected $\sim$147 k, $\sim$183 k, $\sim$685 k and $\sim$637 k images of Hong Kong, Singapore, Greater London and New York City, respectively.
-Fig.~\ref{fig:data_preprocess} (left) presents all sampling locations (colored dots) in New York City generated from OSM, and (center) shows a sample street view image downloaded from GSV.
+Fig.~\ref{fig:c1_data_preprocess} (left) presents all sampling locations (colored dots) in New York City generated from OSM, and (center) shows a sample street view image downloaded from GSV.
 
 %===============================================
 \subsection{Feature Extraction}
-\label{ssec:feature}
+\label{ssec:c1_feature}
 After collecting street views, we first classify the image pixels into 12 classes (e.g., sky and building) using SegNet~\cite{Badrinarayanan_2015_segnet}, which is a robust pixel-wise semantic labeling tool with a global accuracy of 82.8\%.
 Among the 12 classes, we count the number of pixels for the identified five features, i.e., $greenery$, $sky$, $building$, $road$, and $vehicle$, and summarize the remaining pixels as $others$.
 We then normalize the feature data because pixel counts ($PC$) as raw output values are not intuitive.
@@ -45,19 +45,19 @@ Then, we can replace the image ($Img$) with a feature metric ($FM$) as:
 
 \vspace*{-2mm}
 \begin{equation}
-\label{eq_fm}
+\label{c1_eq_fm}
 Img \rightarrow FM := \; <FV_g, \; FV_s, \; FV_b, \; FV_r, \; FV_v, \; FV_o>
 \end{equation}
 
 % The feature extraction is preprocessed on a high-performance workstation with GTX 1080 graphics card. 
 % Though enabled with GPU acceleration, the computation still takes from several to up to 20 hours to process the images in each city.
-Fig.~\ref{fig:data_preprocess} (right) shows the classification result of the street view image in the center produced by SegNet.
+Fig.~\ref{fig:c1_data_preprocess} (right) shows the classification result of the street view image in the center produced by SegNet.
 
 %===============================================
 \subsection{Data Querying and Filtering}
-\label{ssec:query}
+\label{ssec:c1_query}
 
-Based on Equations~\ref{eq_sv} and~\ref{eq_fm}, we model human-scale urban forms ($UF_{hs}$) with the following attributes: position ($pos$), street information ($SI$), and feature metric ($FM$).
+Based on Equations~\ref{c1_eq_sv} and~\ref{c1_eq_fm}, we model human-scale urban forms ($UF_{hs}$) with the following attributes: position ($pos$), street information ($SI$), and feature metric ($FM$).
 By nature, the data exhibits the following properties: 
 1) $spatial$, i.e., positions;
 2) $multi$-$scale$, because the positions can be hierarchically grouped in accordance with city and regional units, or street information;
@@ -96,11 +96,11 @@ Then, we adopt a binary search approach in run time.
 	\vspace{-3mm}
 	\caption{Data model: street views with six-dimensional features of \textit{greenery, sky, building, road, vehicle} and \textit{others}, are organized in an octree structure and a street lookup table.}
 	\vspace{-5mm}
-	\label{fig:data_model}
+	\label{fig:c1_data_model}
 \end{figure}
 
 \vspace*{-2mm}
-Fig.~\ref{fig:data_model} illustrates the data model that organizes the street views in an octree structure and a street lookup table.
+Fig.~\ref{fig:c1_data_model} illustrates the data model that organizes the street views in an octree structure and a street lookup table.
 Each street view contains the six-dimensional features of \textit{greenery, sky, building, road, vehicle}, and \textit{others}.
-We store these querying and filtering models are stored in a back-end MongoDB database, as shown in Fig.~\ref{fig:sys_overview}.
+We store these querying and filtering models are stored in a back-end MongoDB database, as shown in Fig.~\ref{fig:c1_sys_overview}.
 %===============================================

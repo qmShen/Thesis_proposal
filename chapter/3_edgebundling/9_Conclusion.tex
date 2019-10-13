@@ -1,0 +1,24 @@
+\section{Conclusion and future work}
+\label{sec:con}
+
+OD visualization is challenging $-$ no universally good technique is available for visualizing arbitrary ODs~\cite{andrienko_visual_2012}.
+In particular, this work studies OD trails in urban traffic.
+We identify inconsiderate settings of existing kernel density estimation edge bundling (KDEEB) method when applied in the scenario.
+This is because KDEEB was developed for general graphs such as airlines and migrations, while ignores data nature of urban traffic data.
+These inconsiderate settings can cause domain-specific problems such as no preservation of road network topology and poor support of multi-scale exploration.
+We contribute to the field with a new technique, namely route-aware edge bundling (RAEB). 
+The bundling process is complemented with preprocessing that generate more proper input edge layout, and evaluation that create more stable visual results.
+A series of parameter adaption and introduction are made to better cater to geometric properties of OD trails and road networks.
+We compare RAEB with KDEEB in regarding to bundling time and deviation using artificial and real-world taxi data.
+The experiment results show that RAEB outperforms KDEEB in reducing bundling deviation meanwhile achieving comparable computation speed.
+
+Even though RAEB is specifically designed for bundling OD trails in urban traffic, some parameters such as bundling stability $p_{bs}$ can be applicable to other iterative edge bundling methods, including SBEB~\cite{ersoy2011skeleton} and FDEB~\cite{holten2009force}.
+We would like to try integrating these parameters in the bundling methods, such that to make them more controllable.
+We also realize many computation tasks in RAEB can be parallelized, thus bundling efficiency can be improved by GPU acceleration.
+It would be worthy to reimplement RAEB in GPU, similar to CUBu~\cite{van2016cubu}.
+Besides bundling control and efficiency issues, how to access bundling quality and faithfulness are the main challenges hindering the applicability of edge bundling methods~\cite{lhuillier2017state}.
+Our experiences in developing RAEB suggest that in specific application scenarios, these challenges can be solved with domain knowledges.
+On the basis of treating OD trails mapped onto road network as ground truth, our proposed parameter of bundling deviation $p_d$ is a quality and faithfulness metric in certain extent.
+The parameters is derived from Frechet distance that is a common metric in geographical science.
+In the future, we would like to apply RAEB in other fields such as to visualize neural connections in brain~\cite{2014_bottger_three-d, yang_2017_blockwise}.
+Adaptions are most likely required, and we envision close collaborations with domain experts can facilitate the development.

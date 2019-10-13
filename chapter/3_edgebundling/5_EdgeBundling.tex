@@ -1,0 +1,81 @@
+\section{Bundling Method}
+\label{sec:bundling}
+
+RAEB adapts KDEEB bundling algorithm~\cite{hurter2012graph} to better reveal topology of urban traffic.
+This sections presents amendments employed by RAEB, including kernel size measurement and density map generation.
+
+\begin{algorithm}[b]
+	\caption{KernelSizeMeasurement}\label{al:kernel_size_measurement}
+	\begin{algorithmic}[1]
+		\Require Top \textit{N} sorted routes as polyline list $\textbf{P} = \{P_1, ..., P_N\}$
+		\Ensure Initial kernel size $p_r$		
+		\State Let $d$[ ][ ] denote distance between polyline pairs
+		\For {i = 1 to $N$}
+			\For {j = i + 1 to $N$}
+			\State $d$[i][j] = $d$[j][i] = DiscreteFrechetDistance($P_i$, $P_j$)
+			\EndFor
+		\EndFor
+		\State Let \textbf{C} denote a list of polyline clusters;
+		\State \textbf{C} = $DBSCAN(\textbf{P}, eps, minNum)$;
+		\State $C_{max}$ = $argmax_{|C_i|}(C_i | C_i \in \textbf{C})$;
+		\State Initialize $d_{geo} = 0$;
+		\State Let $count = |C_{max}| \times (|C_{max}| - 1)$;
+		\ForEach {$P_i \in C_{max}$}
+			\ForEach {$P_j \in C_{max}$ \&\& $P_i \neq P_j$}
+				\State $d_{geo}$ = $d_{geo}$ + $d$[i][j] / count;
+			\EndFor
+		\EndFor
+		\State $p_r$ = ToDrawingSpace($d_{geo}$ / 2); \\
+		\Return $p_r$
+	\end{algorithmic}
+\end{algorithm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Optimal Kernel Size}
+\label{ssec:kernel_size}
+KDEEB only considers the size of graph drawing when determining kernel size.
+This strategy may not be optimal for bundling OD trails in urban traffic (\textit{P1}).
+Ideally, the chosen kernel size should be able to bundle closely-related OD trails (e.g., movements on bi-directional roads), while separate loosely-correlated OD trails (e.g., movements on two different highways).
+
+To address \textit{P1}, both graph drawing size and geometric property of road network should be considered.
+We develop an automatic process for measuring initial kernel size, as outlined in Algorithm~\ref{al:kernel_size_measurement}.
+Here, top $N$ routes are extracted from \textit{Preprocessing} stage.
+The routes are treated as a polyline list \textbf{P}, and inputted into the algorithm.
+Pair-wise distance between each pair of ploylines are computed. 
+Then a DBSCAN algorithm is applied to group the polylines into polyline clusters \textbf{C}.
+The cluster with maximum number of polylines is extracted, and denoted as $C_{max}$.
+Average geographical distance $d_{geo}$ is computed for polylines in $C_{max}$.
+Finally, half of $dist_{geo}$ is converted to $p_r$ in graph drawing space, and $p_r$ is returned as the initial kernel size.
+
+Basically, the algorithm first computes average geographical route distance in the top $N$ routes, and then converts the distance to graph drawing space.
+$N$ should not be too small that the routes are not representative for the whole road network; meanwhile, it should not be too big to overlap route awareness.
+From our experiments, we find 1\% of whole route size is appropriate for $N$.
+Besides, another important factor is the distance metric between two polylines.
+Here, we choose discrete Frechet distance, which measures similarity of two polylines considering both locations and ordering of the points along the polylines.
+The metric is one of the most popular methods for movement analysis~\cite{gudmundsson2011computational}, and can be computed efficiently~\cite{eiter_1994_computing}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Density Map Generation}
+KDEEB omits trail information (\textit{P3}), as it connects ODs with directed lines.
+We aim to keep bundles close to OD trails on road network.
+More specifically, in \textit{Preprocessing} stage, each OD trail is abstracted into a sequence of artificial directed lines and real routes in road network.
+The artificial directed lines are free to manipulated, while we would like to keep the bundle layout spatially close to the real routes.
+In addition, it is preferable to keep the bundling paradigm of advecting sampling sites towards high density directions.
+
+To achieve this goal, we modify the density map generation used by KDEEB.
+Let denote a list of routes $R_{aware} \subset \mathbb{R}^2$ are kept for route awareness.
+Since sampling sites are advected towards their gradient directions, gradients of points along $R_{aware}$ should be either (1) zero, or (2) pointing to route direction.
+To minimize effects on densities surrounding $R_{aware}$, we choose the second option.
+Instead of Eqn.~\ref{eq:kernel_density_estimation}, we now use
+
+\vspace{-5mm}
+\begin{equation}\label{eq:new_density}
+\rho_{od} = \rho + D(\textbf{x} | \textbf{x} \in R_{aware})
+\end{equation}
+\vspace{-3mm}
+
+\noindent
+where $D(\textbf{x}) \in \mathbb{R}^+$ is a constant assigned to a point $\textbf{x} \in R_{aware}$.
+High $D$ value will make it more likely that gradient at $\textbf{x}$ points to the same direction with the route.

@@ -16,7 +16,7 @@ Then, we provide a detailed description of the visualization techniques implemen
 		(c) AOI statistic view presents the quantitative measurements, including correlation, histogram, and diversity in the AOIs shown in (b).
 		(d) Street map views present detailed street views along two streets.
 		(e) Street statistic view extends parallel coordinates with street layouts.}
-	\label{fig:teaser}
+	\label{fig:c1_teaser}
 	\vspace{-5mm}
 \end{figure}
 
@@ -24,7 +24,7 @@ Then, we provide a detailed description of the visualization techniques implemen
 %==============================================================
 
 \subsection{Design Rationales}
-To address the complex analytical tasks (Section~\ref{ssec:tasks}), a proper visual design should follow the design rationales below:
+To address the complex analytical tasks (Section~\ref{ssec:c1_tasks}), a proper visual design should follow the design rationales below:
 
 \begin{enumerate}[label={R.\arabic*:}]
 
@@ -72,11 +72,11 @@ Clicking the body of a feature column of interest will expand the column as a bo
 The explorer also allows users to sort candidates against a particular feature and the ranking will update correspondingly.
 Such designs have been well established and evaluated in a previous work~\cite{liu_2017_smartAdP}.
 
-Fig.~\ref{fig:teaser}(a) ranks all districts in Hong Kong in accordance with $building$ feature (red dashed box).
+Fig.~\ref{fig:c1_teaser}(a) ranks all districts in Hong Kong in accordance with $building$ feature (red dashed box).
 As an example, we observe the detailed statistics of the $sky$ feature.
 We select the column for this feature and expand it to boxplot. 
 By comparing the orderings of $greenery$, $sky$, and $building$ features, we find $greenery$ and $sky$ features are correlated, while they are negatively correlated with the $building$ feature.
-This information helps users narrow down the comparison choices to 1) district HK 16 (Yau Tsim Mong) with the highest $building$ ratio and 2) district HK 7 (Sai Kung) with low $building$ and high $greenery$ ratios, as shown in Figs.~\ref{fig:teaser}(b) \& (c).  
+This information helps users narrow down the comparison choices to 1) district HK 16 (Yau Tsim Mong) with the highest $building$ ratio and 2) district HK 7 (Sai Kung) with low $building$ and high $greenery$ ratios, as shown in Figs.~\ref{fig:c1_teaser}(b) \& (c).
 % We also find one special region HK 0, which is Central and Western, has both high green feature and building feature. 
 % In addition, there is also some street in this region has very high sky feature value. This region could provide a relative good work environment.
 
@@ -84,15 +84,15 @@ This information helps users narrow down the comparison choices to 1) district H
 % \qm{The interactions above enable users to narrow down the study scope to several candidates AOIs or streets. To further explore the and find the interested  candidates, we implemented multi-features exploration view (Fig.~\ref{fig:teaser}(a)) which enable quantitative ranking and compare multiple AOIs and streets based on the features interested. Inspired by Lineup~\cite{gratzl2013lineup} and SmartAdp~\cite{liu2017smartadp}, each column indicates one attribute of the AOI/street. The last 6 columns present the six human scale features while other columns present other properties like the id, city they belong to, which can be interactively chosen according to the users' interests. Users can also click on the head to rank the candidates according to the specific features or group several features and rank the candidates by the sum of the selected features.}
 %==============================================================
 \subsection{AOI Explorer}
-\label{ssec:aoi_explorer}
+\label{ssec:c1_aoi_explorer}
 AOI Explorer is developed to provide efficient comparison of human-scale urban forms at city- and region-scales (T.1.1).
 The explorer integrates coordinated multiple views, including:
 
 %============================
 \subsubsection{AOI Map View}
-\label{sssec:aoi_map_view}
+\label{sssec:c1_aoi_map_view}
 
-We develop side-by-side map views (Figure.~\ref{fig:teaser}(b)) to compare the spatial distributions of human-scale urban forms in two AOIs (T.3.2).
+We develop side-by-side map views (Figure.~\ref{fig:c1_teaser}(b)) to compare the spatial distributions of human-scale urban forms in two AOIs (T.3.2).
 Each map view consists of:
 1) a background map layer implemented with Leaflet.js to allow users to change map style (e.g. satellite, street, and sport) for different purposes;
 and 2) a point density map overlaid on top of the background map layer, with points representing street views.
@@ -113,13 +113,13 @@ In this case, the heat map will generate ambiguity between the two scenarios of 
 	\includegraphics[width=0.85\columnwidth]{figure/streetvizor/fig5_statistic_view/statistic_view}
 	\vspace{-4mm}
 	\caption{The AOI Statistic View combines (a) a scatterplot matrix to show pair-wise correlations between two features, (b) small multiples of histogram bar charts to overview feature distributions, and (c) small multiples of deviation plots to present feature diversity. }
-	\label{fig:statistic_view}
+	\label{fig:c1_statistic_view}
 	\vspace{-4mm}
 \end{figure}
 
 %============================
 \subsubsection{AOI Statistic View}
-\label{sssec:statistic_view}
+\label{sssec:c1_statistic_view}
 Besides the map view, which enables the comparison of spatial distributions of human-scale urban forms, we develop AOI Statistic View to allow users to compare various quantitative measurements (T.3.3).
 Nonetheless, each AOI may contain too many street views (up to several hundred thousand) that will overload the rendering process.
 Moreover, the street views will occlude each other if we simply plot all of them.
@@ -152,7 +152,7 @@ After generating the clusters $C$, we further compute and visualize the followin
 \item
 \textbf{Feature Correlation}:
 We first compute the mean values of the identified features, i.e., \textit{greenery, sky, building, road, vehicle}, and \textit{others} in each cluster $c_i$.
-We then plot the pair-wise correlations using a scatterplot matrix (Fig.~\ref{fig:statistic_view}(a)).
+We then plot the pair-wise correlations using a scatterplot matrix (Fig.~\ref{fig:c1_statistic_view}(a)).
 Notice that the clusters in the left and right AOIs are colored red and blue, respectively.
 
 \vspace*{-1mm}
@@ -162,30 +162,30 @@ Though feature values fall in the range of [0\% - 100\%], we seldom find feature
 Thus, we only consider the range [0\% - 50\%].
 For each feature, we divide the range into 10 even parts, i.e., [0\% - 5\%), [5\% - 10\%)..., and aggregate the corresponding value in each street view to each part.
 Then, histograms for each feature are plotted as bar charts in an up and down manner for AOIs on the left and right, respectively.
-The six histogram bar charts are arranged in small multiples next to the scatterplot matrix (Fig.~\ref{fig:statistic_view}(b)).
+The six histogram bar charts are arranged in small multiples next to the scatterplot matrix (Fig.~\ref{fig:c1_statistic_view}(b)).
 
 \vspace*{-1mm}
 \item
 \textbf{Feature Diversity}:
-We use standard deviation to indicate the measured feature diversity measured for each cluster, and design diversity views that are arranged as six side-by-side small multiples for each feature as shown in Figure~\ref{fig:statistic_view}(c).
+We use standard deviation to indicate the measured feature diversity measured for each cluster, and design diversity views that are arranged as six side-by-side small multiples for each feature as shown in Figure~\ref{fig:c1_statistic_view}(c).
 In every feature diversity view, each cluster is represented as a dot with its x-value indicating the averaged feature value and y-value indicating standard deviation.
 In addition, we use line segments to indicate the largest and smallest feature values in each cluster. 
-In case an AOI may have hundreds of clusters that lead to serious visual clutter problem, we implement a contour map view~\cite{chen_2014_visual} (Fig.~\ref{fig:statistic_view}(h)) to show overall distribution patterns. 
+In case an AOI may have hundreds of clusters that lead to serious visual clutter problem, we implement a contour map view~\cite{chen_2014_visual} (Fig.~\ref{fig:c1_statistic_view}(h)) to show overall distribution patterns.
 Users can interactively choose one of the views in accordance with different requirements.
 
 \end{itemize}
 
-The AOI Statistic View comparison of New York City (red) and Hong Kong (blue) is shown in Fig.~\ref{fig:statistic_view}.
+The AOI Statistic View comparison of New York City (red) and Hong Kong (blue) is shown in Fig.~\ref{fig:c1_statistic_view}.
 From the view, we can easily identify some obvious patterns.
-For example, in both cities, \textit{greenery} and \textit{building} features are negatively correlated (Fig.~\ref{fig:statistic_view}(d)).
-The correlations between other pairwise features, e.g., \textit{greenery} and \textit{road} (Fig.~\ref{fig:statistic_view}(e)), are not obvious.
-From Fig.~\ref{fig:statistic_view}(f), we find that the vehicle ratio is higher in New York City than in Hong Kong.
-In addition, we find that although the \textit{greenery} values are similar for both cities, diversity is higher in Hong Kong (Fig.~\ref{fig:statistic_view}(g)).
+For example, in both cities, \textit{greenery} and \textit{building} features are negatively correlated (Fig.~\ref{fig:c1_statistic_view}(d)).
+The correlations between other pairwise features, e.g., \textit{greenery} and \textit{road} (Fig.~\ref{fig:c1_statistic_view}(e)), are not obvious.
+From Fig.~\ref{fig:c1_statistic_view}(f), we find that the vehicle ratio is higher in New York City than in Hong Kong.
+In addition, we find that although the \textit{greenery} values are similar for both cities, diversity is higher in Hong Kong (Fig.~\ref{fig:c1_statistic_view}(g)).
 This results reflects that greenery is better integrated into street space in New York City than in Hong Kong.
 
 %==============================================================
 \subsection{Street Explorer}
-\label{ssec:street_explorer}
+\label{ssec:c1_street_explorer}
 
 \begin{figure}[t] 
 	\centering
@@ -194,7 +194,7 @@ This results reflects that greenery is better integrated into street space in Ne
 	\vspace{-3mm}
 	\caption{Street Map View provides an overview of all street views along a street as colored points, and highlights images on two sides of the street.
 	(a) A tree map showing the feature composition of an image will pop up when the mouse pointer is hovered over the image.}
-	\label{fig:street_map}
+	\label{fig:c1_street_map}
 	\vspace{-5mm}
 \end{figure}
 
@@ -204,19 +204,19 @@ Street Explorer is developed to enable the efficient comparison of human-scale u
 The explorer adapts the same layout as that in the AOI Explorer, i.e., juxtaposition map views are placed on the top of the explorer, whereas detailed statistics view are on the bottom. 
 
 \subsubsection{Street Map View}
-\label{sssec:street_view}
+\label{sssec:c1_street_view}
 
 Similar to AOI Map View, Street Map View is also developed on top of a background map layer that is implemented using Leaflet.js.
 Street views on the street are over-viewed as points with colors that correspond to primary features, i.e., green for $greenery$, light blue for $sky$ and orange for $building$.
 In contrast to AOI Map View, Street Map View presents more details of human-scale urban forms by displaying the corresponding street view images along the two sides of a street.
 The images are evenly selected in the direction of the street heading. 
 In particular, the feature compositions of an image are displayed as a tree map~\cite{shneiderman_1992_tree} when users hover their mouse pointer over the image.
-An example is provided in Fig.~\ref{fig:street_map}(a).
+An example is provided in Fig.~\ref{fig:c1_street_map}(a).
 
 %============================
 
 \subsubsection{Street Statistic View}
-\label{sssec:street_stat_view}
+\label{sssec:c1_street_stat_view}
 
 The design goal for this view is to allow users to quantitatively compare human-scale urban forms from two streets.
 Although we can utilize the same views shown in the AOI Statistic View, our collaborating domain expert $SR$ is not satisfied.
@@ -239,18 +239,18 @@ However, this method was extremely difficult because the rendering space was ful
 	(b) Rotate the street network such that its bounding box fits in the rendering space.
 	(c) Plot themeriver style visualization within the rendering space.
 	(d) Enhance parallel coordinates with street layouts on both sides.}
-	\label{fig:street_statistic_view}
+	\label{fig:c1_street_statistic_view}
 	\vspace{-6mm}
 \end{figure}
 
 \vspace*{2mm}
 \noindent
-\textbf{PCP with Street Layout}. Inspired by~\cite{qu_2007_visual}, we ultimately develop a design of a parallel coordinates enhanced with street layouts (Fig.~\ref{fig:street_statistic_view}(d)).
+\textbf{PCP with Street Layout}. Inspired by~\cite{qu_2007_visual}, we ultimately develop a design of a parallel coordinates enhanced with street layouts (Fig.~\ref{fig:c1_street_statistic_view}(d)).
 We elaborate the construction of this design as follows:
 
 \vspace*{1mm}
 \noindent
-\textit{Bounding Box Construction} (Fig.~\ref{fig:street_statistic_view}(a)).
+\textit{Bounding Box Construction} (Fig.~\ref{fig:c1_street_statistic_view}(a)).
 The first step is to construct a minimum bounding box ($MBB$) of the street layout.
 % , which is represented as lines connecting positions of corresponding street views.
 We find the starting ($A$) and ending ($B$) points, and generate a primary axis pointing from $A$ to $B$.
@@ -258,14 +258,14 @@ $MBB$ is generated as the minimum rectangle that contains all nodes of the stree
 
 \vspace*{1mm}
 \noindent
-\textit{Street Layout Rotation} (Fig.~\ref{fig:street_statistic_view}(b)).
+\textit{Street Layout Rotation} (Fig.~\ref{fig:c1_street_statistic_view}(b)).
 Next, we rotate the street layout such that $MBB$ fits in the rendering space, i.e., $A$ and $B$ lay on the top and bottom (or vice versa) sides of the rendering space, and the rotated $MBB$ lays in the center.
 In the case that $MBB$ is wider than the rendering space, the street layout outside the rendering space is clipped.
 The rotation direction (clockwise or anticlockwise) is determined based on the direction that produces the minimum rotation angle.
 
 \vspace*{1mm}
 \noindent
-\textit{ThemeRiver Plotting} (Fig.~\ref{fig:street_statistic_view}(c)).
+\textit{ThemeRiver Plotting} (Fig.~\ref{fig:c1_street_statistic_view}(c)).
 To fully utilize rendering space, we plot a themeriver-style~\cite{havre_2002_themeriver} visualization to show changes in feature values along a street layout.
 Here, the themeriver is plotted in the vertical instead of the traditionally horizontal direction because the street layout is aligned along the y-axis after rotation.
 Next, given that street views are sampled evenly along the street layout, we map the street views equally onto the y-axis, i.e., y-values of the themeriver plot reflects the relative positions of street views along the street layout.
@@ -277,14 +277,14 @@ To support better feature comparison, our system allows users to reorder feature
 
 \vspace*{1mm}
 \noindent
-\textit{PCP Integration} (Fig.~\ref{fig:street_statistic_view}(d)).
+\textit{PCP Integration} (Fig.~\ref{fig:c1_street_statistic_view}(d)).
 The themeriver plot can be used as a coordinate for the PCP.
 To enable comparison between two streets, we integrate their themeriver plots into a PCP on left and right sides, and the identified features are used as other coordinates.
 Each street view is conveniently presented as a polygonal line, which is colored as red and blue for left and right street views, respectively.
 In addition, we aggregate the feature values via binning techniques on left and right sides of each feature coordinate to facilitate the visual comparison of feature distributions.
 
 \vspace*{1mm}
-Fig.~\ref{fig:street_statistic_view}(d) presents an example Street Statistic View. 
+Fig.~\ref{fig:c1_street_statistic_view}(d) presents an example Street Statistic View.
 A first glimpse at the two themeriver plots, we can find that the left street contains more $greenery$, while on the right street people can see more $sky$.
 This can be found in the distribution comparison on the $greenery$ \& $sky$ coordinates in the middle.
 Besides, we can also find that feature values vary dramatically on the left themeriver plot, showing street views are very different along the left street.
@@ -297,7 +297,7 @@ Besides, we can also find that feature values vary dramatically on the left them
 	\caption{
 	AOI Map View compares spatial distributions of human-scale urban forms in Singapore (left) and Greater London (right).
 	Orange points (buildings) are concentrated around the highlighted center area of Greater London, i.e., City of London.}
-	\label{fig:study_1_spatial}
+	\label{fig:c1_study_1_spatial}
 	% \vspace{-2mm}
 \end{figure}
 
@@ -305,17 +305,17 @@ Besides, we can also find that feature values vary dramatically on the left them
 	\centering
 	\includegraphics[width=\columnwidth]{figure/streetvizor/fig8_study_1/study_1_statistic}
 	\vspace{-7mm}
-	\caption{AOI Statistic View in coordination with Fig.~\ref{fig:study_1_spatial} presents quantitative measurements differences of human-scale urban forms in Singapore (red) and Greater London (blue).}
-	\label{fig:study_1_statistic}
+	\caption{AOI Statistic View in coordination with Fig.~\ref{fig:c1_study_1_spatial} presents quantitative measurements differences of human-scale urban forms in Singapore (red) and Greater London (blue).}
+	\label{fig:c1_study_1_statistic}
 	\vspace{-5mm}
 \end{figure}
 
 
 %==============================================================
 \subsection{User Interactions}
-\label{ssec:user_interaction}
+\label{ssec:c1_user_interaction}
 
-\QM{In addition to basic interactions in each view, StreetVizor also provides a control panel (Fig.~\ref{fig:teaser}(a)) that enables:}
+\QM{In addition to basic interactions in each view, StreetVizor also provides a control panel (Fig.~\ref{fig:c1_teaser}(a)) that enables:}
 
 \begin{itemize}
 
