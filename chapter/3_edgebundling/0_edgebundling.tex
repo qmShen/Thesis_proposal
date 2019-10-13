@@ -1,1 +1,23 @@
-\chapter{Route-Aware Edge Bundling for Visualizing Origin-Destination Trails in Urban Traffic}\label{chap:c1_intro}
+\chapter{Route-Aware Edge Bundling for Visualizing Origin-Destination Trails in Urban Traffic}\label{chap:c2_intro}
+
+Origin-destination(OD) trails describe movements across geographical locations, which can be visualized as direct lines connecting ODs.
+The visualization method, however, causes clutter issues for large amounts of OD trails.
+Edge bundling methods can mitigate the problem, yet bundling OD trails in urban traffic data remains under-explored.
+This work presents a new approach, namely route aware edge bundling (RAEB), specifically designed to fill the gap.
+We identify inconsiderate settings of conventional kernel density estimation edge bundling (KDEEB) when applied to urban traffic data, including non-optimal kernel size and road neglect.
+The limitations are addressed in RAEB by introduction of a comprehensive pipeline comprising preprocessing, bundling and evaluation processes.
+A series of new parameters, together with adaptions of existing ones, are employed in the pipeline.
+Experiments with artificial and real-world traffic data demonstrate advancements of RAEB in various applications, including preservation of road network topology and support of multi-scale exploration.
+
+
+\input{chapter/3_edgebundling/1_Introduction.tex}
+\input{chapter/3_edgebundling/2_relatedwork.tex}
+\input{chapter/3_edgebundling/3_Overview.tex}
+
+\input{chapter/3_edgebundling/4_InputAndPreprocessing.tex}
+\input{chapter/3_edgebundling/5_EdgeBundling.tex}
+
+\input{chapter/3_edgebundling/6_Evaluation.tex}
+\input{chapter/3_edgebundling/7_ExperimentalResults.tex}
+\input{chapter/3_edgebundling/8_Discussion.tex}
+\input{chapter/3_edgebundling/9_Conclusion.tex}

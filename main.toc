@@ -2,9 +2,9 @@
 \contentsline {chapter}{Authorization Page}{\nbi ii}{Doc-Start}% 
 \contentsline {chapter}{Signature Page}{\nbi iii}{Doc-Start}% 
 \contentsline {chapter}{Table of Contents}{\nbi iv}{chapter*.1}% 
-\contentsline {chapter}{List of Figures}{\nbi vi}{chapter*.2}% 
-\contentsline {chapter}{List of Tables}{\nbi viii}{chapter*.3}% 
-\contentsline {chapter}{Abstract}{\nbi ix}{chapter*.3}% 
+\contentsline {chapter}{List of Figures}{\nbi vii}{chapter*.2}% 
+\contentsline {chapter}{List of Tables}{\nbi ix}{chapter*.3}% 
+\contentsline {chapter}{Abstract}{\nbi x}{chapter*.3}% 
 \contentsline {chapter}{{Chapter 1}\hspace {1em}Introduction}{1}{chapter.1}% 
 \contentsline {chapter}{{Chapter 2}\hspace {1em}Visual Exploration of Human-Scale Urban Forms Based on Street Views}{2}{chapter.2}% 
 \contentsline {section}{\numberline {2.1}Introduction}{2}{section.2.1}% 
@@ -38,4 +38,31 @@
 \contentsline {section}{\numberline {2.8}Expert Review}{30}{section.2.8}% 
 \contentsline {section}{\numberline {2.9}Discussion}{32}{section.2.9}% 
 \contentsline {section}{\numberline {2.10}Conclusion and Future Work}{33}{section.2.10}% 
-\contentsline {chapter}{References}{35}{chapter*.8}% 
+\contentsline {chapter}{{Chapter 3}\hspace {1em}Route-Aware Edge Bundling for Visualizing Origin-Destination Trails in Urban Traffic}{35}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Introduction}{35}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Related Work}{37}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Problem Statement and System Overview}{39}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}KDEEB Algorithm}{40}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}Problem Identification}{41}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.3}RAEB Overview}{42}{subsection.3.3.3}% 
+\contentsline {section}{\numberline {3.4}Preprocessing}{43}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}Basic Traffic Concepts}{43}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.4.2}Map Matching}{44}{subsection.3.4.2}% 
+\contentsline {subsection}{\numberline {3.4.3}Hierarchical Route Structure Construction}{45}{subsection.3.4.3}% 
+\contentsline {subsection}{\numberline {3.4.4}Trail Abstraction}{46}{subsection.3.4.4}% 
+\contentsline {section}{\numberline {3.5}Bundling Method}{47}{section.3.5}% 
+\contentsline {subsection}{\numberline {3.5.1}Optimal Kernel Size}{47}{subsection.3.5.1}% 
+\contentsline {subsection}{\numberline {3.5.2}Density Map Generation}{48}{subsection.3.5.2}% 
+\contentsline {section}{\numberline {3.6}Evaluation}{49}{section.3.6}% 
+\contentsline {subsection}{\numberline {3.6.1}Normalized Mutual Information}{49}{subsection.3.6.1}% 
+\contentsline {subsection}{\numberline {3.6.2}Bundle Deviation}{51}{subsection.3.6.2}% 
+\contentsline {section}{\numberline {3.7}Applications}{52}{section.3.7}% 
+\contentsline {subsection}{\numberline {3.7.1}Artificial OD Trails}{52}{subsection.3.7.1}% 
+\contentsline {subsection}{\numberline {3.7.2}New York Taxi Trips}{54}{subsection.3.7.2}% 
+\contentsline {subsection}{\numberline {3.7.3}Shenzhen Taxi Trips}{55}{subsection.3.7.3}% 
+\contentsline {section}{\numberline {3.8}Discussion}{56}{section.3.8}% 
+\contentsline {subsection}{\numberline {3.8.1}Parameters}{56}{subsection.3.8.1}% 
+\contentsline {subsection}{\numberline {3.8.2}Performance}{58}{subsection.3.8.2}% 
+\contentsline {subsection}{\numberline {3.8.3}Applicability and Limitations}{59}{subsection.3.8.3}% 
+\contentsline {section}{\numberline {3.9}Conclusion and future work}{60}{section.3.9}% 
+\contentsline {chapter}{References}{62}{chapter*.8}% 

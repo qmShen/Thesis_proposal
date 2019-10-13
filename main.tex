@@ -6,11 +6,10 @@
 
 \documentclass{ustthesis}
 
-\usepackage{mathpazo,amsmath,amssymb,epsfig,enumerate,bbm,calc,color,ifthen,capt-of} % original was times, but I think it's ugly; we use the same as IEEE CompSoc
+\usepackage{amsmath,epsfig,enumerate,bbm,calc,color,ifthen,capt-of} % original was times, but I think it's ugly; we use the same as IEEE CompSoc
 \usepackage{algorithm}
-\usepackage[noend]{algorithmic}
 \usepackage[center]{subfigure}
-\usepackage{color,graphicx}
+\usepackage{graphicx}
 \newtheorem{proof}{Proof}
 \usepackage{hyperref} % for better viewing experience  -- added by alan
 \usepackage[margin=25mm,textheight=247mm,textwidth=145mm]{geometry}
@@ -32,11 +31,37 @@
 % \usepackage[LFE,LAE]{fontenc}
 % \usepackage[arabic]{babel}
 
+% 1
 \usepackage{enumitem}
 \makeatletter
 \def\BState{\State\hskip-\ALG@thistlm}
 \makeatother
-\usepackage{color}
+
+
+% 2
+%\usepackage{newtxtext }
+%\usepackage{mathptmx}                  % use matching math font
+%\usepackage{times}                     % we use Times as the main font
+\renewcommand*\ttdefault{txtt}         % a nicer typewriter font
+\usepackage{cite}                      
+\usepackage{tabularx, ragged2e}
+\newcolumntype{C}{>{\Centering\arraybackslash}X} % centered "X" column
+
+\usepackage{amsfonts}
+%\usepackage{paralist}
+
+
+\usepackage[noend]{algpseudocode}
+
+\usepackage[utf8]{inputenc}
+
+
+\renewcommand{\algorithmicrequire}{ \textbf{Input:}} %Use Input in the format of Algorithm  
+\renewcommand{\algorithmicensure}{ \textbf{Output:}} %UseOutput in the format of Algorithm 
+\algnewcommand\algorithmicforeach{\textbf{for each}}
+\algdef{S}[FOR]{ForEach}[1]{\algorithmicforeach\ #1\ \algorithmicdo}
+
+%\usepackage[options ]{algorithm2e}
 
 \newcommand{\red}[1]{#1}
 \newcommand{\tab}[1]{\hspace{3mm}}

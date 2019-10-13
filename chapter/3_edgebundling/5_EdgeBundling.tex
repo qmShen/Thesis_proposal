@@ -1,19 +1,15 @@
 \section{Bundling Method}
 \label{sec:bundling}
-
-RAEB adapts KDEEB bundling algorithm~\cite{hurter2012graph} to better reveal topology of urban traffic.
-This sections presents amendments employed by RAEB, including kernel size measurement and density map generation.
-
-\begin{algorithm}[b]
+\begin{algorithm}[h]
 	\caption{KernelSizeMeasurement}\label{al:kernel_size_measurement}
 	\begin{algorithmic}[1]
 		\Require Top \textit{N} sorted routes as polyline list $\textbf{P} = \{P_1, ..., P_N\}$
 		\Ensure Initial kernel size $p_r$		
 		\State Let $d$[ ][ ] denote distance between polyline pairs
 		\For {i = 1 to $N$}
-			\For {j = i + 1 to $N$}
-			\State $d$[i][j] = $d$[j][i] = DiscreteFrechetDistance($P_i$, $P_j$)
-			\EndFor
+		\For {j = i + 1 to $N$}
+		\State $d$[i][j] = $d$[j][i] = DiscreteFrechetDistance($P_i$, $P_j$)
+		\EndFor
 		\EndFor
 		\State Let \textbf{C} denote a list of polyline clusters;
 		\State \textbf{C} = $DBSCAN(\textbf{P}, eps, minNum)$;
@@ -21,14 +17,20 @@ This sections presents amendments employed by RAEB, including kernel size measur
 		\State Initialize $d_{geo} = 0$;
 		\State Let $count = |C_{max}| \times (|C_{max}| - 1)$;
 		\ForEach {$P_i \in C_{max}$}
-			\ForEach {$P_j \in C_{max}$ \&\& $P_i \neq P_j$}
-				\State $d_{geo}$ = $d_{geo}$ + $d$[i][j] / count;
-			\EndFor
+		\ForEach {$P_j \in C_{max}$ \&\& $P_i \neq P_j$}
+		\State $d_{geo}$ = $d_{geo}$ + $d$[i][j] / count;
+		\EndFor
 		\EndFor
 		\State $p_r$ = ToDrawingSpace($d_{geo}$ / 2); \\
 		\Return $p_r$
 	\end{algorithmic}
 \end{algorithm}
+
+
+RAEB adapts KDEEB bundling algorithm~\cite{hurter2012graph} to better reveal topology of urban traffic.
+This sections presents amendments employed by RAEB, including kernel size measurement and density map generation.
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

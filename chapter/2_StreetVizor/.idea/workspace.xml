@@ -2,16 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc91f8c8-e63b-459b-9989-5630579c6d49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/0_streetvizor.tex" beforeDir="false" afterPath="$PROJECT_DIR$/0_streetvizor.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_relatedwork.tex" beforeDir="false" afterPath="$PROJECT_DIR$/2_relatedwork.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_BackgroundAndTask.tex" beforeDir="false" afterPath="$PROJECT_DIR$/3_BackgroundAndTask.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_DesignAndSystemOverview.tex" beforeDir="false" afterPath="$PROJECT_DIR$/4_DesignAndSystemOverview.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_DataProcess.tex" beforeDir="false" afterPath="$PROJECT_DIR$/5_DataProcess.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_VisualizationDesign.tex" beforeDir="false" afterPath="$PROJECT_DIR$/6_VisualizationDesign.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_CaseStudies.tex" beforeDir="false" afterPath="$PROJECT_DIR$/7_CaseStudies.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_ExpertReview.tex" beforeDir="false" afterPath="$PROJECT_DIR$/8_ExpertReview.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9_Discussion.tex" beforeDir="false" afterPath="$PROJECT_DIR$/9_Discussion.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/Thesis_proposal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_edgebundling/0_edgebundling.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../3_edgebundling/0_edgebundling.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_edgebundling/2_Relatedwork.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../3_edgebundling/2_Relatedwork.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_edgebundling/3_Overview.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../3_edgebundling/3_Overview.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_edgebundling/4_InputAndPreprocessing.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../3_edgebundling/4_InputAndPreprocessing.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_edgebundling/5_EdgeBundling.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../3_edgebundling/5_EdgeBundling.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_edgebundling/6_Evaluation.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../3_edgebundling/6_Evaluation.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_edgebundling/7_ExperimentalResults.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../3_edgebundling/7_ExperimentalResults.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_edgebundling/8_Discussion.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../3_edgebundling/8_Discussion.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../main.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main.bbl" beforeDir="false" afterPath="$PROJECT_DIR$/../../main.bbl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main.blg" beforeDir="false" afterPath="$PROJECT_DIR$/../../main.blg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main.lof" beforeDir="false" afterPath="$PROJECT_DIR$/../../main.lof" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../main.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main.lot" beforeDir="false" afterPath="$PROJECT_DIR$/../../main.lot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../main.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../main.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../main.synctex.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main.toc" beforeDir="false" afterPath="$PROJECT_DIR$/../../main.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ref.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../../ref.bib" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,94 +31,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1_Introduction.tex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2_relatedwork.tex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3_BackgroundAndTask.tex">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4_DesignAndSystemOverview.tex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5_DataProcess.tex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/6_VisualizationDesign.tex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="312" lean-forward="true" selection-start-line="312" selection-end-line="312" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7_CaseStudies.tex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="63" column="10" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/9_Discussion.tex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10_conclusion.tex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/0_streetvizor.tex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="92" selection-start-column="92" selection-end-column="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -115,10 +39,10 @@
       <find>study_1_spatial</find>
       <find>study_1_statistic</find>
       <find>ref</find>
-      <find>label</find>
       <find>c1_</find>
       <find>\label</find>
       <find>\ref</find>
+      <find>label</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Qiaomu\Desktop\thesis proposal\thesis_Job\thesis\output\Thesis_proposal\chapter\2_StreetVizor</dir>
@@ -169,8 +93,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -214,16 +139,15 @@
       <option name="presentableId" value="Default" />
       <updated>1570951279025</updated>
       <workItem from="1570951303463" duration="90000" />
-      <workItem from="1570951422636" duration="1354000" />
+      <workItem from="1570951422636" duration="2134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1444000" />
+    <option name="totallyTimeSpent" value="2224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="975" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2525556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -256,34 +180,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7_CaseStudies.tex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="63" column="10" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9_Discussion.tex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10_conclusion.tex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0_streetvizor.tex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="92" selection-start-column="92" selection-end-column="92" />
         </state>
       </provider>
     </entry>
@@ -320,8 +216,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/6_VisualizationDesign.tex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="312" lean-forward="true" selection-start-line="312" selection-end-line="312" />
+        <state relative-caret-position="210">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7_CaseStudies.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="63" column="10" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_Discussion.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_conclusion.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0_streetvizor.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="92" selection-start-column="92" selection-end-column="92" />
         </state>
       </provider>
     </entry>

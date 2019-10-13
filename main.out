@@ -34,4 +34,31 @@
 \BOOKMARK [1][-]{section.2.8}{Expert Review}{chapter.2}% 34
 \BOOKMARK [1][-]{section.2.9}{Discussion}{chapter.2}% 35
 \BOOKMARK [1][-]{section.2.10}{Conclusion and Future Work}{chapter.2}% 36
-\BOOKMARK [0][-]{chapter*.8}{References}{}% 37
+\BOOKMARK [0][-]{chapter.3}{Chapter 3 Route-Aware Edge Bundling for Visualizing Origin-Destination Trails in Urban Traffic}{}% 37
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 38
+\BOOKMARK [1][-]{section.3.2}{Related Work}{chapter.3}% 39
+\BOOKMARK [1][-]{section.3.3}{Problem Statement and System Overview}{chapter.3}% 40
+\BOOKMARK [2][-]{subsection.3.3.1}{KDEEB Algorithm}{section.3.3}% 41
+\BOOKMARK [2][-]{subsection.3.3.2}{Problem Identification}{section.3.3}% 42
+\BOOKMARK [2][-]{subsection.3.3.3}{RAEB Overview}{section.3.3}% 43
+\BOOKMARK [1][-]{section.3.4}{Preprocessing}{chapter.3}% 44
+\BOOKMARK [2][-]{subsection.3.4.1}{Basic Traffic Concepts}{section.3.4}% 45
+\BOOKMARK [2][-]{subsection.3.4.2}{Map Matching}{section.3.4}% 46
+\BOOKMARK [2][-]{subsection.3.4.3}{Hierarchical Route Structure Construction}{section.3.4}% 47
+\BOOKMARK [2][-]{subsection.3.4.4}{Trail Abstraction}{section.3.4}% 48
+\BOOKMARK [1][-]{section.3.5}{Bundling Method}{chapter.3}% 49
+\BOOKMARK [2][-]{subsection.3.5.1}{Optimal Kernel Size}{section.3.5}% 50
+\BOOKMARK [2][-]{subsection.3.5.2}{Density Map Generation}{section.3.5}% 51
+\BOOKMARK [1][-]{section.3.6}{Evaluation}{chapter.3}% 52
+\BOOKMARK [2][-]{subsection.3.6.1}{Normalized Mutual Information}{section.3.6}% 53
+\BOOKMARK [2][-]{subsection.3.6.2}{Bundle Deviation}{section.3.6}% 54
+\BOOKMARK [1][-]{section.3.7}{Applications}{chapter.3}% 55
+\BOOKMARK [2][-]{subsection.3.7.1}{Artificial OD Trails}{section.3.7}% 56
+\BOOKMARK [2][-]{subsection.3.7.2}{New York Taxi Trips}{section.3.7}% 57
+\BOOKMARK [2][-]{subsection.3.7.3}{Shenzhen Taxi Trips}{section.3.7}% 58
+\BOOKMARK [1][-]{section.3.8}{Discussion}{chapter.3}% 59
+\BOOKMARK [2][-]{subsection.3.8.1}{Parameters}{section.3.8}% 60
+\BOOKMARK [2][-]{subsection.3.8.2}{Performance}{section.3.8}% 61
+\BOOKMARK [2][-]{subsection.3.8.3}{Applicability and Limitations}{section.3.8}% 62
+\BOOKMARK [1][-]{section.3.9}{Conclusion and future work}{chapter.3}% 63
+\BOOKMARK [0][-]{chapter*.8}{References}{}% 64
