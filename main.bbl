@@ -17,12 +17,27 @@ Vijay Badrinarayanan, Alex Kendall, and Roberto Cipolla.
   image segmentation.
 \newblock {\em arXiv preprint}, abs/1511.00561, 2015.
 
+\bibitem{byron_2008_stacked}
+Lee Byron and Martin Wattenberg.
+\newblock Stacked graphs -- geometry {\&} aesthetics.
+\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 14(6):1245 -- 1252, 2008.
+
+\bibitem{chen_2014_visual}
+H.~Chen, W.~Chen, H.~Mei, Z.~Liu, K.~Zhou, W.~Chen, W.~Gu, and K.-L. Ma.
+\newblock Visual abstraction and exploration of multi-class scatterplots.
+\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 20(12):1683--1692, 2014.
+
 \bibitem{chen_2015_interactive}
 Siming Chen, Xiaoru Yuan, Zhenhuang Wang, Cong Guo, Jie Liang, Zuchao Wang,
   Xiaolong Zhang, and Jiawan Zhang.
 \newblock Interactive visual discovering of movement patterns from sparsely
   sampled geo-tagged social media data.
 \newblock {\em IEEE Trans. Vis. Comput. Graph.}, 22(1):270 -- 279, 2016.
+
+\bibitem{comaniciu_2002_meanshift}
+Dorin Comaniciu and Peter Meer.
+\newblock Mean shift: A robust approach toward feature space analysis.
+\newblock {\em IEEE Trans. Pattern Anal. Mach. Intell.}, 24(5):603--619, 2002.
 
 \bibitem{doersch2015makes}
 Carl Doersch, Saurabh Singh, Abhinav Gupta, Josef Sivic, and Alexei~A Efros.
@@ -75,6 +90,12 @@ Google.
 \newblock https://developers.google.com/maps/documentation/streetview/.
 \newblock Accessed: 2017-03-20.
 
+\bibitem{havre_2002_themeriver}
+Susan Havre, Elizabeth Hetzler, Paul Whitney, and Lucy Nowell.
+\newblock {ThemeRiver}: Visualizing thematic changes in large document
+  collections.
+\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 8(1):9--20, 2002.
+
 \bibitem{heinrich_2012_state}
 Julian Heinrich and Daniel Weiskopf.
 \newblock State of the art of parallel coordinates.
@@ -92,12 +113,29 @@ Jane Jacobs.
 \newblock {\em The Life and Death of Great American Cities}.
 \newblock Random House, New York, 1961.
 
+\bibitem{jiang_2014_dose}
+Bin Jiang, Chun-Yen Chang, and William~C. Sullivan.
+\newblock A dose of nature: Tree cover, stress reduction, and gender
+  differences.
+\newblock {\em Landsc. Urban Plan.}, 132:26--36, 2014.
+
 \bibitem{li_2015_accessing}
 Xiaojiang Li, Chuanrong Zhang, Weidong Li, Robert Ricard, Qingyan Meng, and
   Weixing Zhang.
 \newblock Assessing street-level urban greenery using {Google} street view and
   a modified green view index.
 \newblock {\em Urban For. Urban Gree.}, 14(3):675--685, 2015.
+
+\bibitem{lins_2013_nanocubes}
+L.~Lins, J.~T. Klosowski, and C.~Scheidegger.
+\newblock Nanocubes for real-time exploration of spatiotemporal datasets.
+\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 19(12):2456--2465, 2013.
+
+\bibitem{liu_2017_smartAdP}
+D.~Liu, D.~Weng, Y.~Li, J.~Bao, Y.~Zheng, H.~Qu, and Y.~Wu.
+\newblock {SmartAdP}: Visual analytics of large-scale taxi trajectories for
+  selecting billboard locations.
+\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 23(1):1--10, 2017.
 
 \bibitem{liu_2015_understanding}
 Xingjian Liu, Yan Song, Kang Wu, Jianghao Wang, Dong Li, and Ying Long.
@@ -123,11 +161,24 @@ Nikhil Naik, Jade Philipoom, Ramesh Raskar, and Cear Hidalgo.
 \newblock In {\em Proc. IEEE Conf. Comput. Vision and Pattern Recognition
   Workshops}, pages 793--799, 2014.
 
+\bibitem{osm_api}
+OpenStreetMap.
+\newblock {OSM Wiki}.
+\newblock http://wiki.openstreetmap.org/wiki/Main\_Page.
+\newblock Accessed: 2017-03-20.
+
 \bibitem{ortner_2016_vis-a-ware}
 T.~Ortner, J.~Sorger, H.~Steinlechner, G.~Hesina, H.~Piringer, and E.~Groeller.
 \newblock {Vis-A-Ware}: Integrating spatial and non-spatial visualization for
   visibility-aware urban planning.
 \newblock {\em IEEE Trans. Vis. Comput. Graph.}, 23(2):1139 -- 1151, 2016.
+
+\bibitem{scikit-learn}
+F.~Pedregosa, G.~Varoquaux, A.~Gramfort, V.~Michel, B.~Thirion, O.~Grisel,
+  M.~Blondel, P.~Prettenhofer, R.~Weiss, V.~Dubourg, J.~Vanderplas, A.~Passos,
+  D.~Cournapeau, M.~Brucher, M.~Perrot, and E.~Duchesnay.
+\newblock Scikit-learn: Machine learning in {P}ython.
+\newblock {\em J. Mach. Learn. Res.}, 12:2825--2830, 2011.
 
 \bibitem{qu_2007_visual}
 Huamin Qu, Wing-Yi Chan, Anbang Xu, Kai-Lun Chung, Kai-Hon Lau, and Ping Guo.
@@ -139,6 +190,23 @@ Andrew~G Rundle, Michael~DM Bader, Catherine~A Richards, Kathryn~M Neckerman,
   and Julien~O Teitler.
 \newblock Using {Google} street view to audit neighborhood environments.
 \newblock {\em Am. J. Prev. Med.}, 40(1):94--100, 2011.
+
+\bibitem{scheepens_2011_composite}
+Roeland Scheepens, Niels Willems, Huub van~de Wetering, Gennady Andrienko,
+  Natalia Andrienko, and Jarke~J. van Wijk.
+\newblock Composite density maps for multivariate trajectories.
+\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 17(12):2518--2527, 2011.
+
+\bibitem{shneiderman_1992_tree}
+Ben Shneiderman.
+\newblock Tree visualization with {Tree-maps}: 2-d space-filling approach.
+\newblock {\em ACM Trans. Graph.}, 11(1):92--99, 1992.
+
+\bibitem{shneiderman1996eyes}
+Ben Shneiderman.
+\newblock The eyes have it: A task by data type taxonomy for information
+  visualizations.
+\newblock In {\em Proc. IEEE Symp. Visual Languages}, pages 336--343, 1996.
 
 \bibitem{sun_2013_survey}
 Guodao Sun, Yingcai Wu, Ronghua Liang, and Shixia Liu.
@@ -157,6 +225,12 @@ C.~A. Vanegas, D.~G. Aliaga, B.~Benes, and P.~Waddell.
 \newblock Visualization of simulated urban spaces: Inferring parameterized
   generation of streets, parcels, and aerial imagery.
 \newblock {\em IEEE Trans. Vis. Comput. Graph.}, 15(3):424--435, 2009.
+
+\bibitem{wang_2017_gaussian}
+Z.~Wang, N.~Ferreira, Y.~Wei, A.~S. Bhaskar, and C.~Scheidegger.
+\newblock Gaussian cubes: Real-time modeling for visual exploration of large
+  multidimensional datasets.
+\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 23(1):671 -- 680, 2017.
 
 \bibitem{wang_2013_visual}
 Zuchao Wang, Min Lu, Xiaoru Yuan, Junping Zhang, and Huub van~de Wetering.
