@@ -1,0 +1,20 @@
+\addvspace {1pt}
+\addvspace {1pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The many-core architecture model for GPUs}}{4}{figure.2.1}% 
+\addvspace {1pt}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The workflow of Mars on the GPU. }}{11}{figure.3.1}% 
+\addvspace {1pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The workflow of GPU/CPU co-processing. }}{20}{figure.4.1}% 
+\addvspace {1pt}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces MarsHadoop. Some Map and Reduce tasks are performed on the GPU, and others are on the CPU. }}{22}{figure.5.1}% 
+\addvspace {1pt}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Performance evaluation for MarsCPU and MarsCUDA on the micro-benchmark}}{32}{figure.6.1}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Performance speedup on MarsCPU over Phoenix}}}{32}{figure.6.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Performance speedup on MarsCUDA over MarsCPU (The entire MapReduce)}}}{32}{figure.6.1}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Performance speedup on MarsCUDA over MarsCPU (On large dataset, Map \& Reduce stages only)}}}{32}{figure.6.1}% 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Time breakdown of MarsCUDA and MarsCPU on the micro-benchmark}}{33}{figure.6.2}% 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Varying clock rates on GTX 280.}}{33}{figure.6.3}% 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces The performance slowdown of Mars over native implementations.}}{34}{figure.6.4}% 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Performance speedup of GPU/CPU co-processing module over MarsCUDA, MarsCPU, and Phoenix.}}{34}{figure.6.5}% 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Matrix Multiplication on MarsHadoop}}{35}{figure.6.6}% 
+\addvspace {1pt}

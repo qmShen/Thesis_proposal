@@ -1,0 +1,55 @@
+\section{Introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Human-scale urban form describes fine-scale characteristics of urban environments that can be directly seen, touched, and experienced by a city's residents in their daily lives~\cite{long_2016_human-scale}.
+It is typically measured in high-resolution by sight and hearing, i.e., from several to tens of meters.
+Compared with a city's scale, which is usually measured in kilometers, this scale is human-oriented.
+ % and allows people to interact with surrounding environments.
+% For instance, views on two neighboring streets can be totally different, even though the streets are very close to each other.
+As humans pay more attention to interactive surroundings~\cite{gehl_1971_life}, understanding human-scale urban forms is essential for urban planners in designing high-quality urban spaces. 
+However, traditional urbanism theories, such as small-scale surveys and mapping, are hard to provide in-depth guidance for effective urban planning and design at this fine scale.
+
+Given the advancement of various sensing technologies, e.g., cameras and GPS devices, we can now quantitatively measure human-scale urban forms by analyzing big urban data.
+In particular, services, such as Google Street View (GSV)~\cite{anguelov2010google}, provide detailed panoramic views of urban space from different geographic positions
+These panoramic views can be utilized to measure various features, including greenery coverage and sky visibility, of human-scale urban forms visible to human eyes.
+Some pioneering studies have shown that neighborhood environment~\cite{rundle_2011_using}, street-level greenery~\cite{li_2015_accessing}, and even street safety~\cite{Naik_2014_streetscore} can be precisely assessed from these views.
+ % through analyzing GSV images.
+
+However, GSV image exploration mainly focuses on either a particular feature (e.g., greenery coverage~\cite{li_2015_accessing}) or a small area (e.g., neighborhood~\cite{rundle_2011_using} and street~\cite{Naik_2014_streetscore, li_2015_accessing}).
+This deficiency limits its applicability in urban planning, where planners need to 
+1) quantitatively measure multivariate features of urban forms, including not only greenery coverage, but also sky visibility, and vehicle density~\cite{long_2017_how}; 
+2) systematically explore urban forms in areas-of-interest (AOIs) at multiple scales, i.e., from small (e.g., streets) to mid (e.g., districts) to large scales (e.g., cities)~\cite{liu_2015_understanding}.
+In addition, direct means for the comparison of urban forms in two AOIs is desirable to allow planners to utilize information for the quick identification and improvement of factors that affect the quality of urban space.
+
+A visual analytics tool is necessary to fulfill these requirements because it can integrate powerful computing capabilities to quantitatively measure multivariate features, with interactive visual interfaces to systematically explore and compare features in AOIs on demand~\cite{sun_2013_survey}.
+Developing such a tool requires considerable effort because of the following reasons:
+first, as cities comprise vast amounts of street views, an efficient feature extraction algorithm is required to automatically uncover human-scale urban forms.
+Second, the development of a tool for the visual comparison of multivariate features in two AOIs requires an effective visual design that tackles the challenges of spatial, multivariate, and comparative data visualizations.
+
+In this paper, we introduce StreetVizor, a visual analytics system for the exploration of human-scale urban forms based on GSV images.
+We develop the system in an iterative design process: specific analysis requirements are described by a collaborating urban planner, and the designs are evaluated and refined against requirements.  
+To present information in concisely, StreetVizor combines a set of well-established visualization techniques, including coordinated multiple views (CMVs) and scatterplot matrix, with a new design of parallel coordinates that integrate street layout information.
+Our system utilizes advanced clustering models to enable the efficient exploration of street view patterns.
+We apply StreetVizor in real-world datasets containing $\sim$1.7 million of GSV images of four cities: Singapore, Hong Kong, Greater London, and New York City, and demonstrate its effectiveness through interviews with domain experts. 
+
+\vspace*{2mm}
+The main contributions of this work include:
+
+\begin{itemize}
+	
+\vspace*{-1.5mm}
+\item
+A fully automatic approach measuring human-scale urban forms by applying deep learning techniques on GSV images;
+	
+\vspace*{-1.5mm}
+\item
+A visual comparison framework for exploring human-scale urban forms on city-, region-, and street-scales;
+	
+\vspace*{-1.5mm}
+\item
+A novel visual design of parallel coordinates that integrate street layout information;
+	
+\vspace*{-1.5mm}
+\item
+Interesting insights revealed from case studies and expert interviews, such as the negative correlation between $greenery$ and $building$ features, and the differences in street views of two cities.
+		
+\end{itemize}
