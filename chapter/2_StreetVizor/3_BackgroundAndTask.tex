@@ -1,0 +1,90 @@
+\section{Background and Analytical Tasks}
+In this section, we introduce our research background and summarize the desired analytical tasks.
+
+\subsection{Background}
+\label{sec:bg}
+
+Although the concept of human-scale urban form has only been recently defined~\cite{long_2016_human-scale}, its discussions in the context of urban planning has a long history that can be traced back to the 1960s.
+A series of pioneering studies~\cite{jacobs_1961_life, gehl_1971_life} claimed the positive effects of understanding human-scale urban forms in designing high-quality urban space.
+Visible human-scale urban forms are particularly important as human beings tend to pay most attentions to surroundings that can be directly seen~\cite{gehl_1971_life}. 
+
+Over the past 10 months, we closely worked with a senior researcher ($SR$) in the field of evidence-based urban design $-$ an emerging research topic in urban planning and design.
+$SR$ pointed out that though urban planners have begun to realize the importance and usefulness of street views in analyzing visible urban forms (e.g.,~\cite{rundle_2011_using, li_2015_accessing, Naik_2014_streetscore}), systematic and efficient methods that can facilitate exploration remain lacking.
+Hence, $SR$ proposed the development of an efficient visual analytics tool for exploring human-scale urban forms based on GSV images.
+
+To better understand the problem domain, we conducted several rounds of structured interviews with $SR$.
+The main analysis criteria are summarized below:
+
+\vspace*{-2mm}
+\begin{itemize}
+
+\item
+\textbf{Multivariate Features.}
+As images contain rich information on the urban environment, the first step is to identify the urban forms for analysis.
+Here, we identify five key features that can reflect the quality and livability of street spaces~\cite{jacobs_1961_life, gehl_1971_life}, i.e., $greenery$, $sky$, $building$, $road$, and $vehicle$ features.
+$Greenery$ reflects the pleasing greenery view of a street; 
+$sky$ and $building$ are correlated with the sense of street closure negatively and positively, respectively; 
+and increments in $road$ and $vehicle$ ratios decrease the willingness of people to walk and street attractiveness.
+
+\vspace*{-1mm}
+\item
+\textbf{Street View Crawling.}
+To reveal the surrounding scenes of a street space, street views have to be crawled appropriately: successive images should reflect the continuous change in surrounding scenes.
+Hence, the distance between two successive views should not exceed a limit that produces discontinuous scenes; meanwhile, it should not be too small, which will cause computing overload. 
+After experimenting with several options, we find 50 meters is a suitable value for the distance between two successive views.
+
+\vspace*{-1mm}
+\item
+\textbf{Street View Directions.}
+Although GSV~\cite{gsv_api} provides 360-degree panorama imagery, only the front and back images in the directions of street headings at sampling locations are required. 
+Side views are not utilized because of the following considerations: 
+First, side views mainly present building facades and street sides and thus cannot correctly reflect other key features of street space, e.g., $road$.
+Second, side views are partially contained by the front and back images at nearby sampling locations. 
+
+\end{itemize}
+
+\vspace*{-1mm}
+To evaluate the effectiveness of our approach, we first experiment with a few representative cities.
+$SR$ suggested Hong Kong, Singapore, Greater London, and New York City:
+Hong Kong and Singapore are dense cities with high-rise buildings in Asia.
+Greater London and New York City are well-planned cities in Europe and the US.
+
+%===============================================
+\subsection{Analytical Tasks}
+\label{ssec:tasks}
+
+After identifying the analysis criteria, $SR$ further raised a list of questions for our system to address, including:
+\textit{How are the identified features distributed in an AOI?
+What are the feature differences between two AOIs?
+What are the exact views that people can see on a street?
+Are there any representative views?}
+
+Based on these questions, we compile a list of analytical tasks:
+
+\vspace*{-2mm}
+% \begin{enumerate}[label={T.\arabic*:}]
+\begin{itemize}
+
+\item \textbf{\QM{T1. Efficient Multi-scale Exploration:}}
+Human-scale urban forms are associated with street views at different locations that can be organized on city-, region- and street-scales.
+Planners first need an intuitive overview of the identified feature distributions within a city or a region (T.1.1).
+Next, planners need to explore the details of the urban forms, such as the exact street views, at street level (T.1.2).
+Effective interactions are required to assist users in navigating across different scales.
+
+\vspace*{-1.5mm}
+\item \textbf{T2. Quantitative Measurements:}
+% Traditionally, planners usually evaluate a street space qualitatively based on their preferences and experiences on the street views.
+% This can easily lead to inconsistent evaluation due to the differences among planners.
+$SR$ emphasized the importance of quantitative measurements to evidence-based urban design.
+Here, given that an AOI/street can contain vast amounts of street views, planners should analyze the statistics of identified features, including correlations between features, distributions, and standard deviations (T.2.1).
+Filtering street views against the values of a specific feature is also important (T.2.2).
+
+\vspace*{-1.5mm}
+\item \textbf{T3. Effective Ranking and Comparison:}
+% The capability to compare human-scale urban forms in two AOIs/streets is important, as planners can leverage their domain knowledge to gain deep insights into factors affecting the quality of street space.
+To help planners quickly narrow down the exploration scope, features among multiple AOIs/streets should be effectively ranked (T.3.1).
+Areas/streets with certain features of high values can be easily discovered for further exploration.
+After planners select two AOIs/streets, they need to compare the differences in spatial distributions (T.3.2) and the quantitative measurements (T.3.3) of the urban forms. 
+% \qm{In addition, effective ranking methods(T.3.3) for the multi features is also helpful for the planers to explore multiple AOIs/streets and narrow down the research scope.}  
+
+\end{itemize}
