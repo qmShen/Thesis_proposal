@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.9)  13 OCT 2019 13:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.9)  13 OCT 2019 13:48
 entering extended mode
 **./main.tex
 (main.tex
@@ -697,7 +697,7 @@ y se-lect-ing two AOIs/streets
  []
 
 ) (chapter/2_StreetVizor/5_DataProcess.tex
-<figure/streetvizor/fig3_data_preprocess/data_process.pdf, id=476, 1379.1525pt 
+<figure/streetvizor/fig3_data_preprocess/data_process.pdf, id=479, 1379.1525pt 
 x 303.1325pt>
 File: figure/streetvizor/fig3_data_preprocess/data_process.pdf Graphic file (ty
 pe pdf)
@@ -706,7 +706,7 @@ Package pdftex.def Info: figure/streetvizor/fig3_data_preprocess/data_process.p
 df  used on input line 7.
 (pdftex.def)             Requested size: 472.03123pt x 103.74825pt.
  [11 <./figure/streetvizor/fig3_data_preprocess/data_process.pdf>] [12]
-<figure/streetvizor/fig4_data_model/data_model.pdf, id=509, 322.20375pt x 174.9
+<figure/streetvizor/fig4_data_model/data_model.pdf, id=512, 322.20375pt x 174.9
 8674pt>
 File: figure/streetvizor/fig4_data_model/data_model.pdf Graphic file (type pdf)
 
@@ -716,7 +716,7 @@ d on input line 95.
 (pdftex.def)             Requested size: 377.62642pt x 205.0941pt.
 )
 (chapter/2_StreetVizor/6_VisualizationDesign.tex [13]
-<figure/streetvizor/fig1_teaser/teaser.pdf, id=517, 976.3145pt x 288.15958pt>
+<figure/streetvizor/fig1_teaser/teaser.pdf, id=520, 976.3145pt x 288.15958pt>
 File: figure/streetvizor/fig1_teaser/teaser.pdf Graphic file (type pdf)
 <use figure/streetvizor/fig1_teaser/teaser.pdf>
 Package pdftex.def Info: figure/streetvizor/fig1_teaser/teaser.pdf  used on inp
@@ -724,7 +724,7 @@ ut line 11.
 (pdftex.def)             Requested size: 424.82523pt x 125.38797pt.
  [14 <./figure/streetvizor/fig4_data_model/data_model.pdf>] [15 <./figure/stree
 tvizor/fig1_teaser/teaser.pdf>] [16]
-<figure/streetvizor/fig5_statistic_view/statistic_view.pdf, id=583, 768.27928pt
+<figure/streetvizor/fig5_statistic_view/statistic_view.pdf, id=586, 768.27928pt
  x 421.59105pt>
 File: figure/streetvizor/fig5_statistic_view/statistic_view.pdf Graphic file (t
 ype pdf)
@@ -743,7 +743,7 @@ n/12 ,  \U/zeur/m/n/12 FV[]\OT1/ppl/m/n/12 ,  \U/zeur/m/n/12 FV[]\OT1/ppl/m/n/1
  []
 
 [18]
-<figure/streetvizor/fig6_street_map_view/street_map_view.pdf, id=4810, 781.4354
+<figure/streetvizor/fig6_street_map_view/street_map_view.pdf, id=4813, 781.4354
 2pt x 346.27669pt>
 File: figure/streetvizor/fig6_street_map_view/street_map_view.pdf Graphic file 
 (type pdf)
@@ -752,7 +752,7 @@ Package pdftex.def Info: figure/streetvizor/fig6_street_map_view/street_map_vie
 w.pdf  used on input line 193.
 (pdftex.def)             Requested size: 424.82523pt x 188.25471pt.
  [19] [20 <./figure/streetvizor/fig6_street_map_view/street_map_view.pdf>]
-<figure/streetvizor/fig7_street_model/street_pcp.pdf, id=4838, 374.0645pt x 322
+<figure/streetvizor/fig7_street_model/street_pcp.pdf, id=4841, 374.0645pt x 322
 .70563pt>
 File: figure/streetvizor/fig7_street_model/street_pcp.pdf Graphic file (type pd
 f)
@@ -762,7 +762,7 @@ sed on input line 235.
 (pdftex.def)             Requested size: 424.82523pt x 366.49472pt.
 
 [21] [22 <./figure/streetvizor/fig7_street_model/street_pcp.pdf>]
-<figure/streetvizor/fig8_study_1/study_1_spatial.pdf, id=4903, 1037.26523pt x 3
+<figure/streetvizor/fig8_study_1/study_1_spatial.pdf, id=4906, 1037.26523pt x 3
 84.49448pt>
 File: figure/streetvizor/fig8_study_1/study_1_spatial.pdf Graphic file (type pd
 f)
@@ -770,7 +770,7 @@ f)
 Package pdftex.def Info: figure/streetvizor/fig8_study_1/study_1_spatial.pdf  u
 sed on input line 295.
 (pdftex.def)             Requested size: 448.42822pt x 166.22116pt.
-<figure/streetvizor/fig8_study_1/study_1_statistic.pdf, id=4904, 1239.63126pt x
+<figure/streetvizor/fig8_study_1/study_1_statistic.pdf, id=4907, 1239.63126pt x
  499.8675pt>
 File: figure/streetvizor/fig8_study_1/study_1_statistic.pdf Graphic file (type 
 pdf)
@@ -786,7 +786,7 @@ s fil-ter-ing human-scale ur-ban forms against
 
 [24 <./figure/streetvizor/fig8_study_1/study_1_statistic.pdf>])
 (chapter/2_StreetVizor/7_CaseStudies.tex
-<figure/streetvizor/fig9_study_2/region-functionality.png, id=11883, 1706.375pt
+<figure/streetvizor/fig9_study_2/region-functionality.png, id=11886, 1706.375pt
  x 982.67125pt>
 File: figure/streetvizor/fig9_study_2/region-functionality.png Graphic file (ty
 pe png)
@@ -796,7 +796,7 @@ ng  used on input line 8.
 (pdftex.def)             Requested size: 462.5886pt x 266.38937pt.
  [25 <./figure/streetvizor/fig9_study_2/region-functionality.png (PNG copy)>] [
 26]
-<figure/streetvizor/fig9_study_2/study_2_2.pdf, id=11901, 788.50383pt x 454.583
+<figure/streetvizor/fig9_study_2/study_2_2.pdf, id=11904, 788.50383pt x 454.583
 33pt>
 File: figure/streetvizor/fig9_study_2/study_2_2.pdf Graphic file (type pdf)
 <use figure/streetvizor/fig9_study_2/study_2_2.pdf>
@@ -804,7 +804,7 @@ Package pdftex.def Info: figure/streetvizor/fig9_study_2/study_2_2.pdf  used on
  input line 61.
 (pdftex.def)             Requested size: 472.03123pt x 272.12782pt.
  [27 <./figure/streetvizor/fig9_study_2/study_2_2.pdf>] [28]
-<figure/streetvizor/fig10_study_3/study_3.pdf, id=18294, 718.685pt x 619.0116pt
+<figure/streetvizor/fig10_study_3/study_3.pdf, id=18297, 718.685pt x 619.0116pt
 >
 File: figure/streetvizor/fig10_study_3/study_3.pdf Graphic file (type pdf)
 <use figure/streetvizor/fig10_study_3/study_3.pdf>
@@ -840,8 +840,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 242.
  ) 
 Here is how much of TeX's memory you used:
- 8640 strings out of 492452
- 127376 string characters out of 3129805
+ 8643 strings out of 492452
+ 127394 string characters out of 3129805
  226607 words of memory out of 3000000
  12625 multiletter control sequences out of 15000+200000
  26494 words of font info for 65 fonts, out of 3000000 for 9000
@@ -855,9 +855,9 @@ public/amsfonts/euler/eurm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/euler/eusm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palati
 no/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (48 pages, 20991122 bytes).
+Output written on main.pdf (48 pages, 20991293 bytes).
 PDF statistics:
- 18433 PDF objects out of 18468 (max. 8388607)
- 151 named destinations out of 1000 (max. 500000)
+ 18436 PDF objects out of 18468 (max. 8388607)
+ 154 named destinations out of 1000 (max. 500000)
  357 words of extra memory for PDF output out of 10000 (max. 10000000)
 
