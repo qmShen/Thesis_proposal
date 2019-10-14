@@ -1757,7 +1757,7 @@ scholarly research.}
 %      \vglue 8ex
 %      {\normalsize A Thesis Presented to \par}
       \vglue 12ex
-      {\normalsize A Thesis Submitted to \par}
+      {\normalsize A Thesis Proposal Submitted to \par}
       {\normalsize The Hong Kong University of Science and Technology\par}
 % Chan:
 %	Make changes according to the guidelines released on March 2001.
