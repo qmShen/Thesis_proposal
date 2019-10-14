@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7e7175f-5d44-4d5e-b792-a661fa72be3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ustthesis.cls" beforeDir="false" afterPath="$PROJECT_DIR$/ustthesis.cls" afterDir="false" />
-    </list>
+    <list default="true" id="b7e7175f-5d44-4d5e-b792-a661fa72be3c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +22,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ustthesis.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="233">
               <caret line="1760" column="43" selection-start-line="1760" selection-start-column="43" selection-end-line="1760" selection-end-column="43" />
             </state>
           </provider>
@@ -69,9 +67,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="y" value="180" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1527" />
     <option name="width" value="1044" />
     <option name="height" value="792" />
   </component>
@@ -124,18 +121,18 @@
       <option name="presentableId" value="Default" />
       <updated>1570958056455</updated>
       <workItem from="1570958069273" duration="807000" />
-      <workItem from="1571034133878" duration="50000" />
+      <workItem from="1571034133878" duration="657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="857000" />
+    <option name="totallyTimeSpent" value="1464000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1721" height="944" extended-state="6" />
+    <frame x="1018" y="0" width="696" height="528" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2525556" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.6583072" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -171,7 +168,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ustthesis.cls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="233">
           <caret line="1760" column="43" selection-start-line="1760" selection-start-column="43" selection-end-line="1760" selection-end-column="43" />
         </state>
       </provider>
