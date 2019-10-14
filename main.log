@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.9)  14 OCT 2019 21:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.9)  14 OCT 2019 21:38
 entering extended mode
 **./main.tex
 (main.tex
@@ -637,45 +637,7 @@ Table of Contents
 (main.toc
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nbi' on input line 27.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nbi' on input line 27.
-
-[4
-
-]
-Overfull \hbox (0.60004pt too wide) detected at line 44
-\T1/ppl/m/n/12 2.10 
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nbi' on input line 62.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nbi' on input line 62.
-
-[5]
-Overfull \hbox (8.73398pt too wide) in paragraph at lines 72--72
-[][]\T1/ppl/b/n/12 Chapter 4 Vi-sual In-ter-pre-ta-tion of Re-cur-rent Neu-ral 
-Net-work on Multi-dimensional 
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nbi' on input line 95.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nbi' on input line 95.
-
-[6])
+)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
@@ -688,35 +650,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\nbi' on input line 157.
 
-[7]
-List of Figures
-(main.lof
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nbi' on input line 14.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nbi' on input line 14.
-
-[8
+[4
 
 ]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nbi' on input line 29.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nbi' on input line 29.
-
-[9]
-Overfull \hbox (1.02899pt too wide) in paragraph at lines 33--33
- \T1/ppl/m/n/12 Fea-ture Trend Chart; A2) Clus-ter Im-por-tance Chart; A3) Top 
-Fea-tures Chart. 
- []
-
-)
+List of Figures
+(main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
@@ -729,7 +667,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\nbi' on input line 165.
 
-[10]
+[5
+
+]
 List of Tables
 (main.lot)
 \tf@lot=\write6
@@ -745,7 +685,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\nbi' on input line 1.
 
-[11
+[6
 
 ]) (chapter/1_Introduction.tex
 
@@ -756,7 +696,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\nbi' on input line 1.
 
-[12]
+[7]
 
 Warning: No acknowledgment page. 
 
@@ -773,545 +713,21 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 
 LaTeX Warning: Citation `error' on page 1 undefined on input line 4.
 
-
-LaTeX Warning: Citation `liu2014survey' on page 1 undefined on input line 10.
-
 [1
 
-]) (chapter/2_StreetVizor/0_streetvizor.tex [2]
-CHAPTER 2.
-(chapter/2_StreetVizor/1_Introduction.tex [3
-
-] [4])
-(chapter/2_StreetVizor/2_relatedwork.tex
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
-
-Overfull \hbox (2.69551pt too wide) in paragraph at lines 9--14
-\T1/ppl/m/n/12 GSV sys-tem pro-vides high qual-ity and ac-cu-rate panoramic im-
-ages of hun-dreds of cities [[]5[]].
- []
-
-[5] [6] [7]) (chapter/2_StreetVizor/3_BackgroundAndTask.tex [8] [9])
-(chapter/2_StreetVizor/4_DesignAndSystemOverview.tex
-<figure/streetvizor/fig2_framework/framework.pdf, id=799, 675.9915pt x 612.6378
-pt>
-File: figure/streetvizor/fig2_framework/framework.pdf Graphic file (type pdf)
-<use figure/streetvizor/fig2_framework/framework.pdf>
-Package pdftex.def Info: figure/streetvizor/fig2_framework/framework.pdf  used 
-on input line 9.
-(pdftex.def)             Requested size: 424.82523pt x 385.0197pt.
- [10] [11 <./figure/streetvizor/fig2_framework/framework.pdf>]
-Overfull \hbox (15.57195pt too wide) in paragraph at lines 24--33
-\T1/ppl/m/n/12 human-scale ur-ban forms. Users can nar-row down ex-plo-ration b
-y se-lect-ing two AOIs/streets
- []
-
-) (chapter/2_StreetVizor/5_DataProcess.tex
-<figure/streetvizor/fig3_data_preprocess/data_process.pdf, id=866, 1379.1525pt 
-x 303.1325pt>
-File: figure/streetvizor/fig3_data_preprocess/data_process.pdf Graphic file (ty
-pe pdf)
-<use figure/streetvizor/fig3_data_preprocess/data_process.pdf>
-Package pdftex.def Info: figure/streetvizor/fig3_data_preprocess/data_process.p
-df  used on input line 7.
-(pdftex.def)             Requested size: 472.03123pt x 103.74825pt.
- [12 <./figure/streetvizor/fig3_data_preprocess/data_process.pdf>] [13]
-<figure/streetvizor/fig4_data_model/data_model.pdf, id=900, 322.20375pt x 174.9
-8674pt>
-File: figure/streetvizor/fig4_data_model/data_model.pdf Graphic file (type pdf)
-
-<use figure/streetvizor/fig4_data_model/data_model.pdf>
-Package pdftex.def Info: figure/streetvizor/fig4_data_model/data_model.pdf  use
-d on input line 95.
-(pdftex.def)             Requested size: 377.62642pt x 205.0941pt.
-)
-(chapter/2_StreetVizor/6_VisualizationDesign.tex [14]
-<figure/streetvizor/fig1_teaser/teaser.pdf, id=908, 976.3145pt x 288.15958pt>
-File: figure/streetvizor/fig1_teaser/teaser.pdf Graphic file (type pdf)
-<use figure/streetvizor/fig1_teaser/teaser.pdf>
-Package pdftex.def Info: figure/streetvizor/fig1_teaser/teaser.pdf  used on inp
-ut line 11.
-(pdftex.def)             Requested size: 424.82523pt x 125.38797pt.
-
-
-LaTeX Warning: Reference `ssec:c1_tasks' on page 15 undefined on input line 27.
-
-
-[15 <./figure/streetvizor/fig4_data_model/data_model.pdf>] [16 <./figure/street
-vizor/fig1_teaser/teaser.pdf>] [17]
-<figure/streetvizor/fig5_statistic_view/statistic_view.pdf, id=972, 768.27928pt
- x 421.59105pt>
-File: figure/streetvizor/fig5_statistic_view/statistic_view.pdf Graphic file (t
-ype pdf)
-<use figure/streetvizor/fig5_statistic_view/statistic_view.pdf>
-Package pdftex.def Info: figure/streetvizor/fig5_statistic_view/statistic_view.
-pdf  used on input line 113.
-(pdftex.def)             Requested size: 401.22942pt x 220.18068pt.
- [18 <./figure/streetvizor/fig5_statistic_view/statistic_view.pdf>]
-Overfull \hbox (53.04027pt too wide) in paragraph at lines 129--139
-\T1/ppl/m/n/12 point $\U/zeur/m/n/12 x[]$ \T1/ppl/m/n/12 is in an eight-dimensi
-onal space, $\U/zeur/m/n/12 R[] \U/zeus/m/n/12 º½ \U/zeur/m/n/12 < lat[]\OT1/pp
-l/m/n/12 ,  \U/zeur/m/n/12 long[]\OT1/ppl/m/n/12 ,  \U/zeur/m/n/12 FV[]\OT1/ppl
-/m/n/12 ,  \U/zeur/m/n/12 FV[]\OT1/ppl/m/n/12 ,  \U/zeur/m/n/12 FV[]\OT1/ppl/m/
-n/12 ,  \U/zeur/m/n/12 FV[]\OT1/ppl/m/n/12 ,  \U/zeur/m/n/12 FV[]\OT1/ppl/m/n/1
-2 ,  \U/zeur/m/n/12 FV[] >$\T1/ppl/m/n/12 .
- []
-
-[19]
-<figure/streetvizor/fig6_street_map_view/street_map_view.pdf, id=5200, 781.4354
-2pt x 346.27669pt>
-File: figure/streetvizor/fig6_street_map_view/street_map_view.pdf Graphic file 
-(type pdf)
-<use figure/streetvizor/fig6_street_map_view/street_map_view.pdf>
-Package pdftex.def Info: figure/streetvizor/fig6_street_map_view/street_map_vie
-w.pdf  used on input line 193.
-(pdftex.def)             Requested size: 424.82523pt x 188.25471pt.
- [20] [21 <./figure/streetvizor/fig6_street_map_view/street_map_view.pdf>]
-<figure/streetvizor/fig7_street_model/street_pcp.pdf, id=5228, 374.0645pt x 322
-.70563pt>
-File: figure/streetvizor/fig7_street_model/street_pcp.pdf Graphic file (type pd
-f)
-<use figure/streetvizor/fig7_street_model/street_pcp.pdf>
-Package pdftex.def Info: figure/streetvizor/fig7_street_model/street_pcp.pdf  u
-sed on input line 235.
-(pdftex.def)             Requested size: 424.82523pt x 366.49472pt.
-
-[22] [23 <./figure/streetvizor/fig7_street_model/street_pcp.pdf>]
-<figure/streetvizor/fig8_study_1/study_1_spatial.pdf, id=5292, 1037.26523pt x 3
-84.49448pt>
-File: figure/streetvizor/fig8_study_1/study_1_spatial.pdf Graphic file (type pd
-f)
-<use figure/streetvizor/fig8_study_1/study_1_spatial.pdf>
-Package pdftex.def Info: figure/streetvizor/fig8_study_1/study_1_spatial.pdf  u
-sed on input line 295.
-(pdftex.def)             Requested size: 448.42822pt x 166.22116pt.
-<figure/streetvizor/fig8_study_1/study_1_statistic.pdf, id=5293, 1239.63126pt x
- 499.8675pt>
-File: figure/streetvizor/fig8_study_1/study_1_statistic.pdf Graphic file (type 
-pdf)
-<use figure/streetvizor/fig8_study_1/study_1_statistic.pdf>
-Package pdftex.def Info: figure/streetvizor/fig8_study_1/study_1_statistic.pdf 
- used on input line 306.
-(pdftex.def)             Requested size: 472.03123pt x 190.3406pt.
- [24 <./figure/streetvizor/fig8_study_1/study_1_spatial.pdf>]
-Overfull \hbox (0.63034pt too wide) in paragraph at lines 335--338
-[]\T1/ppl/m/it/12 Feature Fil-ter-ing\T1/ppl/m/n/12 . Our sys-tem also sup-port
-s fil-ter-ing human-scale ur-ban forms against
- []
-
-[25 <./figure/streetvizor/fig8_study_1/study_1_statistic.pdf>])
-(chapter/2_StreetVizor/7_CaseStudies.tex
-<figure/streetvizor/fig9_study_2/region-functionality.png, id=12273, 1706.375pt
- x 982.67125pt>
-File: figure/streetvizor/fig9_study_2/region-functionality.png Graphic file (ty
-pe png)
-<use figure/streetvizor/fig9_study_2/region-functionality.png>
-Package pdftex.def Info: figure/streetvizor/fig9_study_2/region-functionality.p
-ng  used on input line 8.
-(pdftex.def)             Requested size: 462.5886pt x 266.38937pt.
- [26 <./figure/streetvizor/fig9_study_2/region-functionality.png (PNG copy)>]
-
-LaTeX Warning: Reference `fig:c1_region-funcitonality' on page 27 undefined on 
-input line 52.
-
-[27]
-<figure/streetvizor/fig9_study_2/study_2_2.pdf, id=12290, 788.50383pt x 454.583
-33pt>
-File: figure/streetvizor/fig9_study_2/study_2_2.pdf Graphic file (type pdf)
-<use figure/streetvizor/fig9_study_2/study_2_2.pdf>
-Package pdftex.def Info: figure/streetvizor/fig9_study_2/study_2_2.pdf  used on
- input line 61.
-(pdftex.def)             Requested size: 472.03123pt x 272.12782pt.
- [28 <./figure/streetvizor/fig9_study_2/study_2_2.pdf>] [29]
-<figure/streetvizor/fig10_study_3/study_3.pdf, id=18682, 718.685pt x 619.0116pt
->
-File: figure/streetvizor/fig10_study_3/study_3.pdf Graphic file (type pdf)
-<use figure/streetvizor/fig10_study_3/study_3.pdf>
-Package pdftex.def Info: figure/streetvizor/fig10_study_3/study_3.pdf  used on 
-input line 110.
-(pdftex.def)             Requested size: 448.42822pt x 386.24846pt.
-)
-(chapter/2_StreetVizor/8_ExpertReview.tex [30 <./figure/streetvizor/fig10_study
-_3/study_3.pdf>]
-
-LaTeX Warning: Reference `fig:c1_region-funcitonality' on page 31 undefined on 
-input line 26.
-
-[31]) (chapter/2_StreetVizor/9_Discussion.tex [32])
-(chapter/2_StreetVizor/10_Conclusion.tex [33]))
-(chapter/3_edgebundling/0_edgebundling.tex [34] [35]
-CHAPTER 3.
-(chapter/3_edgebundling/1_Introduction.tex [36
-
-] [37])
-(chapter/3_edgebundling/2_relatedwork.tex
-Overfull \hbox (0.69191pt too wide) in paragraph at lines 5--13
-\T1/ppl/b/n/12 Urban Traf-fic Vi-sual An-a-lyt-ics\T1/ppl/m/n/12 . In or-der to
- fa-cil-i-tate ex-plo-ration of hu-man/vehicle/goods
- []
-
-[38]
-<figure/edgebundling/fig1_alternatives/alternatives.pdf, id=18797, 1186.18156pt
- x 779.53734pt>
-File: figure/edgebundling/fig1_alternatives/alternatives.pdf Graphic file (type
- pdf)
-<use figure/edgebundling/fig1_alternatives/alternatives.pdf>
-Package pdftex.def Info: figure/edgebundling/fig1_alternatives/alternatives.pdf
-  used on input line 43.
-(pdftex.def)             Requested size: 233.65315pt x 153.54953pt.
- [39 <./figure/edgebundling/fig1_alternatives/alternatives.pdf>])
-(chapter/3_edgebundling/3_Overview.tex
-<figure/edgebundling/fig2_kernel_size/kernel_size.pdf, id=18875, 2442.82632pt x
- 1576.97151pt>
-File: figure/edgebundling/fig2_kernel_size/kernel_size.pdf Graphic file (type p
-df)
-<use figure/edgebundling/fig2_kernel_size/kernel_size.pdf>
-Package pdftex.def Info: figure/edgebundling/fig2_kernel_size/kernel_size.pdf  
-used on input line 9.
-(pdftex.def)             Requested size: 233.65315pt x 150.82448pt.
- [40] [41 <./figure/edgebundling/fig2_kernel_size/kernel_size.pdf>]
-<figure/edgebundling/fig3_framework/framework2.pdf, id=18941, 1211.96783pt x 23
-0.34958pt>
-File: figure/edgebundling/fig3_framework/framework2.pdf Graphic file (type pdf)
-
-<use figure/edgebundling/fig3_framework/framework2.pdf>
-Package pdftex.def Info: figure/edgebundling/fig3_framework/framework2.pdf  use
-d on input line 61.
-(pdftex.def)             Requested size: 469.66876pt x 89.26656pt.
-
-Overfull \hbox (4.33885pt too wide) in paragraph at lines 77--84
-\T1/ppl/m/n/12 draw-ing size, while ig-nores ge-o-met-ric prop-er-ties of road 
-net-work. Fig-ure []3.2[] presents
- []
-
-[42 <./figure/edgebundling/fig3_framework/framework2.pdf>]) [43]
-(chapter/3_edgebundling/4_InputAndPreprocessing.tex [44] [45] [46]
-<figure/edgebundling/fig4_od_abstraction/OD_Abstraction.pdf, id=19029, 442.3194
-9pt x 273.6895pt>
-File: figure/edgebundling/fig4_od_abstraction/OD_Abstraction.pdf Graphic file (
-type pdf)
-<use figure/edgebundling/fig4_od_abstraction/OD_Abstraction.pdf>
-Package pdftex.def Info: figure/edgebundling/fig4_od_abstraction/OD_Abstraction
-.pdf  used on input line 148.
-(pdftex.def)             Requested size: 212.41261pt x 131.4321pt.
-)
-(chapter/3_edgebundling/5_EdgeBundling.tex [47 <./figure/edgebundling/fig4_od_a
-bstraction/OD_Abstraction.pdf>]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 4.
- [48] [49])
-(chapter/3_edgebundling/6_Evaluation.tex
-<figure/edgebundling/fig5_NMI/bundle_termination.pdf, id=19087, 599.08817pt x 2
-32.3641pt>
-File: figure/edgebundling/fig5_NMI/bundle_termination.pdf Graphic file (type pd
-f)
-<use figure/edgebundling/fig5_NMI/bundle_termination.pdf>
-Package pdftex.def Info: figure/edgebundling/fig5_NMI/bundle_termination.pdf  u
-sed on input line 18.
-(pdftex.def)             Requested size: 233.65315pt x 90.62517pt.
-<figure/edgebundling/fig6_grid/route.pdf, id=19088, 3795.51007pt x 914.28276pt>
-
-File: figure/edgebundling/fig6_grid/route.pdf Graphic file (type pdf)
-<use figure/edgebundling/fig6_grid/route.pdf>
-Package pdftex.def Info: figure/edgebundling/fig6_grid/route.pdf  used on input
- line 29.
-(pdftex.def)             Requested size: 469.66876pt x 113.12714pt.
- [50] [51 <./figure/edgebundling/fig5_NMI/bundle_termination.pdf> <./figure/edg
-ebundling/fig6_grid/route.pdf
-
-pdfTeX warning: pdflatex.exe (file ./figure/edgebundling/fig6_grid/route.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
->]
-Overfull \hbox (10.47922pt too wide) in paragraph at lines 79--87
-$\U/zeur/m/n/12 p[]$ \T1/ppl/m/n/12 is in-tro-duced for mea-sur-ing vi-sual sta
--bil-ity of bun-dle lay-outs gen-er-ated by one bundling
- []
-
-
-Overfull \hbox (1.86311pt too wide) in paragraph at lines 79--87
-\T1/ppl/m/n/12 method. How-ever, $\U/zeur/m/n/12 p[]$ \T1/ppl/m/n/12 is not sui
-t-able for com-par-ing bundling qual-ity of mul-ti-ple bundling
- []
-
-) (chapter/3_edgebundling/7_ExperimentalResults.tex
-<figure/edgebundling/fig7_hierar/artifical.pdf, id=19191, 3251.49767pt x 1466.9
-3039pt>
-File: figure/edgebundling/fig7_hierar/artifical.pdf Graphic file (type pdf)
-<use figure/edgebundling/fig7_hierar/artifical.pdf>
-Package pdftex.def Info: figure/edgebundling/fig7_hierar/artifical.pdf  used on
- input line 3.
-(pdftex.def)             Requested size: 231.2979pt x 104.3296pt.
-<figure/edgebundling/fig8_study2/NYC.pdf, id=19192, 4556.98482pt x 1545.50397pt
->
-File: figure/edgebundling/fig8_study2/NYC.pdf Graphic file (type pdf)
-<use figure/edgebundling/fig8_study2/NYC.pdf>
-Package pdftex.def Info: figure/edgebundling/fig8_study2/NYC.pdf  used on input
- line 19.
-(pdftex.def)             Requested size: 469.66876pt x 159.27594pt.
- [52 <./figure/edgebundling/fig7_hierar/artifical.pdf>]
-<figure/edgebundling/fig9_study2-2/NYC-zoom.pdf, id=19222, 2713.33694pt x 1589.
-83965pt>
-File: figure/edgebundling/fig9_study2-2/NYC-zoom.pdf Graphic file (type pdf)
-<use figure/edgebundling/fig9_study2-2/NYC-zoom.pdf>
-Package pdftex.def Info: figure/edgebundling/fig9_study2-2/NYC-zoom.pdf  used o
-n input line 32.
-(pdftex.def)             Requested size: 212.41261pt x 124.4485pt.
- [53 <./figure/edgebundling/fig8_study2/NYC.pdf> <./figure/edgebundling/fig9_st
-udy2-2/NYC-zoom.pdf
-
-pdfTeX warning: pdflatex.exe (file ./figure/edgebundling/fig9_study2-2/NYC-zoom
-.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-<figure/edgebundling/fig10_study3/shenzhen.pdf, id=19311, 3197.76689pt x 1057.3
-5028pt>
-File: figure/edgebundling/fig10_study3/shenzhen.pdf Graphic file (type pdf)
-<use figure/edgebundling/fig10_study3/shenzhen.pdf>
-Package pdftex.def Info: figure/edgebundling/fig10_study3/shenzhen.pdf  used on
- input line 66.
-(pdftex.def)             Requested size: 469.66876pt x 155.28825pt.
- [54 <./figure/edgebundling/fig10_study3/shenzhen.pdf>] [55])
-(chapter/3_edgebundling/8_Discussion.tex [56]
-Underfull \hbox (badness 10000) in alignment at lines 42--42
-[][][] 
- []
-
-[57]
-Overfull \hbox (13.42163pt too wide) in paragraph at lines 90--95
-\T1/ppl/m/n/12 it still lacks a method to quan-ti-ta-tively com-pare mul-ti-ple
- ones. The pa-ram-e-ter bundling
- []
-
-[58]
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-[]|\T1/ppl/m/n/12 Random
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 124--124
-[][][][][][][] 
- []
-
-
-Overfull \hbox (4.54057pt too wide) in paragraph at lines 134--142
-[]\T1/ppl/m/n/12 KDEEB's bundling pro-cess in-clude sam-pling, splat-ting, ad-v
-ect-ing and smooth-ing steps.
- []
-
-[59]) (chapter/3_edgebundling/9_Conclusion.tex [60]))
-(chapter/4_MultiRNNExplorer/0_MultiRNNExplorer.tex [61] [62]
-CHAPTER 4.
-
-Overfull \hbox (8.7905pt too wide) in paragraph at lines 2--11
-\T1/ppl/m/n/12 Recent at-tempts at uti-liz-ing vi-sual an-a-lyt-ics to in-ter-p
-ret Re-cur-rent Neu-ral Net-works (RNNs)
- []
-
-(chapter/4_MultiRNNExplorer/1_Introduction.tex [63
-
-] [64])
-(chapter/4_MultiRNNExplorer/2_RelatedWork.tex [65] [66] [67])
-(chapter/4_MultiRNNExplorer/3_RNN_Modeling_and_background.tex
-Underfull \hbox (badness 1418) in paragraph at lines 40--40
-[]|\T1/ppl/m/n/12 Air pol-lu-
- []
-
-
-Underfull \hbox (badness 2221) in paragraph at lines 40--40
-[]|$\U/zeur/m/n/12 PM[]$\T1/ppl/m/n/12 , $\U/zeur/m/n/12 PM[]$\T1/ppl/m/n/12 , 
-$\U/zeur/m/n/12 NO[]$\T1/ppl/m/n/12 , $\U/zeur/m/n/12 NO[]$\T1/ppl/m/n/12 ,
- []
-
-
-Overfull \hbox (10.86967pt too wide) in paragraph at lines 42--42
-[]|\T1/ppl/m/n/12 Meteorology| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-\T1/ppl/m/it/12 Rel-a-tive Hu-mid-ity(RH),
- []
-
-
-Underfull \hbox (badness 1205) in paragraph at lines 42--43
-\T1/ppl/m/it/12 Pres-sure(SLP), Sta-tion Pres-
- []
-
-[68]
-<figure/MultiRNNExplorer/model_description/model.pdf, id=19516, 1127.8838pt x 2
-78.70824pt>
-File: figure/MultiRNNExplorer/model_description/model.pdf Graphic file (type pd
-f)
-<use figure/MultiRNNExplorer/model_description/model.pdf>
-Package pdftex.def Info: figure/MultiRNNExplorer/model_description/model.pdf  u
-sed on input line 84.
-(pdftex.def)             Requested size: 424.82523pt x 104.97462pt.
-) (chapter/4_MultiRNNExplorer/4_Analytics_Tasks.tex [69] [70 <./figure/MultiRNN
-Explorer/model_description/model.pdf>]
-<figure/MultiRNNExplorer/System_framework.pdf, id=19553, 2070.1339pt x 695.5636
-4pt>
-File: figure/MultiRNNExplorer/System_framework.pdf Graphic file (type pdf)
-<use figure/MultiRNNExplorer/System_framework.pdf>
-Package pdftex.def Info: figure/MultiRNNExplorer/System_framework.pdf  used on 
-input line 102.
-(pdftex.def)             Requested size: 448.42822pt x 150.66829pt.
- [71 <./figure/MultiRNNExplorer/System_framework.pdf>]) (chapter/4_MultiRNNExpl
-orer/5_Model_interpreter.tex [72]
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 2
-9.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1phv.fd"
-File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
-)
-LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 29.
-LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 29.
-LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 29.
-
-Overfull \hbox (24.98555pt too wide) in paragraph at lines 20--36
-\T1/ppl/m/n/12 sion is de-noted as $\U/zeur/m/n/12 x[]$ \T1/ppl/m/n/12 in which
- $\U/zeur/m/n/12 f$ \T1/ppl/m/n/12 rep-re-sents a fea-ture triplet $\U/zeus/m/n
-/12 ¨\U/zeur/m/n/12 distance\OT1/ppl/m/n/12 , \U/zeur/m/n/12 direction\OT1/ppl/
-m/n/12 , \U/zeur/m/n/12 feature[]type\U/zeus/m/n/12 ©$
- []
-
-[73]
-<figure/MultiRNNExplorer/methods/unit_response_kdeplot.pdf, id=19603, 1038.5500
-6pt x 488.49199pt>
-File: figure/MultiRNNExplorer/methods/unit_response_kdeplot.pdf Graphic file (t
-ype pdf)
-<use figure/MultiRNNExplorer/methods/unit_response_kdeplot.pdf>
-Package pdftex.def Info: figure/MultiRNNExplorer/methods/unit_response_kdeplot.
-pdf  used on input line 63.
-(pdftex.def)             Requested size: 448.42822pt x 210.91954pt.
- [74 <./figure/MultiRNNExplorer/methods/unit_response_kdeplot.pdf>]
-Overfull \hbox (26.02635pt too wide) in paragraph at lines 92--93
-\U/zeur/m/n/12 f[]$ \T1/ppl/m/n/12 and hid-den unit $\U/zeur/m/n/12 j$\T1/ppl/m
-/n/12 , the re-sponse em-bed-ding vec-tors are $\U/zeur/m/n/12 vec[] \U/zeus/m/
-n/12 ½ Û\U/zeur/m/n/12 RS\U/zeus/m/n/12 ¨\OT1/ppl/m/n/12 0, \U/zeur/m/n/12 f[]\
-U/zeus/m/n/12 ©\OT1/ppl/m/n/12 , \U/zeur/m/n/12 RS\U/zeus/m/n/12 ¨\OT1/ppl/m/n/
-12 1, \U/zeur/m/n/12 f[]\U/zeus/m/n/12 ©\OT1/ppl/m/n/12 , ..., \U/zeur/m/n/12 R
-S\U/zeus/m/n/12 ¨\U/zeur/m/n/12 D \U/zeus/m/n/12  
- []
-
-[75]
-<figure/MultiRNNExplorer/methods/cluster_parameters.png, id=19646, 793.46437pt 
-x 186.6975pt>
-File: figure/MultiRNNExplorer/methods/cluster_parameters.png Graphic file (type
- png)
-<use figure/MultiRNNExplorer/methods/cluster_parameters.png>
-Package pdftex.def Info: figure/MultiRNNExplorer/methods/cluster_parameters.png
-  used on input line 105.
-(pdftex.def)             Requested size: 448.42822pt x 105.51561pt.
- [76 <./figure/MultiRNNExplorer/methods/cluster_parameters.png>]
-Overfull \hbox (0.22362pt too wide) in paragraph at lines 122--124
-\T1/ppl/m/n/12 sis based on the lo-cal gra-di-ent which is used to present the 
-word saliency in NLP tasks [[]63[]].
- []
-
-) (chapter/4_MultiRNNExplorer/6_ViusalizationDesign.tex [77]
-<figure/MultiRNNExplorer/teaser.pdf, id=19673, 1545.49393pt x 877.7352pt>
-File: figure/MultiRNNExplorer/teaser.pdf Graphic file (type pdf)
-<use figure/MultiRNNExplorer/teaser.pdf>
-Package pdftex.def Info: figure/MultiRNNExplorer/teaser.pdf  used on input line
- 9.
-(pdftex.def)             Requested size: 448.42822pt x 254.67061pt.
-
-(chapter/4_MultiRNNExplorer/6_VIsualizationSections/ClusterView.tex
-<figure/MultiRNNExplorer/design/cluster_design.pdf, id=19675, 505.38812pt x 185
-.88145pt>
-File: figure/MultiRNNExplorer/design/cluster_design.pdf Graphic file (type pdf)
-
-<use figure/MultiRNNExplorer/design/cluster_design.pdf>
-Package pdftex.def Info: figure/MultiRNNExplorer/design/cluster_design.pdf  use
-d on input line 11.
-(pdftex.def)             Requested size: 448.42822pt x 164.93477pt.
- [78 <./figure/MultiRNNExplorer/teaser.pdf>] [79 <./figure/MultiRNNExplorer/des
-ign/cluster_design.pdf>])
-(chapter/4_MultiRNNExplorer/6_VIsualizationSections/FeatureImportanceView.tex
-[80]) (chapter/4_MultiRNNExplorer/6_VIsualizationSections/ProjectionView.tex)
-(chapter/4_MultiRNNExplorer/6_VIsualizationSections/SequenceView.tex
-<figure/MultiRNNExplorer/design/alternative_design.pdf, id=24533, 641.062pt x 4
-56.372pt>
-File: figure/MultiRNNExplorer/design/alternative_design.pdf Graphic file (type 
-pdf)
-<use figure/MultiRNNExplorer/design/alternative_design.pdf>
-Package pdftex.def Info: figure/MultiRNNExplorer/design/alternative_design.pdf 
- used on input line 10.
-(pdftex.def)             Requested size: 424.82523pt x 302.44597pt.
- [81]
-[82 <./figure/MultiRNNExplorer/design/alternative_design.pdf>])
-(chapter/4_MultiRNNExplorer/6_VIsualizationSections/Interactions.tex [83]))
-(chapter/4_MultiRNNExplorer/7_Evaluation.tex
-Overfull \hbox (0.52345pt too wide) in paragraph at lines 4--10
-\T1/ppl/m/n/12 In this sec-tion, we demon-strate the ef-fec-tive-ness of Mul-ti
--RN-NEx-plorer in an-a-lyz-ing model
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-[]|\T1/ppl/m/n/12 Dense
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-[]|\T1/ppl/m/n/12 MSE
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--18
-[]|\T1/ppl/m/n/12 Vanilla
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-[]|\T1/ppl/m/n/12 GRU-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
-[]|\T1/ppl/m/n/12 LSTM-
- []
-
-) (chapter/4_MultiRNNExplorer/8_Conclusion.tex [84])) (main.bbl
+]) (main.bbl
 References
-[85]
-Underfull \hbox (badness 1688) in paragraph at lines 10--15
-[]\T1/ppl/m/n/12 Gennady An-drienko, Na-talia An-drienko, Wei Chen, Ross Ma-cie
-jew-ski, and
- []
-
-[86
-
-] [87] [88]
-Overfull \hbox (94.63382pt too wide) in paragraph at lines 213--217
-[]\T1/ppl/m/n/12 Google.  Street View Im-age API.  https://developers.google.co
-m/maps/documentation/streetview/.
- []
-
-[89] [90]
-Underfull \hbox (badness 1024) in paragraph at lines 314--318
-[]\T1/ppl/m/n/12 Johannes Ju-r-gov-sky, Michael Gran-itzer, Kon-stantin Ziegler
-, Sylvie Cal-abretto,
- []
-
-[91]
-Underfull \hbox (badness 2495) in paragraph at lines 399--402
-[]\T1/ppl/m/n/12 Zachary C Lip-ton.  The doc-tor just won't ac-cept that!  \T1/
-ppl/m/it/12 arXiv preprint
- []
-
-[92] [93] [94] [95] [96] [97] [98])
+[2])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
- [99]
+ [3
+
+]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
  (main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 301.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9EAEADE2BE94F368418467137A633800;6461.
+(rerunfilecheck)             Checksum: 9ED37B056069606D06177E362EE33040;714.
 
 
 LaTeX Warning: There were undefined references.
@@ -1319,34 +735,22 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 301.
  ) 
 Here is how much of TeX's memory you used:
- 10063 strings out of 492452
- 160329 string characters out of 3129805
- 268532 words of memory out of 3000000
- 13666 multiletter control sequences out of 15000+200000
- 35101 words of font info for 81 fonts, out of 3000000 for 9000
+ 8904 strings out of 492452
+ 129292 string characters out of 3129805
+ 236398 words of memory out of 3000000
+ 13068 multiletter control sequences out of 15000+200000
+ 17408 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,16n,37p,1104b,468s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,6n,37p,817b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/euler/euex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/e
-uler/eufm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/
-eufm7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eurm10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eurm7.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eusm10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/euler/eusm7.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palat
 ino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pf
 b>
-Output written on main.pdf (111 pages, 42791927 bytes).
+Output written on main.pdf (10 pages, 94205 bytes).
 PDF statistics:
- 27527 PDF objects out of 31911 (max. 8388607)
- 391 named destinations out of 1000 (max. 500000)
- 882 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 138 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 

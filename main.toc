@@ -2,97 +2,12 @@
 \contentsline {chapter}{Authorization Page}{\nbi ii}{Doc-Start}% 
 \contentsline {chapter}{Signature Page}{\nbi iii}{Doc-Start}% 
 \contentsline {chapter}{Table of Contents}{\nbi iv}{chapter*.1}% 
-\contentsline {chapter}{List of Figures}{\nbi viii}{chapter*.2}% 
-\contentsline {chapter}{List of Tables}{\nbi xi}{chapter*.3}% 
-\contentsline {chapter}{Abstract}{\nbi xii}{chapter*.3}% 
+\contentsline {chapter}{List of Figures}{\nbi v}{chapter*.2}% 
+\contentsline {chapter}{List of Tables}{\nbi vi}{chapter*.3}% 
+\contentsline {chapter}{Abstract}{\nbi vii}{chapter*.3}% 
 \contentsline {chapter}{{Chapter 1}\hspace {1em}Introduction}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}Visualization meets urban informatics}{2}{section.1.2}% 
 \contentsline {section}{\numberline {1.3}Contribution}{2}{section.1.3}% 
 \contentsline {section}{\numberline {1.4}Thesis organization}{2}{section.1.4}% 
-\contentsline {chapter}{{Chapter 2}\hspace {1em}Visual Exploration of Human-Scale Urban Forms Based on Street Views}{3}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Introduction}{3}{section.2.1}% 
-\contentsline {section}{\numberline {2.2}Related Work}{5}{section.2.2}% 
-\contentsline {subsection}{\numberline {2.2.1}Street View Analysis}{5}{subsection.2.2.1}% 
-\contentsline {subsection}{\numberline {2.2.2}Urban Data Visualization}{6}{subsection.2.2.2}% 
-\contentsline {subsection}{\numberline {2.2.3}Multivariate Geographical Data Visualization}{7}{subsection.2.2.3}% 
-\contentsline {subsection}{\numberline {2.2.4}Comparative Visualization}{8}{subsection.2.2.4}% 
-\contentsline {section}{\numberline {2.3}Background and Analytical Tasks}{8}{section.2.3}% 
-\contentsline {subsection}{\numberline {2.3.1}Background}{8}{subsection.2.3.1}% 
-\contentsline {subsection}{\numberline {2.3.2}Analytical Tasks}{10}{subsection.2.3.2}% 
-\contentsline {section}{\numberline {2.4}System Framework}{11}{section.2.4}% 
-\contentsline {section}{\numberline {2.5}Data Modeling}{12}{section.2.5}% 
-\contentsline {subsection}{\numberline {2.5.1}Data Collection}{13}{subsection.2.5.1}% 
-\contentsline {subsection}{\numberline {2.5.2}Feature Extraction}{13}{subsection.2.5.2}% 
-\contentsline {subsection}{\numberline {2.5.3}Data Querying and Filtering}{14}{subsection.2.5.3}% 
-\contentsline {section}{\numberline {2.6}Visualization Design}{15}{section.2.6}% 
-\contentsline {subsection}{\numberline {2.6.1}Design Rationales}{15}{subsection.2.6.1}% 
-\contentsline {subsection}{\numberline {2.6.2}Ranking Explorer}{17}{subsection.2.6.2}% 
-\contentsline {subsection}{\numberline {2.6.3}AOI Explorer}{17}{subsection.2.6.3}% 
-\contentsline {subsubsection}{AOI Map View}{17}{section*.4}% 
-\contentsline {subsubsection}{AOI Statistic View}{19}{section*.5}% 
-\contentsline {subsection}{\numberline {2.6.4}Street Explorer}{21}{subsection.2.6.4}% 
-\contentsline {subsubsection}{Street Map View}{21}{section*.6}% 
-\contentsline {subsubsection}{Street Statistic View}{22}{section*.7}% 
-\contentsline {subsection}{\numberline {2.6.5}User Interactions}{24}{subsection.2.6.5}% 
-\contentsline {section}{\numberline {2.7}Case Studies}{26}{section.2.7}% 
-\contentsline {subsection}{\numberline {2.7.1}City-scale Comparison}{26}{subsection.2.7.1}% 
-\contentsline {subsection}{\numberline {2.7.2}Region-scale Exploration}{27}{subsection.2.7.2}% 
-\contentsline {subsection}{\numberline {2.7.3}Street-scale Comparison}{29}{subsection.2.7.3}% 
-\contentsline {section}{\numberline {2.8}Expert Review}{31}{section.2.8}% 
-\contentsline {section}{\numberline {2.9}Discussion}{33}{section.2.9}% 
-\contentsline {section}{\numberline {2.10}Conclusion and Future Work}{34}{section.2.10}% 
-\contentsline {chapter}{{Chapter 3}\hspace {1em}Route-Aware Edge Bundling for Visualizing Origin-Destination Trails in Urban Traffic}{36}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Introduction}{36}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Related Work}{38}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}Problem Statement and System Overview}{40}{section.3.3}% 
-\contentsline {subsection}{\numberline {3.3.1}KDEEB Algorithm}{41}{subsection.3.3.1}% 
-\contentsline {subsection}{\numberline {3.3.2}Problem Identification}{42}{subsection.3.3.2}% 
-\contentsline {subsection}{\numberline {3.3.3}RAEB Overview}{43}{subsection.3.3.3}% 
-\contentsline {section}{\numberline {3.4}Preprocessing}{44}{section.3.4}% 
-\contentsline {subsection}{\numberline {3.4.1}Basic Traffic Concepts}{44}{subsection.3.4.1}% 
-\contentsline {subsection}{\numberline {3.4.2}Map Matching}{45}{subsection.3.4.2}% 
-\contentsline {subsection}{\numberline {3.4.3}Hierarchical Route Structure Construction}{46}{subsection.3.4.3}% 
-\contentsline {subsection}{\numberline {3.4.4}Trail Abstraction}{47}{subsection.3.4.4}% 
-\contentsline {section}{\numberline {3.5}Bundling Method}{48}{section.3.5}% 
-\contentsline {subsection}{\numberline {3.5.1}Optimal Kernel Size}{48}{subsection.3.5.1}% 
-\contentsline {subsection}{\numberline {3.5.2}Density Map Generation}{49}{subsection.3.5.2}% 
-\contentsline {section}{\numberline {3.6}Evaluation}{50}{section.3.6}% 
-\contentsline {subsection}{\numberline {3.6.1}Normalized Mutual Information}{50}{subsection.3.6.1}% 
-\contentsline {subsection}{\numberline {3.6.2}Bundle Deviation}{52}{subsection.3.6.2}% 
-\contentsline {section}{\numberline {3.7}Applications}{53}{section.3.7}% 
-\contentsline {subsection}{\numberline {3.7.1}Artificial OD Trails}{53}{subsection.3.7.1}% 
-\contentsline {subsection}{\numberline {3.7.2}New York Taxi Trips}{55}{subsection.3.7.2}% 
-\contentsline {subsection}{\numberline {3.7.3}Shenzhen Taxi Trips}{56}{subsection.3.7.3}% 
-\contentsline {section}{\numberline {3.8}Discussion}{57}{section.3.8}% 
-\contentsline {subsection}{\numberline {3.8.1}Parameters}{57}{subsection.3.8.1}% 
-\contentsline {subsection}{\numberline {3.8.2}Performance}{59}{subsection.3.8.2}% 
-\contentsline {subsection}{\numberline {3.8.3}Applicability and Limitations}{60}{subsection.3.8.3}% 
-\contentsline {section}{\numberline {3.9}Conclusion and future work}{61}{section.3.9}% 
-\contentsline {chapter}{{Chapter 4}\hspace {1em}Visual Interpretation of Recurrent Neural Network on Multi-dimensional Time-series Forecast}{63}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Introduction}{63}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Related Work}{65}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}Recurrent Neural Networks}{65}{subsection.4.2.1}% 
-\contentsline {subsection}{\numberline {4.2.2}Machine Learning Interpretation}{66}{subsection.4.2.2}% 
-\contentsline {section}{\numberline {4.3}Application and Models}{68}{section.4.3}% 
-\contentsline {subsection}{\numberline {4.3.1}Application}{68}{subsection.4.3.1}% 
-\contentsline {subsection}{\numberline {4.3.2}Data Description}{68}{subsection.4.3.2}% 
-\contentsline {subsection}{\numberline {4.3.3}Models Description}{69}{subsection.4.3.3}% 
-\contentsline {section}{\numberline {4.4}System design}{70}{section.4.4}% 
-\contentsline {subsection}{\numberline {4.4.1}Task analysis}{70}{subsection.4.4.1}% 
-\contentsline {subsection}{\numberline {4.4.2}System Overview}{72}{subsection.4.4.2}% 
-\contentsline {section}{\numberline {4.5}Model Interpretation}{72}{section.4.5}% 
-\contentsline {subsection}{\numberline {4.5.1}Relationships between Hidden States and Features}{72}{subsection.4.5.1}% 
-\contentsline {subsubsection}{Hidden State Distribution}{73}{section*.8}% 
-\contentsline {subsubsection}{Relationship Strength Estimation}{74}{section*.9}% 
-\contentsline {subsection}{\numberline {4.5.2}Hidden Unit and Feature Clustering}{75}{subsection.4.5.2}% 
-\contentsline {subsection}{\numberline {4.5.3}Local Feature Importance}{77}{subsection.4.5.3}% 
-\contentsline {section}{\numberline {4.6}Visualization Design}{77}{section.4.6}% 
-\contentsline {subsection}{\numberline {4.6.1}Cluster View}{78}{subsection.4.6.1}% 
-\contentsline {subsection}{\numberline {4.6.2}Feature Importance View}{80}{subsection.4.6.2}% 
-\contentsline {subsection}{\numberline {4.6.3}Projection View}{81}{subsection.4.6.3}% 
-\contentsline {subsection}{\numberline {4.6.4}Individual View}{81}{subsection.4.6.4}% 
-\contentsline {subsection}{\numberline {4.6.5}Interactions and Linkage}{83}{subsection.4.6.5}% 
-\contentsline {section}{\numberline {4.7}Case study}{84}{section.4.7}% 
-\contentsline {section}{\numberline {4.8}Discussion and Conclusion}{84}{section.4.8}% 
-\contentsline {chapter}{References}{86}{chapter*.10}% 
+\contentsline {chapter}{References}{3}{chapter*.4}% 
