@@ -24,8 +24,8 @@ The analysis of model urban always refers to the intersection of three domains: 
 
 Before introducing the contribution of this proposal, we first briefly introduce the existing techniques from these three aspects:
 
-\subsection{Visualization of human movement}
-As a general topic in visualization description, how to effectively visualizing the human movement has been long studied in recent years.  An overview has been proposed to categorized the existing movement visualization techniques into three classes: \textbf{pattern extraction}, \textbf{direct depiction}, \textbf{summarization} ~\cite{andrienko2013visual, wu2015telcovis}.
+\subsection{Visualization of human movement (People)}
+As a general topic in visualization discipline, how to effectively visualize the human movement has been long studied in recent years.  An overview has been proposed to categorized the existing movement visualization techniques into three classes: \textbf{pattern extraction}, \textbf{direct depiction}, \textbf{summarization} ~\cite{andrienko2013visual, wu2015telcovis}.
 
 The \textbf{pattern extraction} methods leverage effective visualization to discover the mobility pattern from the movement data such as the traffic congestions~\cite{wang2013visual}, route assessment~\cite{wang2014visual, huang2015trajgraph}, commuting patterns~\cite{beecham2014studying, von2015mobilitygraphs}, co-occurrence~\cite{wu2015telcovis, ni2017spatio}. Compare to other two types of techniques, the pattern extract methods aim to solve the specific application problem directly and these techniques are always difficult to extend to other applications.
 
@@ -33,12 +33,35 @@ The \textbf{direct depiction} directly plot the movement data according to the d
 
 The \textbf{summarization} techniques aim to provide an overview of movement data. Most of these summarization techniques conduct statistical calculation and aggregation before rendering. The typical visualization can be heatmap~\cite{wilkinson2009history}, density map~\cite{lanir2014visualizing}, flow map~\cite{guo2014origin}, matrix~\cite{wood2010visualisation} and node-link~\cite{von2016mobilitygraphs}. Due to the ability to present the high-level perception and alleviate the data uncertainty~\cite{andrienko2013visual}, the summarization techniques are widely used in movement visualization. 
 
-\subsection{Visualization of urban environment}. 
+\subsection{Visual assist urban environment exploration (Place)}
+The rapid urbanization cause a series of changes of living environment including the pollutant and urban forms. Visualization techniques has been used in these domain to discover the potential problems and support the decision making. Since the different application have significantly different analysis requirement, most of the existing work target at specific tasks.  
+
+By combining the data mining and cluster visualization, HydroQual~\cite{accorsi2014hydroqual} is proposed to support a visual analysis of river quality. 
+To reason the air pollutant in Hong Kong, Qu et al. ~\cite{qu2007visual} propose a viusal analytics system consists of several novel design including  circular pixel bar chart and a parallel coordinates with S-shape axis.  Further more, Deng et al.~\cite{deng2019airvis} propose a visual analytics system assisting the air quality analysts in exploring the air pollutant propagation patterns. 
+
+Visual analytics also enable the urban planers to design and evaluate the city construction. For example, Ferreira et al. ~\cite{ferreira2015urbane} propose Urbane, a 3D multi-resolution framework, which enable the urban planers to conduct the urban development in a data-driven way. Zeng et al.~\cite{xx} proposal a tool to facilitates the urban vitality. Such tool presents both of the physical entities and urban design metrics and allow the expert to quickly discover the city blocks which could be improved.
+\subsection{Visual interpretation for techniques (Technology)}
+The computing techniques play an important role in the exploration of urban information. Even though more and more techniques are adapted to urban data exploration, most of them are sill used as a black box. For most of the technique developers and users, the interpretability is an important property of the techniques in a variety of real world applications. The interpretation can help the technique developers to improve the technique performance and help the technique users improve their confidence~\cite{strobelt2018lstmvis}. 
+
+The technique interpretation can be classified into two categories: model reduction and feature contribution.
+Model reduction methods usually learn a surrogate model to approximate the original complex model.
+The surrogate model is usually simple and interpretable, such as linear regression~\cite{ribeiro2016should} and decision trees~\cite{craven1996extracting}. 
+Depending on the ways of approximating the original model's behaviors, there are three main ways to conduct model reduction: decompositional, pedagogical, and eclectic~\cite{andrews1995survey}.
+% Decompositional methods are usually model dependent and simplify the original model structure, such as the layer and weights of the neural network.
+% Pedagogical methods only utilize the input and output information to mimic the original model.
+% Eclectic methods are either a combination of the previous two approaches or are distinctively different from them.
+% Though model-reduction-based methods are flexible and easy to understand, it is questionable whether or when the surrogate model truly reflects the original model's behaviors.
+% We thus discard this approach in our work.
+
+Feature contribution methods help users understand the relationships between input features and the output prediction.
+They usually assign each feature an importance score to indicate how it impacts the final prediction.
+One classical work is Partial Dependence Plot (PDP)~\cite{friedman2001greedy}, which depicts how feature value changes affect predictions.
+A PDP is usually visualized as a line \textbf{}chart in which the x-axis represents feature values and the y-axis represents prediction possibilities (partial dependence scores).
+For each feature, its partial dependence scores are usually calculated by iteratively fixing the feature input of all the data points to a certain value and getting the average prediction.
+One recent work, SHAP~\cite{lundberg2017unified}, also calculates feature attribution, but from a local perspective.
 
 
-
-\subsection{Visual explanation for computing techniques}
-
+Even though variety of techniques has been proposed to interpret the mechanism of the complex techniques, very few of them target at the application of the urban information exploration which always take large amount, high-dimensioanl and complex data as input.  
 
 \section{Contribution}
 In this proposal, we introduce several visualization techniques in assisting urban data exploration tasks as well as the understanding of urban computing techniques:
