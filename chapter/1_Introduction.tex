@@ -9,10 +9,34 @@ All of these boost the development of urban computing discipline.
 
 Even though the computers have a great advantage in fast computing and large information storage, the fully automatics techniques still have limitations in analyzing the urban data due to the complexity and variety of the real world analysis tasks.  It is always need the involvement of human beings who have acute perception and considerable experience in the domain field to make the final decision. Visualization, "the study of transforming data, information, and knowledge into interactive visual representations"~\cite{liu2014survey}, bridges the gap between the human beings and the computing techniques.
 
-In this chapter, we first introduce urban informatics and the existing visualization techniques in urban data exploration. Then we discuss the major contributions in this thesis which is followed by the thesis organization.
+In this chapter, we first introduce urban informatics and the existing visualization techniques in urban data exploration. Then we discuss the major contributions in this proposal which is followed by the proposal organization.
 
 \section{Visualization meets urban informatics}
 
 \section{Contribution}
-In this thesis, we introduce advanced viusalization techniques in assisting the e
-\section{Thesis organization}
+In this proposal, we introduce several viusalization techniques in assisting urban data exploration tasks as well as the understanding of urban computing techniques:
+
+\begin{itemize}[noitemsep]
+	\item \textbf{Visual Exploration of Human-Scale Urban Forms}. We propose StreetVizor, an interactive visual analytics system that helps planners leverage their domain knowledge in exploring human-scale urban forms based on street view images. Our system presents two-stage visual exploration: 1) an AOI Explorer for the visual comparison of spatial distributions and quantitative measurements in two areas-of-interest at city- and region-scales; 2) and a Street Explorer with a novel parallel coordinate plot for the exploration of the fine-grained details of the urban forms at the street-scale. We integrate visualization techniques with machine learning models to facilitate the detection of street view patterns. 
+	\item \textbf{An edge bundling technique for visualizing origin-destination trails in urban traffic.} We propose RAEB(route aware edge bundling), a novel edge bundling technique to viusally summary the OD trails in urban traffic data. We identify inconsiderate settings of conventional kernel density estimation edge bundling (KDEEB) when applied to urban traffic data, including non-optimal kernel size and road neglect. The limitations are addressed in RAEB by introduction of a comprehensive pipeline comprising preprocessing, bundling and evaluation processes. A series of new parameters, together with adaptions of existing ones, are employed in the pipeline. 
+	\item \textbf{Understanding recurrent neural networks on multi-dimensional time-series forecast.} We propose MultiRNNExplorer, a visual analytics system to interpret RNNs on multi-dimensional time-series forecasts.  
+	Specifically, to provide an overview to reveal the model mechanism, we propose a technique to estimate the hidden unit response by measuring how different feature selections affect the hidden unit output distribution. 
+	We then cluster the hidden units and features based on the response embedding vectors. 
+	Finally, we propose a visual analytics system which allows users to visually explore the model behavior from the global and individual levels.
+\end{itemize}
+
+
+\section{Proposal organization}
+
+%The thesis consists of \QMT{three work}, the first two works are proposed to support the urban data exploration, the third work aim to interpret the model 
+
+The rest of this proposal is organized as follows:
+
+\QMT{Chapter 2 introduces the design of Streetvizor: specific analysis requirements are described by a collaborating urban planner, and the designs are evaluated and refined against requirements. We illustrate the applicability of our approach with case studies on the real-world datasets of four cities, i.e., Hong Kong, Singapore, Greater London and New York City. Interviews with domain experts demonstrate the effectiveness of our system in facilitating various analytical tasks.}
+
+Chapter 3 presents the details about the implementation of RAEB(route aware edge bundling), a new technique to visualize the origin-destination trails in traffic data by edge bundlings techniques. In the evaluation, we conducted experiments with artificial and real-world traffic data to demonstrate the advancements of RAEB in various applications, including the preservation of road network topology and support of multi-scale exploration. 
+
+Chapter 4 proposes a MultiRNNExplorer, a visual analytics system to interpret the recurrent neural networks on multi-dimensional time-series forecast. We introduce the system design and demonstrate the effectiveness of the proposed technique with case studies of air pollutant forecast applications.
+
+
+Chapter 5 concludes the proposal and discusses possible future work.

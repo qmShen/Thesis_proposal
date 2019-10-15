@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.9)  14 OCT 2019 21:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.9)  14 OCT 2019 23:37
 entering extended mode
 **./main.tex
 (main.tex
@@ -715,42 +715,58 @@ LaTeX Warning: Citation `error' on page 1 undefined on input line 4.
 
 [1
 
-]) (main.bbl
+] [2]
+Overfull \hbox (2.08406pt too wide) in paragraph at lines 35--36
+\T1/ppl/m/n/12 scribed by a col-lab-o-rat-ing ur-ban plan-ner, and the de-signs
+ are eval-u-ated and re-fined against
+ []
+
+) (chapter/4_Conclusion.tex [3]
+CHAPTER 2.
+) (main.bbl
 References
-[2])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
- [3
+[4
+
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
+ [5
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 301.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9ED37B056069606D06177E362EE33040;714.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 33685EEC92C545C05A9511820C12214A;716
+(rerunfilecheck)             After:  7156C093007A4EE969994C46DDB4C000;788.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 301.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 302.
  ) 
 Here is how much of TeX's memory you used:
- 8904 strings out of 492452
- 129292 string characters out of 3129805
- 236398 words of memory out of 3000000
- 13068 multiletter control sequences out of 15000+200000
- 17408 words of font info for 46 fonts, out of 3000000 for 9000
+ 8915 strings out of 492452
+ 129507 string characters out of 3129805
+ 237398 words of memory out of 3000000
+ 13071 multiletter control sequences out of 15000+200000
+ 17844 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,6n,37p,817b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,6n,37p,817b,433s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palat
 ino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pf
 b>
-Output written on main.pdf (10 pages, 94205 bytes).
+Output written on main.pdf (12 pages, 101250 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
+ 147 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
