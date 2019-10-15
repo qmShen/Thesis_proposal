@@ -1,9 +1,21 @@
 \begin{thebibliography}{1}
 
+\bibitem{foth2011urban}
+Marcus Foth, Jaz Hee-jeong Choi, and Christine Satchell.
+\newblock Urban informatics.
+\newblock In {\em Proceedings of the ACM 2011 conference on Computer supported
+  cooperative work}, pages 1--8. ACM, 2011.
+
 \bibitem{liu2014survey}
 Shixia Liu, Weiwei Cui, Yingcai Wu, and Mengchen Liu.
 \newblock A survey on information visualization: recent advances and
   challenges.
 \newblock {\em The Visual Computer}, 30(12):1373--1393, 2014.
+
+\bibitem{zheng2014urban}
+Yu~Zheng, Licia Capra, Ouri Wolfson, and Hai Yang.
+\newblock Urban computing: concepts, methodologies, and applications.
+\newblock {\em ACM Transactions on Intelligent Systems and Technology (TIST)},
+  5(3):38, 2014.
 
 \end{thebibliography}
