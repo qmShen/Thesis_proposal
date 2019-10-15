@@ -1,5 +1,19 @@
 \begin{thebibliography}{10}
 
+\bibitem{accorsi2014hydroqual}
+Pierre Accorsi, Nathalie Lalande, Mick{\"a}el Fabr{\`e}gue, Agn{\`e}s Braud,
+  Pascal Poncelet, Arnaud Sallaberry, Sandra Bringay, Maguelonne Teisseire,
+  Flavie Cernesson, and Florence Le~Ber.
+\newblock Hydroqual: Visual analysis of river water quality.
+\newblock In {\em 2014 IEEE Conference on Visual Analytics Science and
+  Technology (VAST)}, pages 123--132. IEEE, 2014.
+
+\bibitem{andrews1995survey}
+Robert Andrews, Joachim Diederich, and Alan~B Tickle.
+\newblock Survey and critique of techniques for extracting rules from trained
+  artificial neural networks.
+\newblock {\em Knowledge-based Systems}, 8(6):373--389, 1995.
+
 \bibitem{andrienko2013visual}
 Gennady Andrienko, Natalia Andrienko, Peter Bak, Daniel Keim, and Stefan
   Wrobel.
@@ -10,6 +24,26 @@ Gennady Andrienko, Natalia Andrienko, Peter Bak, Daniel Keim, and Stefan
 Roger Beecham, Jo~Wood, and Audrey Bowerman.
 \newblock Studying commuting behaviours using collaborative visual analytics.
 \newblock {\em Computers, Environment and Urban Systems}, 47:5--15, 2014.
+
+\bibitem{craven1996extracting}
+Mark Craven and Jude~W Shavlik.
+\newblock Extracting tree-structured representations of trained networks.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  24--30, 1996.
+
+\bibitem{deng2019airvis}
+Zikun Deng, Di~Weng, Jiahui Chen, Ren Liu, Zhibin Wang, Jie Bao, Yu~Zheng, and
+  Yingcai Wu.
+\newblock Airvis: Visual analytics of air pollution propagation.
+\newblock {\em IEEE transactions on visualization and computer graphics}, 2019.
+
+\bibitem{ferreira2015urbane}
+Nivan Ferreira, Marcos Lage, Harish Doraiswamy, Huy Vo, Luc Wilson, Heidi
+  Werner, Muchan Park, and Cl{\'a}udio Silva.
+\newblock Urbane: A 3d framework to support data driven decision making in
+  urban development.
+\newblock In {\em 2015 IEEE Conference on Visual Analytics Science and
+  Technology (VAST)}, pages 97--104. IEEE, 2015.
 
 \bibitem{ferreira2013visual}
 Nivan Ferreira, Jorge Poco, Huy~T Vo, Juliana Freire, and Cl{\'a}udio~T Silva.
@@ -23,6 +57,11 @@ Marcus Foth, Jaz Hee-jeong Choi, and Christine Satchell.
 \newblock Urban informatics.
 \newblock In {\em Proceedings of the ACM 2011 conference on Computer supported
   cooperative work}, pages 1--8. ACM, 2011.
+
+\bibitem{friedman2001greedy}
+Jerome~H Friedman.
+\newblock Greedy function approximation: a gradient boosting machine.
+\newblock {\em Annals of Statistics}, pages 1189--1232, 2001.
 
 \bibitem{guo2014origin}
 Diansheng Guo and Xi~Zhu.
@@ -58,11 +97,37 @@ Shixia Liu, Weiwei Cui, Yingcai Wu, and Mengchen Liu.
   challenges.
 \newblock {\em The Visual Computer}, 30(12):1373--1393, 2014.
 
+\bibitem{lundberg2017unified}
+Scott~M Lundberg and Su-In Lee.
+\newblock A unified approach to interpreting model predictions.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  4765--4774, 2017.
+
 \bibitem{ni2017spatio}
 Bing Ni, Qiaomu Shen, Jiayi Xu, and Huamin Qu.
 \newblock Spatio-temporal flow maps for visualizing movement and contact
   patterns.
 \newblock {\em Visual Informatics}, 1(1):57--64, 2017.
+
+\bibitem{qu2007visual}
+Huamin Qu, Wing-Yi Chan, Anbang Xu, Kai-Lun Chung, Kai-Hon Lau, and Ping Guo.
+\newblock Visual analysis of the air pollution problem in hong kong.
+\newblock {\em IEEE Transactions on visualization and Computer Graphics},
+  13(6):1408--1415, 2007.
+
+\bibitem{ribeiro2016should}
+Marco~Tulio Ribeiro, Sameer Singh, and Carlos Guestrin.
+\newblock Why should i trust you?: Explaining the predictions of any
+  classifier.
+\newblock In {\em Proceedings of the 22nd ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, pages 1135--1144. ACM, 2016.
+
+\bibitem{strobelt2018lstmvis}
+Hendrik Strobelt, Sebastian Gehrmann, Hanspeter Pfister, and Alexander~M Rush.
+\newblock Lstmvis: A tool for visual analysis of hidden state dynamics in
+  recurrent neural networks.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  24(1):667--676, 2018.
 
 \bibitem{von2015mobilitygraphs}
 Tatiana Von~Landesberger, Felix Brodkorb, Philipp Roskosch, Natalia Andrienko,
