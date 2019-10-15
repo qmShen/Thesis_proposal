@@ -1,4 +1,22 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{andrienko2013visual}
+Gennady Andrienko, Natalia Andrienko, Peter Bak, Daniel Keim, and Stefan
+  Wrobel.
+\newblock {\em Visual analytics of movement}.
+\newblock 2013.
+
+\bibitem{beecham2014studying}
+Roger Beecham, Jo~Wood, and Audrey Bowerman.
+\newblock Studying commuting behaviours using collaborative visual analytics.
+\newblock {\em Computers, Environment and Urban Systems}, 47:5--15, 2014.
+
+\bibitem{ferreira2013visual}
+Nivan Ferreira, Jorge Poco, Huy~T Vo, Juliana Freire, and Cl{\'a}udio~T Silva.
+\newblock Visual exploration of big spatio-temporal urban data: A study of {New
+  York} city taxi trips.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  19(12):2149--2158, 2013.
 
 \bibitem{foth2011urban}
 Marcus Foth, Jaz Hee-jeong Choi, and Christine Satchell.
@@ -6,11 +24,93 @@ Marcus Foth, Jaz Hee-jeong Choi, and Christine Satchell.
 \newblock In {\em Proceedings of the ACM 2011 conference on Computer supported
   cooperative work}, pages 1--8. ACM, 2011.
 
+\bibitem{guo2014origin}
+Diansheng Guo and Xi~Zhu.
+\newblock Origin-destination flow data smoothing and mapping.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  20(12):2043--2052, 2014.
+
+\bibitem{huang2015trajgraph}
+Xiaoke Huang, Ye~Zhao, Chao Ma, Jing Yang, Xinyue Ye, and Chong Zhang.
+\newblock Trajgraph: A graph-based visual analytics approach to studying urban
+  network centralities using taxi trajectory data.
+\newblock {\em IEEE transactions on visualization and computer graphics},
+  22(1):160--169, 2015.
+
+\bibitem{kruger2013trajectorylenses}
+Robert Kr{\"u}ger, Dennis Thom, Michael W{\"o}rner, Harald Bosch, and Thomas
+  Ertl.
+\newblock Trajectorylenses--a set-based filtering and exploration technique for
+  long-term trajectory data.
+\newblock In {\em Computer Graphics Forum}, volume~32, pages 451--460. Wiley
+  Online Library, 2013.
+
+\bibitem{lanir2014visualizing}
+Joel Lanir, Peter Bak, and Tsvi Kuflik.
+\newblock Visualizing proximity-based spatiotemporal behavior of museum
+  visitors using tangram diagrams.
+\newblock In {\em Computer Graphics Forum}, volume~33, pages 261--270. Wiley
+  Online Library, 2014.
+
 \bibitem{liu2014survey}
 Shixia Liu, Weiwei Cui, Yingcai Wu, and Mengchen Liu.
 \newblock A survey on information visualization: recent advances and
   challenges.
 \newblock {\em The Visual Computer}, 30(12):1373--1393, 2014.
+
+\bibitem{ni2017spatio}
+Bing Ni, Qiaomu Shen, Jiayi Xu, and Huamin Qu.
+\newblock Spatio-temporal flow maps for visualizing movement and contact
+  patterns.
+\newblock {\em Visual Informatics}, 1(1):57--64, 2017.
+
+\bibitem{von2015mobilitygraphs}
+Tatiana Von~Landesberger, Felix Brodkorb, Philipp Roskosch, Natalia Andrienko,
+  Gennady Andrienko, and Andreas Kerren.
+\newblock Mobilitygraphs: Visual analysis of mass mobility dynamics via
+  spatio-temporal graphs and clustering.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  22(1):11--20, 2015.
+
+\bibitem{von2016mobilitygraphs}
+Tatiana von Landesberger, Felix Brodkorb, Philipp Roskosch, Natalia Andrienko,
+  Gennady Andrienko, and Andreas Kerren.
+\newblock {MobilityGraphs}: Visual analysis of mass mobility dynamics via
+  spatio-temporal graphs and clustering.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  22(1):11--20, 2016.
+
+\bibitem{wang2014visual}
+Fei Wang, Wei Chen, Feiran Wu, Ye~Zhao, Han Hong, Tianyu Gu, Long Wang, Ronghua
+  Liang, and Hujun Bao.
+\newblock A visual reasoning approach for data-driven transport assessment on
+  urban roads.
+\newblock In {\em 2014 IEEE Conference on Visual Analytics Science and
+  Technology (VAST)}, pages 103--112. IEEE, 2014.
+
+\bibitem{wang2013visual}
+Zuchao Wang, Min Lu, Xiaoru Yuan, Junping Zhang, and Huub Van De~Wetering.
+\newblock Visual traffic jam analysis based on trajectory data.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  19(12):2159--2168, 2013.
+
+\bibitem{wilkinson2009history}
+Leland Wilkinson and Michael Friendly.
+\newblock The history of the cluster heat map.
+\newblock {\em The American Statistician}, 63(2):179--184, 2009.
+
+\bibitem{wood2010visualisation}
+Jo~Wood, Jason Dykes, and Aidan Slingsby.
+\newblock Visualisation of origins, destinations and flows with od maps.
+\newblock {\em The Cartographic Journal}, 47(2):117--129, 2010.
+
+\bibitem{wu2015telcovis}
+Wenchao Wu, Jiayi Xu, Haipeng Zeng, Yixian Zheng, Huamin Qu, Bing Ni, Mingxuan
+  Yuan, and Lionel~M Ni.
+\newblock Telcovis: Visual exploration of co-occurrence in urban human mobility
+  based on telco data.
+\newblock {\em IEEE transactions on visualization and computer graphics},
+  22(1):935--944, 2015.
 
 \bibitem{zheng2014urban}
 Yu~Zheng, Licia Capra, Ouri Wolfson, and Hai Yang.
