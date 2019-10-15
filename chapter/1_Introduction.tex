@@ -13,16 +13,35 @@ In this chapter, we first introduce the existing visualization techniques in urb
 
 \section{Visualization meets urban information}
 
-The study of urban information leverages the theories from variety of academic fields. The analysis of model urban always refers to the intersection of three domains: people, place and technology~\cite{foth2011urban}. 
+% The study of urban information leverages the theories from variety of academic fields. 
+ 
+The analysis of model urban always refers to the intersection of three domains: people, place and technology~\cite{foth2011urban}, which is covered by the proposed work in this proposal. 
 \begin{itemize}
 \item \textbf{People.} People refers to the residents, citizens, community groups as well as the relative data such as commuting, social network, etc.
 \item \textbf{Place.} Place refers to the physical environment such as the urban sites, locales and habitats which if formed by nature or human activities.
 \item \textbf{Technology.} Technology refers to a variety of techniques span informatics, computing techniques, wearable devices, etc.
 \end{itemize}
 
+Before introducing the contribution of this proposal, we first briefly introduce the existing techniques from these three aspects:
+
+\subsection{Visualization of human movement}
+As a general topic in visualization description, how to effectively visualizing the human movement has been long studied in recent years.  An overview has been proposed to categorized the existing movement visualization techniques into three classes: \textbf{pattern extraction}, \textbf{direct depiction}, \textbf{summarization} ~\cite{andrienko2013visual, wu2015telcovis}.
+
+The \textbf{pattern extraction} methods leverage effective visualization to discover the mobility pattern from the movement data such as the traffic congestions~\cite{wang2013visual}, route assessment~\cite{wang2014visual, huang2015trajgraph}, commuting patterns~\cite{beecham2014studying, von2015mobilitygraphs}, co-occurrence~\cite{wu2015telcovis, ni2017spatio}. Compare to other two types of techniques, the pattern extract methods aim to solve the specific application problem directly and these techniques are always difficult to extend to other applications.
+
+The \textbf{direct depiction} directly plot the movement data according to the data format: such as the line segments for OD trails, and polylines for trajectories~\cite{andrienko2013visual, ferreira2013visual, kruger2013trajectorylenses}. Such techniques preserve all the information of individual movement. However, when the dataset is large, the visual clutter the render workload will be the major limitation which hinders the analysts’ ability to explore the data.
+
+The \textbf{summarization} techniques aim to provide an overview of movement data. Most of these summarization techniques conduct statistical calculation and aggregation before rendering. The typical visualization can be heatmap~\cite{wilkinson2009history}, density map~\cite{lanir2014visualizing}, flow map~\cite{guo2014origin}, matrix~\cite{wood2010visualisation} and node-link~\cite{von2016mobilitygraphs}. Due to the ability to present the high-level perception and alleviate the data uncertainty~\cite{andrienko2013visual}, the summarization techniques are widely used in movement visualization. 
+
+\subsection{Visualization of urban environment}. 
+
+
+
+\subsection{Visual explanation for computing techniques}
+
 
 \section{Contribution}
-In this proposal, we introduce several viusalization techniques in assisting urban data exploration tasks as well as the understanding of urban computing techniques:
+In this proposal, we introduce several visualization techniques in assisting urban data exploration tasks as well as the understanding of urban computing techniques:
 
 \begin{itemize}[noitemsep]
 	\item \textbf{Visual Exploration of Human-Scale Urban Forms}. We propose StreetVizor, an interactive visual analytics system that helps planners leverage their domain knowledge in exploring human-scale urban forms based on street view images. Our system presents two-stage visual exploration: 1) an AOI Explorer for the visual comparison of spatial distributions and quantitative measurements in two areas-of-interest at city- and region-scales; 2) and a Street Explorer with a novel parallel coordinate plot for the exploration of the fine-grained details of the urban forms at the street-scale. We integrate visualization techniques with machine learning models to facilitate the detection of street view patterns. 
