@@ -66,7 +66,7 @@ Dis(S1, S2) = \left \{
 % 	Top left and bottom right: the distribution of the background is different from the distribution of other feature selections, which shows the hidden unit 92 and 93 response to $PM_{2.5}$ and $SO_2$ respectively.
 	}
 	\label{fig:unit_distribution_subgroup}
-	\vspace{-4mm}
+	\vspace{-1mm}
 \end{figure}
 
 
@@ -108,7 +108,7 @@ Users can also manually choose different clustering algorithms and change the nu
 % 	A good choice of the cluster method and cluster number is K-means and 12 for the feature cluster, Agglomerative Clustering (AC) and 10 for the hidden units cluster.
 	}
 	\label{fig:cluster_parameters}
-	\vspace{-4mm}
+	\vspace{-1mm}
 \end{figure}
 
 The clustering results can be modeled as bipartite graph $\mathbb{G} = (\mathbb{V}_H, \mathbb{V}_F, \mathbb{E})$, where $\mathbb{V}_H$ is the hidden unit cluster set and $\mathbb{V}_F$ is the feature cluster set. $\mathbb{E}$ indicates the weighted edge set between unit clusters and input dimension clusters with the weight of $E_{H,F} = \displaystyle\sum_{h \in H}\displaystyle\sum_{f \in F}RS(h, f)$ where $H \in \mathbb{V}_H$ and $F \in \mathbb{V}_F$. 
@@ -122,6 +122,7 @@ This bipartite graph of features and hidden units can help users understand the 
 Inspired by back-propagation in machine learning, we conduct the individual level analysis based on the local gradient which is used to present the word saliency in NLP tasks~\cite{li2015visualizing}. 
 Given the output of feature $y^l$, we use the local gradient with respect to feature $x_t^k \in x$ to present the feature importance as:
 
+\vspace{-3mm}
 \begin{equation}
     \label{equation:feature_gradient}
     \begin{multlined}

@@ -14,7 +14,7 @@ By this, a vertex $\bar{v} \in \bar{V}$ can be classified as an endpoint with $d
 To facilitate computation, we can simply $\bar{G}$ into a simplified graph $G = (V, R)$, where $V$ is the union of endpoints and intersections, and $R$ is a set of links connecting nodes in $V$.
 Each link $r$ represents a sequence of $n$ consecutive nodes in $\bar{V}$:
 
-\vspace{-5mm}
+\vspace{-7mm}
 \begin{equation}
   \begin{aligned}
   	r &:= \bar{v}_1 \rightarrow \bar{v}_2 \rightarrow ... \rightarrow \bar{v}_n, \,\,\, \forall \bar{v}_i \in \bar{V}
@@ -75,13 +75,13 @@ Both methods return a sequence of routes $r_1 \rightarrow r_2 \rightarrow ... \r
 We then combine the routes with origin ($l_o$) and destination ($l_d$) locations of $t_{raw}$.
 Thus, both types of $t_{raw}$ are converted to the same map matching form. 
 
-\vspace{-4mm}
+\vspace{-7mm}
 \begin{equation}
   	\begin{aligned}
 t_{map} := l_o \rightarrow r_1 \rightarrow r_2 \rightarrow ... \rightarrow r_n \rightarrow l_d.
  	\end{aligned}
 \end{equation}
-\vspace{-3mm}
+\vspace{-1mm}
 
 Here the OD trail's origin $l_o$ and destination $l_d$ are kept.
 
@@ -145,12 +145,12 @@ Each level of routes accounts for top-k routes.
 
 \begin{figure}[t]
 	\centering
-	\includegraphics[width=0.45\textwidth]{figure/edgebundling/fig4_od_abstraction/OD_Abstraction.pdf}
+	\includegraphics[width=0.7\textwidth]{figure/edgebundling/fig4_od_abstraction/OD_Abstraction.pdf}
 	\vspace{-3mm}
 	\caption{Illustration of hierarchical route structure and OD trail abstraction:
 	(a) Three route levels are constructed colored in blue, purple and green, repsectively; a raw OD trail is abstracted in accordance to route (b) level-3, (c) level-2, and (d) level-1.}
 	\label{fig:road_hierarchy}
-	\vspace{-6mm}
+	\vspace{-1mm}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

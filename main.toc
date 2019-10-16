@@ -38,7 +38,7 @@
 \contentsline {subsection}{\numberline {2.6.5}User Interactions}{27}{subsection.2.6.5}% 
 \contentsline {section}{\numberline {2.7}Case Studies}{28}{section.2.7}% 
 \contentsline {subsection}{\numberline {2.7.1}City-scale Comparison}{28}{subsection.2.7.1}% 
-\contentsline {subsection}{\numberline {2.7.2}Region-scale Exploration}{30}{subsection.2.7.2}% 
+\contentsline {subsection}{\numberline {2.7.2}Region-scale Exploration}{29}{subsection.2.7.2}% 
 \contentsline {subsection}{\numberline {2.7.3}Street-scale Comparison}{31}{subsection.2.7.3}% 
 \contentsline {section}{\numberline {2.8}Expert Review}{32}{section.2.8}% 
 \contentsline {section}{\numberline {2.9}Discussion}{35}{section.2.9}% 
@@ -48,53 +48,53 @@
 \contentsline {section}{\numberline {3.2}Related Work}{39}{section.3.2}% 
 \contentsline {section}{\numberline {3.3}Problem Statement and System Overview}{41}{section.3.3}% 
 \contentsline {subsection}{\numberline {3.3.1}KDEEB Algorithm}{41}{subsection.3.3.1}% 
-\contentsline {subsection}{\numberline {3.3.2}Problem Identification}{42}{subsection.3.3.2}% 
-\contentsline {subsection}{\numberline {3.3.3}RAEB Overview}{43}{subsection.3.3.3}% 
+\contentsline {subsection}{\numberline {3.3.2}Problem Identification}{43}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.3}RAEB Overview}{44}{subsection.3.3.3}% 
 \contentsline {section}{\numberline {3.4}Preprocessing}{44}{section.3.4}% 
-\contentsline {subsection}{\numberline {3.4.1}Basic Traffic Concepts}{44}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.4.1}Basic Traffic Concepts}{45}{subsection.3.4.1}% 
 \contentsline {subsection}{\numberline {3.4.2}Map Matching}{45}{subsection.3.4.2}% 
 \contentsline {subsection}{\numberline {3.4.3}Hierarchical Route Structure Construction}{46}{subsection.3.4.3}% 
 \contentsline {subsection}{\numberline {3.4.4}Trail Abstraction}{47}{subsection.3.4.4}% 
 \contentsline {section}{\numberline {3.5}Bundling Method}{48}{section.3.5}% 
-\contentsline {subsection}{\numberline {3.5.1}Optimal Kernel Size}{49}{subsection.3.5.1}% 
-\contentsline {subsection}{\numberline {3.5.2}Density Map Generation}{49}{subsection.3.5.2}% 
+\contentsline {subsection}{\numberline {3.5.1}Optimal Kernel Size}{48}{subsection.3.5.1}% 
+\contentsline {subsection}{\numberline {3.5.2}Density Map Generation}{50}{subsection.3.5.2}% 
 \contentsline {section}{\numberline {3.6}Evaluation}{50}{section.3.6}% 
 \contentsline {subsection}{\numberline {3.6.1}Normalized Mutual Information}{50}{subsection.3.6.1}% 
 \contentsline {subsection}{\numberline {3.6.2}Bundle Deviation}{52}{subsection.3.6.2}% 
-\contentsline {section}{\numberline {3.7}Applications}{52}{section.3.7}% 
+\contentsline {section}{\numberline {3.7}Applications}{53}{section.3.7}% 
 \contentsline {subsection}{\numberline {3.7.1}Artificial OD Trails}{53}{subsection.3.7.1}% 
-\contentsline {subsection}{\numberline {3.7.2}New York Taxi Trips}{54}{subsection.3.7.2}% 
-\contentsline {subsection}{\numberline {3.7.3}Shenzhen Taxi Trips}{55}{subsection.3.7.3}% 
-\contentsline {section}{\numberline {3.8}Discussion}{56}{section.3.8}% 
+\contentsline {subsection}{\numberline {3.7.2}New York Taxi Trips}{55}{subsection.3.7.2}% 
+\contentsline {subsection}{\numberline {3.7.3}Shenzhen Taxi Trips}{56}{subsection.3.7.3}% 
+\contentsline {section}{\numberline {3.8}Discussion}{57}{section.3.8}% 
 \contentsline {subsection}{\numberline {3.8.1}Parameters}{57}{subsection.3.8.1}% 
-\contentsline {subsection}{\numberline {3.8.2}Performance}{58}{subsection.3.8.2}% 
-\contentsline {subsection}{\numberline {3.8.3}Applicability and Limitations}{59}{subsection.3.8.3}% 
-\contentsline {section}{\numberline {3.9}Conclusion and future work}{60}{section.3.9}% 
-\contentsline {chapter}{{Chapter 4}\hspace {1em}Visual Interpretation of Recurrent Neural Network on Multi-dimensional Time-series Forecast}{62}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Introduction}{62}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Related Work}{64}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}Recurrent Neural Networks}{64}{subsection.4.2.1}% 
-\contentsline {subsection}{\numberline {4.2.2}Machine Learning Interpretation}{65}{subsection.4.2.2}% 
-\contentsline {section}{\numberline {4.3}Application and Models}{66}{section.4.3}% 
-\contentsline {subsection}{\numberline {4.3.1}Application}{66}{subsection.4.3.1}% 
-\contentsline {subsection}{\numberline {4.3.2}Data Description}{67}{subsection.4.3.2}% 
-\contentsline {subsection}{\numberline {4.3.3}Models Description}{67}{subsection.4.3.3}% 
-\contentsline {section}{\numberline {4.4}System design}{68}{section.4.4}% 
-\contentsline {subsection}{\numberline {4.4.1}Task analysis}{68}{subsection.4.4.1}% 
-\contentsline {subsection}{\numberline {4.4.2}System Overview}{69}{subsection.4.4.2}% 
-\contentsline {section}{\numberline {4.5}Model Interpretation}{70}{section.4.5}% 
-\contentsline {subsection}{\numberline {4.5.1}Relationships between Hidden States and Features}{70}{subsection.4.5.1}% 
-\contentsline {subsubsection}{Hidden State Distribution}{71}{section*.8}% 
-\contentsline {subsubsection}{Relationship Strength Estimation}{72}{section*.9}% 
-\contentsline {subsection}{\numberline {4.5.2}Hidden Unit and Feature Clustering}{73}{subsection.4.5.2}% 
-\contentsline {subsection}{\numberline {4.5.3}Local Feature Importance}{74}{subsection.4.5.3}% 
-\contentsline {section}{\numberline {4.6}Visualization Design}{75}{section.4.6}% 
-\contentsline {subsection}{\numberline {4.6.1}Cluster View}{75}{subsection.4.6.1}% 
-\contentsline {subsection}{\numberline {4.6.2}Feature Importance View}{77}{subsection.4.6.2}% 
-\contentsline {subsection}{\numberline {4.6.3}Projection View}{78}{subsection.4.6.3}% 
-\contentsline {subsection}{\numberline {4.6.4}Individual View}{79}{subsection.4.6.4}% 
-\contentsline {subsection}{\numberline {4.6.5}Interactions and Linkage}{81}{subsection.4.6.5}% 
-\contentsline {section}{\numberline {4.7}Case study}{81}{section.4.7}% 
-\contentsline {section}{\numberline {4.8}Discussion and Conclusion}{82}{section.4.8}% 
-\contentsline {chapter}{{Chapter 5}\hspace {1em}Conclusion and Future Work}{84}{chapter.5}% 
+\contentsline {subsection}{\numberline {3.8.2}Performance}{59}{subsection.3.8.2}% 
+\contentsline {subsection}{\numberline {3.8.3}Applicability and Limitations}{60}{subsection.3.8.3}% 
+\contentsline {section}{\numberline {3.9}Conclusion and future work}{61}{section.3.9}% 
+\contentsline {chapter}{{Chapter 4}\hspace {1em}Visual Interpretation of Recurrent Neural Network on Multi-dimensional Time-series Forecast}{63}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Introduction}{63}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Related Work}{65}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Recurrent Neural Networks}{65}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Machine Learning Interpretation}{66}{subsection.4.2.2}% 
+\contentsline {section}{\numberline {4.3}Application and Models}{67}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}Application}{67}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {4.3.2}Data Description}{68}{subsection.4.3.2}% 
+\contentsline {subsection}{\numberline {4.3.3}Models Description}{68}{subsection.4.3.3}% 
+\contentsline {section}{\numberline {4.4}System design}{69}{section.4.4}% 
+\contentsline {subsection}{\numberline {4.4.1}Task analysis}{69}{subsection.4.4.1}% 
+\contentsline {subsection}{\numberline {4.4.2}System Overview}{70}{subsection.4.4.2}% 
+\contentsline {section}{\numberline {4.5}Model Interpretation}{71}{section.4.5}% 
+\contentsline {subsection}{\numberline {4.5.1}Relationships between Hidden States and Features}{71}{subsection.4.5.1}% 
+\contentsline {subsubsection}{Hidden State Distribution}{72}{section*.8}% 
+\contentsline {subsubsection}{Relationship Strength Estimation}{73}{section*.9}% 
+\contentsline {subsection}{\numberline {4.5.2}Hidden Unit and Feature Clustering}{74}{subsection.4.5.2}% 
+\contentsline {subsection}{\numberline {4.5.3}Local Feature Importance}{76}{subsection.4.5.3}% 
+\contentsline {section}{\numberline {4.6}Visualization Design}{76}{section.4.6}% 
+\contentsline {subsection}{\numberline {4.6.1}Cluster View}{77}{subsection.4.6.1}% 
+\contentsline {subsection}{\numberline {4.6.2}Feature Importance View}{79}{subsection.4.6.2}% 
+\contentsline {subsection}{\numberline {4.6.3}Projection View}{79}{subsection.4.6.3}% 
+\contentsline {subsection}{\numberline {4.6.4}Individual View}{80}{subsection.4.6.4}% 
+\contentsline {subsection}{\numberline {4.6.5}Interactions and Linkage}{82}{subsection.4.6.5}% 
+\contentsline {section}{\numberline {4.7}Case study}{82}{section.4.7}% 
+\contentsline {section}{\numberline {4.8}Discussion and Conclusion}{83}{section.4.8}% 
+\contentsline {chapter}{{Chapter 5}\hspace {1em}Conclusion and Future Work}{85}{chapter.5}% 
 \contentsline {chapter}{References}{87}{chapter*.10}% 

@@ -6,12 +6,12 @@ An overview of RAEB is presented at the end.
 
 \begin{figure}[t] 
 	\centering
-	\includegraphics[width=0.495\textwidth]{figure/edgebundling/fig2_kernel_size/kernel_size}
-	\vspace{-5mm}
+	\includegraphics[width=0.90\textwidth]{figure/edgebundling/fig2_kernel_size/kernel_size}
+	\vspace{-3mm}
 	\caption{KDEEB applied to taxi trips in Manhattan with different kernel sizes $p_r$: (a) 120, (b) 80, (c) 40, and (d) 20.
 	More detailed bundles are generated with smaller $p_r$.}
 	\label{fig:kernel_size}
-	\vspace{-5mm}
+	\vspace{-1mm}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -24,7 +24,7 @@ It employs a general pipeline with edge sampling, splatting, gradient estimation
 In edge sampling step, an edge $\textbf{e}_i$ is divided into uniformly-sampled polylines, i.e., $\textbf{e}_i = \{\textbf{x}_j\}$, with user-given sampling step $\sigma$.
 After that, KDEEB computes a density map $\rho : \mathbb{R}^2 \rightarrow \mathbb{R}^+ $as
 
-\vspace{-4mm}
+\vspace{-7mm}
 \begin{equation}\label{eq:kernel_density_estimation}
 \rho(\textbf{x} \in \mathbb{R}^2) = \sum_{\textbf{y} \in D} K (\frac{\|\textbf{x}-\textbf{y}\|}{p_r})
 \end{equation}
@@ -59,11 +59,11 @@ Bundling iteration $p_n$: An integer in between 10 to 15.
 \begin{figure*}[t]
 	\centering
 	\includegraphics[width=0.995\textwidth]{figure/edgebundling/fig3_framework/framework2.pdf}
-	\vspace{-3mm}
+	\vspace{-9mm}
 	\caption{Overview of RAEB pipeline.
 	Our method mainly consists of three phases: \textit{Preprocessing} for creating a proper initial layout, \textit{Bundling} for bundling input OD trails, and \textit{Evaluation} for generating a stable bundle structure.}
 	\label{fig:framework}
-	\vspace{-4mm}
+	\vspace{-1mm}
 \end{figure*}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

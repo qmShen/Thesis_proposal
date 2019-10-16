@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.9)  16 OCT 2019 21:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.9)  16 OCT 2019 22:42
 entering extended mode
 **./main.tex
 (main.tex
@@ -859,12 +859,7 @@ File: figure/streetvizor/fig1_teaser/teaser.pdf Graphic file (type pdf)
 <use figure/streetvizor/fig1_teaser/teaser.pdf>
 Package pdftex.def Info: figure/streetvizor/fig1_teaser/teaser.pdf  used on inp
 ut line 11.
-(pdftex.def)             Requested size: 424.82523pt x 125.38797pt.
-
-
-LaTeX Warning: Reference `ssec:c1_tasks' on page 18 undefined on input line 27.
-
-
+(pdftex.def)             Requested size: 462.5886pt x 136.53424pt.
 
 Overfull \hbox (28.6861pt too wide) in paragraph at lines 33--37
 []\T1/ptm/b/n/12 Overview+Details\T1/ptm/m/n/12 : To fa-cil-i-tate multi-scale 
@@ -873,92 +868,83 @@ ex-plo-ration, our sys-tem should fol-low the information-
 
 [18 <./figure/streetvizor/fig4_data_model/data_model.pdf>] [19 <./figure/street
 vizor/fig1_teaser/teaser.pdf>] [20]
-<figure/streetvizor/fig5_statistic_view/statistic_view.pdf, id=1045, 768.27928p
+<figure/streetvizor/fig5_statistic_view/statistic_view.pdf, id=1047, 768.27928p
 t x 421.59105pt>
 File: figure/streetvizor/fig5_statistic_view/statistic_view.pdf Graphic file (t
 ype pdf)
 <use figure/streetvizor/fig5_statistic_view/statistic_view.pdf>
 Package pdftex.def Info: figure/streetvizor/fig5_statistic_view/statistic_view.
-pdf  used on input line 113.
-(pdftex.def)             Requested size: 401.22942pt x 220.18068pt.
- [21 <./figure/streetvizor/fig5_statistic_view/statistic_view.pdf>] [22]
-<figure/streetvizor/fig6_street_map_view/street_map_view.pdf, id=5272, 781.4354
+pdf  used on input line 124.
+(pdftex.def)             Requested size: 424.82523pt x 233.12378pt.
+ [21] [22 <./figure/streetvizor/fig5_statistic_view/statistic_view.pdf>]
+<figure/streetvizor/fig6_street_map_view/street_map_view.pdf, id=5273, 781.4354
 2pt x 346.27669pt>
 File: figure/streetvizor/fig6_street_map_view/street_map_view.pdf Graphic file 
 (type pdf)
 <use figure/streetvizor/fig6_street_map_view/street_map_view.pdf>
 Package pdftex.def Info: figure/streetvizor/fig6_street_map_view/street_map_vie
-w.pdf  used on input line 193.
+w.pdf  used on input line 196.
 (pdftex.def)             Requested size: 424.82523pt x 188.25471pt.
  [23] [24 <./figure/streetvizor/fig6_street_map_view/street_map_view.pdf>]
-<figure/streetvizor/fig7_street_model/street_pcp.pdf, id=5301, 374.0645pt x 322
+<figure/streetvizor/fig7_street_model/street_pcp.pdf, id=5302, 374.0645pt x 322
 .70563pt>
 File: figure/streetvizor/fig7_street_model/street_pcp.pdf Graphic file (type pd
 f)
 <use figure/streetvizor/fig7_street_model/street_pcp.pdf>
 Package pdftex.def Info: figure/streetvizor/fig7_street_model/street_pcp.pdf  u
-sed on input line 235.
+sed on input line 238.
 (pdftex.def)             Requested size: 424.82523pt x 366.49472pt.
  [25 <./figure/streetvizor/fig7_street_model/street_pcp.pdf>]
-<figure/streetvizor/fig8_study_1/study_1_spatial.pdf, id=5359, 1037.26523pt x 3
+<figure/streetvizor/fig8_study_1/study_1_spatial.pdf, id=5360, 1037.26523pt x 3
 84.49448pt>
 File: figure/streetvizor/fig8_study_1/study_1_spatial.pdf Graphic file (type pd
 f)
 <use figure/streetvizor/fig8_study_1/study_1_spatial.pdf>
 Package pdftex.def Info: figure/streetvizor/fig8_study_1/study_1_spatial.pdf  u
-sed on input line 295.
+sed on input line 294.
 (pdftex.def)             Requested size: 448.42822pt x 166.22116pt.
-<figure/streetvizor/fig8_study_1/study_1_statistic.pdf, id=5360, 1239.63126pt x
+ [26] [27 <./figure/streetvizor/fig8_study_1/study_1_spatial.pdf>])
+(chapter/2_StreetVizor/7_CaseStudies.tex
+<figure/streetvizor/fig8_study_1/study_1_statistic.pdf, id=5384, 1239.63126pt x
  499.8675pt>
 File: figure/streetvizor/fig8_study_1/study_1_statistic.pdf Graphic file (type 
 pdf)
 <use figure/streetvizor/fig8_study_1/study_1_statistic.pdf>
 Package pdftex.def Info: figure/streetvizor/fig8_study_1/study_1_statistic.pdf 
- used on input line 306.
+ used on input line 7.
 (pdftex.def)             Requested size: 472.03123pt x 190.3406pt.
- [26] [27 <./figure/streetvizor/fig8_study_1/study_1_spatial.pdf> <./figure/str
-eetvizor/fig8_study_1/study_1_statistic.pdf
-
-pdfTeX warning: pdflatex.exe (file ./figure/streetvizor/fig8_study_1/study_1_st
-atistic.pdf): PDF inclusion: multiple pdfs with page group included in a single
- page
->]) (chapter/2_StreetVizor/7_CaseStudies.tex
-<figure/streetvizor/fig9_study_2/region-functionality.png, id=12341, 1706.375pt
+ [28 <./figure/streetvizor/fig8_study_1/study_1_statistic.pdf>]
+<figure/streetvizor/fig9_study_2/region-functionality.png, id=12354, 1706.375pt
  x 982.67125pt>
 File: figure/streetvizor/fig9_study_2/region-functionality.png Graphic file (ty
 pe png)
 <use figure/streetvizor/fig9_study_2/region-functionality.png>
 Package pdftex.def Info: figure/streetvizor/fig9_study_2/region-functionality.p
-ng  used on input line 8.
+ng  used on input line 50.
 (pdftex.def)             Requested size: 462.5886pt x 266.38937pt.
- [28] [29 <./figure/streetvizor/fig9_study_2/region-functionality.png (PNG copy
-)>]
-
-LaTeX Warning: Reference `fig:c1_region-funcitonality' on page 30 undefined on 
-input line 52.
-
-<figure/streetvizor/fig9_study_2/study_2_2.pdf, id=12358, 788.50383pt x 454.583
+ [29]
+<figure/streetvizor/fig9_study_2/study_2_2.pdf, id=12360, 788.50383pt x 454.583
 33pt>
 File: figure/streetvizor/fig9_study_2/study_2_2.pdf Graphic file (type pdf)
 <use figure/streetvizor/fig9_study_2/study_2_2.pdf>
 Package pdftex.def Info: figure/streetvizor/fig9_study_2/study_2_2.pdf  used on
- input line 61.
+ input line 69.
 (pdftex.def)             Requested size: 472.03123pt x 272.12782pt.
-[30 <./figure/streetvizor/fig9_study_2/study_2_2.pdf>] [31]
-<figure/streetvizor/fig10_study_3/study_3.pdf, id=18750, 718.685pt x 619.0116pt
+ [30 <./figure/streetvizor/fig9_study_2/region-functionality.png (PNG copy)>] [
+31 <./figure/streetvizor/fig9_study_2/study_2_2.pdf>]
+<figure/streetvizor/fig10_study_3/study_3.pdf, id=18752, 718.685pt x 619.0116pt
 >
 File: figure/streetvizor/fig10_study_3/study_3.pdf Graphic file (type pdf)
 <use figure/streetvizor/fig10_study_3/study_3.pdf>
 Package pdftex.def Info: figure/streetvizor/fig10_study_3/study_3.pdf  used on 
-input line 110.
+input line 118.
 (pdftex.def)             Requested size: 448.42822pt x 386.24846pt.
-)
-(chapter/2_StreetVizor/8_ExpertReview.tex
+) (chapter/2_StreetVizor/8_ExpertReview.tex [32]
 
-LaTeX Warning: Reference `fig:c1_region-funcitonality' on page 32 undefined on 
+LaTeX Warning: Reference `fig:c1_region-funcitonality' on page 33 undefined on 
 input line 26.
 
-[32] [33 <./figure/streetvizor/fig10_study_3/study_3.pdf>]
+[33 <./figure/streetvizor/fig10_study_3/study_3.pdf>]
 Overfull \hbox (4.32825pt too wide) in paragraph at lines 39--48
 \T1/ptm/m/n/12 StreetVi-zor has a great po-ten-tial to be em-ployed by plan-ner
 s and de-sign-ers to ``build more pedestrian-
@@ -972,27 +958,27 @@ CHAPTER 3.
 
 ] [38])
 (chapter/3_edgebundling/2_relatedwork.tex [39]
-<figure/edgebundling/fig1_alternatives/alternatives.pdf, id=18859, 1186.18156pt
+<figure/edgebundling/fig1_alternatives/alternatives.pdf, id=18861, 1186.18156pt
  x 779.53734pt>
 File: figure/edgebundling/fig1_alternatives/alternatives.pdf Graphic file (type
  pdf)
 <use figure/edgebundling/fig1_alternatives/alternatives.pdf>
 Package pdftex.def Info: figure/edgebundling/fig1_alternatives/alternatives.pdf
   used on input line 43.
-(pdftex.def)             Requested size: 233.65315pt x 153.54953pt.
-)
-(chapter/3_edgebundling/3_Overview.tex [40 <./figure/edgebundling/fig1_alternat
-ives/alternatives.pdf>]
-<figure/edgebundling/fig2_kernel_size/kernel_size.pdf, id=18939, 2442.82632pt x
+(pdftex.def)             Requested size: 424.82523pt x 279.18207pt.
+ [40 <./figure/edgebundling/fig1_alternatives/alternatives.pdf>]) (chapter/3_ed
+gebundling/3_Overview.tex
+<figure/edgebundling/fig2_kernel_size/kernel_size.pdf, id=18936, 2442.82632pt x
  1576.97151pt>
 File: figure/edgebundling/fig2_kernel_size/kernel_size.pdf Graphic file (type p
 df)
 <use figure/edgebundling/fig2_kernel_size/kernel_size.pdf>
 Package pdftex.def Info: figure/edgebundling/fig2_kernel_size/kernel_size.pdf  
 used on input line 9.
-(pdftex.def)             Requested size: 233.65315pt x 150.82448pt.
- [41 <./figure/edgebundling/fig2_kernel_size/kernel_size.pdf>]
-<figure/edgebundling/fig3_framework/framework2.pdf, id=18990, 1211.96783pt x 23
+(pdftex.def)             Requested size: 424.82523pt x 274.24164pt.
+
+[41]
+<figure/edgebundling/fig3_framework/framework2.pdf, id=18954, 1211.96783pt x 23
 0.34958pt>
 File: figure/edgebundling/fig3_framework/framework2.pdf Graphic file (type pdf)
 
@@ -1000,130 +986,111 @@ File: figure/edgebundling/fig3_framework/framework2.pdf Graphic file (type pdf)
 Package pdftex.def Info: figure/edgebundling/fig3_framework/framework2.pdf  use
 d on input line 61.
 (pdftex.def)             Requested size: 469.66876pt x 89.26656pt.
- [42 <./figure/edgebundling/fig3_framework/framework2.pdf>] [43])
+ [42 <./figure/edgebundling/fig2_kernel_size/kernel_size.pdf>] [43 <./figure/ed
+gebundling/fig3_framework/framework2.pdf>])
 (chapter/3_edgebundling/4_InputAndPreprocessing.tex [44] [45] [46]
-<figure/edgebundling/fig4_od_abstraction/OD_Abstraction.pdf, id=19082, 442.3194
+<figure/edgebundling/fig4_od_abstraction/OD_Abstraction.pdf, id=19084, 442.3194
 9pt x 273.6895pt>
 File: figure/edgebundling/fig4_od_abstraction/OD_Abstraction.pdf Graphic file (
 type pdf)
 <use figure/edgebundling/fig4_od_abstraction/OD_Abstraction.pdf>
 Package pdftex.def Info: figure/edgebundling/fig4_od_abstraction/OD_Abstraction
 .pdf  used on input line 148.
-(pdftex.def)             Requested size: 212.41261pt x 131.4321pt.
- [47 <./figure/edgebundling/fig4_od_abstraction/OD_Abstraction.pdf>])
+(pdftex.def)             Requested size: 330.42041pt x 204.45226pt.
+ [47])
 (chapter/3_edgebundling/5_EdgeBundling.tex
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 4.
- [48] [49])
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[48 <./figure/edgebundling/fig4_od_abstraction/OD_Abstraction.pdf>] [49])
 (chapter/3_edgebundling/6_Evaluation.tex
-<figure/edgebundling/fig5_NMI/bundle_termination.pdf, id=19138, 599.08817pt x 2
+<figure/edgebundling/fig5_NMI/bundle_termination.pdf, id=19140, 599.08817pt x 2
 32.3641pt>
 File: figure/edgebundling/fig5_NMI/bundle_termination.pdf Graphic file (type pd
 f)
 <use figure/edgebundling/fig5_NMI/bundle_termination.pdf>
 Package pdftex.def Info: figure/edgebundling/fig5_NMI/bundle_termination.pdf  u
 sed on input line 18.
-(pdftex.def)             Requested size: 233.65315pt x 90.62517pt.
-<figure/edgebundling/fig6_grid/route.pdf, id=19139, 3795.51007pt x 914.28276pt>
-
-File: figure/edgebundling/fig6_grid/route.pdf Graphic file (type pdf)
-<use figure/edgebundling/fig6_grid/route.pdf>
-Package pdftex.def Info: figure/edgebundling/fig6_grid/route.pdf  used on input
- line 29.
-(pdftex.def)             Requested size: 469.66876pt x 113.12714pt.
- [50 <./figure/edgebundling/fig5_NMI/bundle_termination.pdf>] [51 <./figure/edg
-ebundling/fig6_grid/route.pdf>]
-Overfull \hbox (0.4338pt too wide) in paragraph at lines 79--87
+(pdftex.def)             Requested size: 330.42041pt x 128.1623pt.
+ [50] [51 <./figure/edgebundling/fig5_NMI/bundle_termination.pdf>]
+Overfull \hbox (0.4338pt too wide) in paragraph at lines 67--75
 $\OML/ztmcm/m/it/12 p[]$ \T1/ptm/m/n/12 is in-tro-duced for mea-sur-ing vi-sual
  sta-bil-ity of bun-dle lay-outs gen-er-ated by one bundling method.
  []
 
 ) (chapter/3_edgebundling/7_ExperimentalResults.tex
-<figure/edgebundling/fig7_hierar/artifical.pdf, id=19243, 3251.49767pt x 1466.9
+<figure/edgebundling/fig7_hierar/artifical.pdf, id=19207, 3251.49767pt x 1466.9
 3039pt>
 File: figure/edgebundling/fig7_hierar/artifical.pdf Graphic file (type pdf)
 <use figure/edgebundling/fig7_hierar/artifical.pdf>
 Package pdftex.def Info: figure/edgebundling/fig7_hierar/artifical.pdf  used on
  input line 3.
-(pdftex.def)             Requested size: 231.2979pt x 104.3296pt.
-<figure/edgebundling/fig8_study2/NYC.pdf, id=19244, 4556.98482pt x 1545.50397pt
+(pdftex.def)             Requested size: 330.42041pt x 149.0519pt.
+<figure/edgebundling/fig6_grid/route.pdf, id=19208, 3795.51007pt x 914.28276pt>
+
+File: figure/edgebundling/fig6_grid/route.pdf Graphic file (type pdf)
+<use figure/edgebundling/fig6_grid/route.pdf>
+Package pdftex.def Info: figure/edgebundling/fig6_grid/route.pdf  used on input
+ line 19.
+(pdftex.def)             Requested size: 469.66876pt x 113.12714pt.
+<figure/edgebundling/fig8_study2/NYC.pdf, id=19209, 4556.98482pt x 1545.50397pt
 >
 File: figure/edgebundling/fig8_study2/NYC.pdf Graphic file (type pdf)
 <use figure/edgebundling/fig8_study2/NYC.pdf>
 Package pdftex.def Info: figure/edgebundling/fig8_study2/NYC.pdf  used on input
- line 19.
+ line 31.
 (pdftex.def)             Requested size: 469.66876pt x 159.27594pt.
-<figure/edgebundling/fig9_study2-2/NYC-zoom.pdf, id=19245, 2713.33694pt x 1589.
+ [52 <./figure/edgebundling/fig7_hierar/artifical.pdf>]
+<figure/edgebundling/fig9_study2-2/NYC-zoom.pdf, id=19239, 2713.33694pt x 1589.
 83965pt>
 File: figure/edgebundling/fig9_study2-2/NYC-zoom.pdf Graphic file (type pdf)
 <use figure/edgebundling/fig9_study2-2/NYC-zoom.pdf>
 Package pdftex.def Info: figure/edgebundling/fig9_study2-2/NYC-zoom.pdf  used o
-n input line 32.
-(pdftex.def)             Requested size: 212.41261pt x 124.4485pt.
- [52 <./figure/edgebundling/fig7_hierar/artifical.pdf>] [53 <./figure/edgebundl
-ing/fig8_study2/NYC.pdf> <./figure/edgebundling/fig9_study2-2/NYC-zoom.pdf
+n input line 44.
+(pdftex.def)             Requested size: 330.42041pt x 193.58656pt.
+ [53 <./figure/edgebundling/fig6_grid/route.pdf> <./figure/edgebundling/fig8_st
+udy2/NYC.pdf
 
-pdfTeX warning: pdflatex.exe (file ./figure/edgebundling/fig9_study2-2/NYC-zoom
-.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./figure/edgebundling/fig8_study2/NYC.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<figure/edgebundling/fig10_study3/shenzhen.pdf, id=19363, 3197.76689pt x 1057.3
+<figure/edgebundling/fig10_study3/shenzhen.pdf, id=19337, 3197.76689pt x 1057.3
 5028pt>
 File: figure/edgebundling/fig10_study3/shenzhen.pdf Graphic file (type pdf)
 <use figure/edgebundling/fig10_study3/shenzhen.pdf>
 Package pdftex.def Info: figure/edgebundling/fig10_study3/shenzhen.pdf  used on
- input line 66.
+ input line 78.
 (pdftex.def)             Requested size: 469.66876pt x 155.28825pt.
- [54 <./figure/edgebundling/fig10_study3/shenzhen.pdf>] [55])
-(chapter/3_edgebundling/8_Discussion.tex [56]
-Underfull \hbox (badness 10000) in alignment at lines 42--42
-[][][] 
- []
-
-[57]
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
+ [54 <./figure/edgebundling/fig9_study2-2/NYC-zoom.pdf>] [55 <./figure/edgebund
+ling/fig10_study3/shenzhen.pdf>]) (chapter/3_edgebundling/8_Discussion.tex
+[56] [57] [58]
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 []|\T1/ptm/m/n/12 Random
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 124--124
+Underfull \hbox (badness 10000) in alignment at lines 119--119
 [][][][][][][] 
  []
 
-[58]
-Overfull \hbox (9.12555pt too wide) in paragraph at lines 134--142
+
+Overfull \hbox (9.12555pt too wide) in paragraph at lines 129--137
 []\T1/ptm/m/n/12 KDEEB's bundling pro-cess in-clude sam-pling, splat-ting, ad-v
 ect-ing and smooth-ing steps. Bundling
  []
 
 [59]) (chapter/3_edgebundling/9_Conclusion.tex [60]))
-(chapter/4_MultiRNNExplorer/0_MultiRNNExplorer.tex [61]
+(chapter/4_MultiRNNExplorer/0_MultiRNNExplorer.tex [61] [62]
 CHAPTER 4.
-(chapter/4_MultiRNNExplorer/1_Introduction.tex [62
+(chapter/4_MultiRNNExplorer/1_Introduction.tex [63
 
-] [63])
-(chapter/4_MultiRNNExplorer/2_RelatedWork.tex [64] [65])
-(chapter/4_MultiRNNExplorer/3_RNN_Modeling_and_background.tex [66]
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-[]|\T1/ptm/m/n/12 Air pol-lu-
- []
-
-
-Overfull \hbox (5.08594pt too wide) in paragraph at lines 42--42
-[]|\T1/ptm/m/n/12 Meteorology| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-\T1/ptm/m/it/12 per-a-ture(Temp), Sea Level
- []
-
-
-Underfull \hbox (badness 1910) in paragraph at lines 42--43
-\T1/ptm/m/it/12 Pres-sure(SLP), Sta-tion Pres-
- []
-
-[67]
-<figure/MultiRNNExplorer/model_description/model.pdf, id=19558, 1127.8838pt x 2
+] [64])
+(chapter/4_MultiRNNExplorer/2_RelatedWork.tex [65] [66])
+(chapter/4_MultiRNNExplorer/3_RNN_Modeling_and_background.tex [67] [68]
+<figure/MultiRNNExplorer/model_description/model.pdf, id=19566, 1127.8838pt x 2
 78.70824pt>
 File: figure/MultiRNNExplorer/model_description/model.pdf Graphic file (type pd
 f)
@@ -1131,19 +1098,20 @@ f)
 Package pdftex.def Info: figure/MultiRNNExplorer/model_description/model.pdf  u
 sed on input line 84.
 (pdftex.def)             Requested size: 424.82523pt x 104.97462pt.
-) (chapter/4_MultiRNNExplorer/4_Analytics_Tasks.tex [68 <./figure/MultiRNNExplo
-rer/model_description/model.pdf>]
-<figure/MultiRNNExplorer/System_framework.pdf, id=19591, 2070.1339pt x 695.5636
+)
+(chapter/4_MultiRNNExplorer/4_Analytics_Tasks.tex [69 <./figure/MultiRNNExplore
+r/model_description/model.pdf>]
+<figure/MultiRNNExplorer/System_framework.pdf, id=19597, 2070.1339pt x 695.5636
 4pt>
 File: figure/MultiRNNExplorer/System_framework.pdf Graphic file (type pdf)
 <use figure/MultiRNNExplorer/System_framework.pdf>
 Package pdftex.def Info: figure/MultiRNNExplorer/System_framework.pdf  used on 
 input line 102.
 (pdftex.def)             Requested size: 448.42822pt x 150.66829pt.
- [69])
-(chapter/4_MultiRNNExplorer/5_Model_interpreter.tex [70 <./figure/MultiRNNExplo
-rer/System_framework.pdf>] [71]
-<figure/MultiRNNExplorer/methods/unit_response_kdeplot.pdf, id=19638, 1038.5500
+ [70])
+(chapter/4_MultiRNNExplorer/5_Model_interpreter.tex [71 <./figure/MultiRNNExplo
+rer/System_framework.pdf>] [72]
+<figure/MultiRNNExplorer/methods/unit_response_kdeplot.pdf, id=19644, 1038.5500
 6pt x 488.49199pt>
 File: figure/MultiRNNExplorer/methods/unit_response_kdeplot.pdf Graphic file (t
 ype pdf)
@@ -1151,14 +1119,14 @@ ype pdf)
 Package pdftex.def Info: figure/MultiRNNExplorer/methods/unit_response_kdeplot.
 pdf  used on input line 63.
 (pdftex.def)             Requested size: 448.42822pt x 210.91954pt.
- [72 <./figure/MultiRNNExplorer/methods/unit_response_kdeplot.pdf>]
+ [73 <./figure/MultiRNNExplorer/methods/unit_response_kdeplot.pdf>]
 Overfull \hbox (26.5271pt too wide) in paragraph at lines 94--95
 \T1/ptm/m/n/12 den units and in-put fea-tures si-mul-ta-ne-ously. We test co-cl
 uster tech-niques: Spec-tral Co-clustering(SCoC)
  []
 
-[73]
-<figure/MultiRNNExplorer/methods/cluster_parameters.png, id=19682, 793.46437pt 
+[74]
+<figure/MultiRNNExplorer/methods/cluster_parameters.png, id=19689, 793.46437pt 
 x 186.6975pt>
 File: figure/MultiRNNExplorer/methods/cluster_parameters.png Graphic file (type
  png)
@@ -1166,17 +1134,17 @@ File: figure/MultiRNNExplorer/methods/cluster_parameters.png Graphic file (type
 Package pdftex.def Info: figure/MultiRNNExplorer/methods/cluster_parameters.png
   used on input line 105.
 (pdftex.def)             Requested size: 448.42822pt x 105.51561pt.
- [74 <./figure/MultiRNNExplorer/methods/cluster_parameters.png>])
+ [75 <./figure/MultiRNNExplorer/methods/cluster_parameters.png>])
 (chapter/4_MultiRNNExplorer/6_ViusalizationDesign.tex
-<figure/MultiRNNExplorer/teaser.pdf, id=19703, 1545.49393pt x 877.7352pt>
+<figure/MultiRNNExplorer/teaser.pdf, id=19708, 1545.49393pt x 877.7352pt>
 File: figure/MultiRNNExplorer/teaser.pdf Graphic file (type pdf)
 <use figure/MultiRNNExplorer/teaser.pdf>
 Package pdftex.def Info: figure/MultiRNNExplorer/teaser.pdf  used on input line
  9.
 (pdftex.def)             Requested size: 448.42822pt x 254.67061pt.
 
-(chapter/4_MultiRNNExplorer/6_VIsualizationSections/ClusterView.tex
-<figure/MultiRNNExplorer/design/cluster_design.pdf, id=19705, 505.38812pt x 185
+(chapter/4_MultiRNNExplorer/6_VIsualizationSections/ClusterView.tex [76]
+<figure/MultiRNNExplorer/design/cluster_design.pdf, id=19717, 505.38812pt x 185
 .88145pt>
 File: figure/MultiRNNExplorer/design/cluster_design.pdf Graphic file (type pdf)
 
@@ -1184,23 +1152,23 @@ File: figure/MultiRNNExplorer/design/cluster_design.pdf Graphic file (type pdf)
 Package pdftex.def Info: figure/MultiRNNExplorer/design/cluster_design.pdf  use
 d on input line 11.
 (pdftex.def)             Requested size: 448.42822pt x 164.93477pt.
- [75]
+
 Overfull \hbox (12.08963pt too wide) in paragraph at lines 27--36
 []\T1/ptm/b/n/12 Feature Glyph. \T1/ptm/m/n/12 The right col-umn of the Clus-te
 r View is the Fea-ture Glyph com-po-nent (Fig. []4.6[]C).
  []
 
-[76 <./figure/MultiRNNExplorer/teaser.pdf>])
+[77 <./figure/MultiRNNExplorer/teaser.pdf>])
 (chapter/4_MultiRNNExplorer/6_VIsualizationSections/FeatureImportanceView.tex
-[77 <./figure/MultiRNNExplorer/design/cluster_design.pdf>])
+[78 <./figure/MultiRNNExplorer/design/cluster_design.pdf>])
 (chapter/4_MultiRNNExplorer/6_VIsualizationSections/ProjectionView.tex
 Overfull \hbox (9.52069pt too wide) in paragraph at lines 5--10
 []\T1/ptm/m/n/12 In the Pro-jec-tion View, each cir-cle rep-re-sents a in-di-vi
 d-ual case. There are many multi-dimensional
  []
 
-[78]) (chapter/4_MultiRNNExplorer/6_VIsualizationSections/SequenceView.tex
-<figure/MultiRNNExplorer/design/alternative_design.pdf, id=24568, 641.062pt x 4
+[79]) (chapter/4_MultiRNNExplorer/6_VIsualizationSections/SequenceView.tex
+<figure/MultiRNNExplorer/design/alternative_design.pdf, id=24574, 641.062pt x 4
 56.372pt>
 File: figure/MultiRNNExplorer/design/alternative_design.pdf Graphic file (type 
 pdf)
@@ -1209,44 +1177,17 @@ Package pdftex.def Info: figure/MultiRNNExplorer/design/alternative_design.pdf
  used on input line 10.
 (pdftex.def)             Requested size: 424.82523pt x 302.44597pt.
 
-[79 <./figure/MultiRNNExplorer/design/alternative_design.pdf>] [80])
+[80 <./figure/MultiRNNExplorer/design/alternative_design.pdf>] [81])
 (chapter/4_MultiRNNExplorer/6_VIsualizationSections/Interactions.tex))
-(chapter/4_MultiRNNExplorer/7_Evaluation.tex
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-[]|\T1/ptm/m/n/12 Dense
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-[]|\T1/ptm/m/n/12 MSE
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--18
-[]|\T1/ptm/m/n/12 Vanilla
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-[]|\T1/ptm/m/n/12 GRU-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
-[]|\T1/ptm/m/n/12 LSTM-
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (chapter/4_MultiRNNExplorer/8_Conclusion.tex [81] [82]))
-(chapter/4_Conclusion.tex [83]
+(chapter/4_MultiRNNExplorer/7_Evaluation.tex [82])
+(chapter/4_MultiRNNExplorer/8_Conclusion.tex [83])) (chapter/4_Conclusion.tex
+[84]
 CHAPTER 5.
-[84
+[85
 
 ]) (main.bbl
 References
-[85] [86] [87
+[86] [87
 
 ] [88] [89] [90]
 Overfull \hbox (25.37057pt too wide) in paragraph at lines 252--256
@@ -1276,10 +1217,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 308.
  ) 
 Here is how much of TeX's memory you used:
- 10127 strings out of 492452
- 161396 string characters out of 3129805
- 270312 words of memory out of 3000000
- 13696 multiletter control sequences out of 15000+200000
+ 10126 strings out of 492452
+ 161382 string characters out of 3129805
+ 269823 words of memory out of 3000000
+ 13695 multiletter control sequences out of 15000+200000
  54387 words of font info for 89 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,16n,37p,1186b,468s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1295,9 +1236,9 @@ msy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm
 fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
 
-Output written on main.pdf (112 pages, 42775556 bytes).
+Output written on main.pdf (112 pages, 42775546 bytes).
 PDF statistics:
- 27566 PDF objects out of 31911 (max. 8388607)
+ 27568 PDF objects out of 31911 (max. 8388607)
  415 named destinations out of 1000 (max. 500000)
  898 words of extra memory for PDF output out of 10000 (max. 10000000)
 

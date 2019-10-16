@@ -14,36 +14,31 @@ This section presents detailed discussion on the parameters, followed by perform
 In the end, we discuss about generality and limitation issues.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Parameters}
-\label{ssec:parameters}
-
-\begin{table}[t]
-	\begin{tabularx}{0.90\textwidth}{|>{\hsize=0.23\hsize}X|
-                              >{\hsize=0.23\hsize}X|
-                              >{\hsize=0.4\hsize}X|}
-	\hline
-	\textbf{Parameters} & \textbf{KDEEB} & \textbf{RAEB} \\
-	\hline \hline
-	Route & $-$ & 0 - Number of road \\
-	awareness ($p_{ra}$) & & hierarchies \\
-	\hline
-	Kernel size ($p_r$) & Graph drawing & Graph drawing and road network geometry \\
-	\hline
-	Bundling & 10 - 15 & $-$ \\
-	iterations ($p_n$) &  &  \\
-	\hline
-	Bundling & $-$ & \textit{NMI} between images in \\
-	stability ($p_{s}$) & & consecutive iterations \\
-	
-	\hline
-	Bundling & $-$ & Average Frechet distance\\
-	deviation ($p_{d}$) & &  of bundles to OD trails\\
-	\hline
+\begin{table}[h]
+	\begin{tabularx}{0.995\textwidth}{|>{\hsize=0.3\hsize}X|
+			>{\hsize=0.18\hsize}X|
+			>{\hsize=0.52\hsize}X|}
+		\hline
+		\textbf{Parameters} & \textbf{KDEEB} & \textbf{RAEB} \\
+		\hline \hline
+		Route awareness ($p_{ra}$)& $-$ & 0 - Number of road hierarchies\\
+		\hline
+		Kernel size ($p_r$) & Graph drawing & Graph drawing and road network geometry \\
+		\hline
+		Bundling iterations ($p_n$)& 10 - 15 & $-$ \\
+		\hline
+		Bundling stability ($p_{s}$)& $-$ & \textit{NMI} between images in consecutive iterations\\		
+		\hline
+		Bundling deviation ($p_{d}$) & $-$ & of bundles to OD trails\\
+		\hline
 	\end{tabularx}
 	\caption{Main parameter adaptions in RAEB, in comparison with these in KDEEB.}
 	\label{tab:parameters}
-\vspace{-6mm}
+	\vspace{-1mm}
 \end{table}
+
+\subsection{Parameters}
+\label{ssec:parameters}
 
 RAEB adapts and introduces new parameters to better visualize OD trails in urban traffic data.
 Table~\ref{tab:parameters} presents an overview of these parameter settings in comparison with those in KDEEB.
@@ -124,7 +119,7 @@ From the experiments, we recommend 1 for $p_{ra}$ (corresponding to top 5\% rank
 	\end{tabularx}
 	\caption{Statistics comparison of KDEEB and RAEB for datasets used in the experiments. }
 	\label{tab:statistics}
-\vspace{-6mm}
+\vspace{-1mm}
 \end{table}
 
 Table~\ref{tab:statistics} shows comparison of KDEEB and RAEB for the datasets used in the experiments.

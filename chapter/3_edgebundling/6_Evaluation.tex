@@ -15,27 +15,15 @@ It lacks a quantitative method for measuring structure stability.
 
 \begin{figure}[t]
 	\centering
-	\includegraphics[width=0.495\textwidth]{figure/edgebundling/fig5_NMI/bundle_termination.pdf}
+	\includegraphics[width=0.7\textwidth]{figure/edgebundling/fig5_NMI/bundle_termination.pdf}
 	\vspace{-5mm}
 	\caption{(left) Bundling stability $p_{bs}$ measured at each bundling iteration for different decay ratios $\lambda$, (right) visually indistinguishable images are generated at iteration 10 and 11 for $\lambda=0.9$.}
 	\label{fig:nmi}
-	\vspace{-4mm}
+	\vspace{-1mm}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure*}[t]
-	\centering
-	\includegraphics[width=0.995\textwidth]{figure/edgebundling/fig6_grid/route}
-	\vspace{-4mm}
-	\caption{
-		Leftmost: raw 100K artificial OD trails on a grid road network in there hierarchies. 
-		(a) - (d): RAEB bundling results with route awareness parameter $p_{ra}$ set to 0 - 3, respectively.
-		}
-	\label{fig:grid}
-	\vspace{-4mm}
-\end{figure*}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 We employ mutual information (MI) - a basic concept from information theory, as a quantitative indicator for measuring bundling stability.
@@ -45,7 +33,7 @@ Hence, the measurement is simplified without geometry matching.
 Let denote two input images $X$ and $Y$.
 MI is computed as:
 
-\vspace{-2mm} 
+\vspace{-6mm} 
 \begin{equation} \label{eq:mi}
 I(X, Y) = \sum_{x}\sum_{y}p(x,y)log(\frac{p(x,y)}{p(x)p(y)}))
 \end{equation}
@@ -55,7 +43,7 @@ where $p(x)$ and $p(y)$ indicate the intensity at $x \in X$ and $y \in Y$, and $
 MI is affected by image size, while we prefer a constant measurement for different graph drawings.
 Hence, we adopt normalized MI (NMI):
 
-\vspace{-2mm} 
+\vspace{-6mm} 
 \begin{equation}\label{eq:nmi}
 NMI(X, Y) = \frac{2I(X,Y)}{H(X) + H(Y)} 
 \end{equation}

@@ -10,8 +10,8 @@ We demonstrate our system to the domain expert and analyze the trained models on
 
 \begin{table}[h!]
 \centering
-\caption{Configuration and performance of RNNs, including vanilla RNN, GRU, LSTM, and the RNNs with dense layer (e.g., RNN-Dense). The performance is evaluated by the mean square error (MSE) of $PM_{2.5}$; low MSE represents better performance.}
-\begin{tabular}{p{2cm}|p{1cm}|p{2cm}|p{2cm}} 
+
+\begin{tabular}{|p{3cm}|p{1cm}|p{3cm}|p{3cm}|} 
  \hline
  Model & Size & Dense Layer & MSE ($PM_{2.5}$) \\ [0.5ex] 
  \hline
@@ -22,7 +22,9 @@ We demonstrate our system to the domain expert and analyze the trained models on
     LSTM-Dense&100&3&4.53 $\pm$ 0.53\\
 \hline
 \end{tabular}
+\caption{Configuration and performance of RNNs, including vanilla RNN, GRU, LSTM, and the RNNs with dense layer (e.g., RNN-Dense). The performance is evaluated by the mean square error (MSE) of $PM_{2.5}$; low MSE represents better performance.}
 \label{table:model_configuration}
+\vspace{-8mm}
 \end{table}
 
 

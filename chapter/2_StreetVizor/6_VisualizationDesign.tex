@@ -8,7 +8,7 @@ Then, we provide a detailed description of the visualization techniques implemen
 \begin{figure}[t] 
 	\centering
 	% \vspace{-4mm}
-	\includegraphics[width=0.9\columnwidth]{figure/streetvizor/fig1_teaser/teaser}
+	\includegraphics[width=0.98\columnwidth]{figure/streetvizor/fig1_teaser/teaser}
 	\vspace{-3mm}
 	\caption{StreetVizor system. 
 		(a) Control panel enables multi-scale navigation, ranking exploration, and feature filtering.
@@ -17,7 +17,7 @@ Then, we provide a detailed description of the visualization techniques implemen
 		(d) Street map views present detailed street views along two streets.
 		(e) Street statistic view extends parallel coordinates with street layouts.}
 	\label{fig:c1_teaser}
-	\vspace{-5mm}
+	\vspace{-1mm}
 \end{figure}
 
 
@@ -108,23 +108,26 @@ In addition, sampling positions are generated along the street network.
 Thus, no street views is collected from many places across a city.
 In this case, the heat map will generate ambiguity between the two scenarios of 1) no record or 2) low feature values in a region.
 
-\begin{figure}[t]
-	\centering
-	\includegraphics[width=0.85\columnwidth]{figure/streetvizor/fig5_statistic_view/statistic_view}
-	\vspace{-4mm}
-	\caption{The AOI Statistic View combines (a) a scatterplot matrix to show pair-wise correlations between two features, (b) small multiples of histogram bar charts to overview feature distributions, and (c) small multiples of deviation plots to present feature diversity. }
-	\label{fig:c1_statistic_view}
-	\vspace{-4mm}
-\end{figure}
+
 
 %============================
 \subsubsection{AOI Statistic View}
 \label{sssec:c1_statistic_view}
+
 Besides the map view, which enables the comparison of spatial distributions of human-scale urban forms, we develop AOI Statistic View to allow users to compare various quantitative measurements (T.3.3).
 Nonetheless, each AOI may contain too many street views (up to several hundred thousand) that will overload the rendering process.
 Moreover, the street views will occlude each other if we simply plot all of them.
 To address this problem, we cluster street views into groups based on either their administrative units (districts, divisions, and streets) or a mean-shift clustering algorithm~\cite{comaniciu_2002_meanshift} that works as follows.
- 
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.9\columnwidth]{figure/streetvizor/fig5_statistic_view/statistic_view}
+	\vspace{-4mm}
+	\caption{The AOI Statistic View combines (a) a scatterplot matrix to show pair-wise correlations between two features, (b) small multiples of histogram bar charts to overview feature distributions, and (c) small multiples of deviation plots to present feature diversity. }
+	\label{fig:c1_statistic_view}
+	\vspace{-1mm}
+\end{figure}
+
 \vspace*{2mm}
 \noindent
 \textbf{Mean Shift Clustering}.
@@ -195,7 +198,7 @@ This results reflects that greenery is better integrated into street space in Ne
 	\caption{Street Map View provides an overview of all street views along a street as colored points, and highlights images on two sides of the street.
 	(a) A tree map showing the feature composition of an image will pop up when the mouse pointer is hovered over the image.}
 	\label{fig:c1_street_map}
-	\vspace{-5mm}
+	\vspace{-1mm}
 \end{figure}
 
 %============================
@@ -240,7 +243,7 @@ However, this method was extremely difficult because the rendering space was ful
 	(c) Plot themeriver style visualization within the rendering space.
 	(d) Enhance parallel coordinates with street layouts on both sides.}
 	\label{fig:c1_street_statistic_view}
-	\vspace{-6mm}
+	\vspace{-1mm}
 \end{figure}
 
 \vspace*{2mm}
@@ -248,7 +251,6 @@ However, this method was extremely difficult because the rendering space was ful
 \textbf{PCP with Street Layout}. Inspired by~\cite{qu_2007_visual}, we ultimately develop a design of a parallel coordinates enhanced with street layouts (Fig.~\ref{fig:c1_street_statistic_view}(d)).
 We elaborate the construction of this design as follows:
 
-\vspace*{1mm}
 \noindent
 \textit{Bounding Box Construction} (Fig.~\ref{fig:c1_street_statistic_view}(a)).
 The first step is to construct a minimum bounding box ($MBB$) of the street layout.
@@ -256,14 +258,12 @@ The first step is to construct a minimum bounding box ($MBB$) of the street layo
 We find the starting ($A$) and ending ($B$) points, and generate a primary axis pointing from $A$ to $B$.
 $MBB$ is generated as the minimum rectangle that contains all nodes of the street network parallel with the primary axis.
 
-\vspace*{1mm}
 \noindent
 \textit{Street Layout Rotation} (Fig.~\ref{fig:c1_street_statistic_view}(b)).
 Next, we rotate the street layout such that $MBB$ fits in the rendering space, i.e., $A$ and $B$ lay on the top and bottom (or vice versa) sides of the rendering space, and the rotated $MBB$ lays in the center.
 In the case that $MBB$ is wider than the rendering space, the street layout outside the rendering space is clipped.
 The rotation direction (clockwise or anticlockwise) is determined based on the direction that produces the minimum rotation angle.
 
-\vspace*{1mm}
 \noindent
 \textit{ThemeRiver Plotting} (Fig.~\ref{fig:c1_street_statistic_view}(c)).
 To fully utilize rendering space, we plot a themeriver-style~\cite{havre_2002_themeriver} visualization to show changes in feature values along a street layout.
@@ -275,7 +275,6 @@ The upper bound x-values of the $greenery$ layer are then used as baseline value
 This process is repeated until all features are plotted.
 To support better feature comparison, our system allows users to reorder feature sequence by clicking on the feature layer of interest and shifting it to the left side~\cite{byron_2008_stacked}.
 
-\vspace*{1mm}
 \noindent
 \textit{PCP Integration} (Fig.~\ref{fig:c1_street_statistic_view}(d)).
 The themeriver plot can be used as a coordinate for the PCP.
@@ -301,14 +300,7 @@ Besides, we can also find that feature values vary dramatically on the left them
 	% \vspace{-2mm}
 \end{figure}
 
-\begin{figure}[t]
-	\centering
-	\includegraphics[width=\columnwidth]{figure/streetvizor/fig8_study_1/study_1_statistic}
-	\vspace{-7mm}
-	\caption{AOI Statistic View in coordination with Fig.~\ref{fig:c1_study_1_spatial} presents quantitative measurements differences of human-scale urban forms in Singapore (red) and Greater London (blue).}
-	\label{fig:c1_study_1_statistic}
-	\vspace{-5mm}
-\end{figure}
+
 
 
 %==============================================================
@@ -319,7 +311,6 @@ Besides, we can also find that feature values vary dramatically on the left them
 
 \begin{itemize}
 
-\vspace*{-1mm}
 \item
 \textit{Multi-scale Navigation}.
 To help users navigate effectively across different scales, we develop city-, region- and street-panels.
@@ -330,7 +321,6 @@ For instance, City of London and Kingston will be listed if Greater London is se
 Similarly, the street-panel lists all the streets inside a selected city or region.
 % We also provide a region and street query by entering a corresponding name.
 
-\vspace*{-1mm}
 \item
 \textit{Feature Filtering}.
 Our system also supports filtering human-scale urban forms against a specific feature by specifying the value range with feature sliders. 
@@ -341,7 +331,6 @@ By default, each feature slide within [0 - 1], and users can change the minimum 
 In addition, our system also supports the following user interactions to facilitate visual exploration.
 \begin{itemize}
 
-\vspace*{-1mm}
 \item
 \textit{Details on Demand}.
 To enable overview+details (R.1), we develop a set of interactions that allow users to explore the details of human-scale urban forms on demand.

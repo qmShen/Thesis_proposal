@@ -8,7 +8,7 @@ Furthermore, we present the methods for data querying and filtering.
 	\vspace{-7mm}
 	\caption{Illustration of data preprocessing: sampling locations in New York City are generated from OpenStreetMap (left), a street view image is collected from Google Street View (center), and the image pixels are classified into six features using SegNet (right).}
 	\label{fig:c1_data_preprocess}
-	\vspace{-4mm}
+	\vspace{-1mm}
 \end{figure}
 
 %===============================================
@@ -23,7 +23,7 @@ We then pass each $(lat \; \& \; long)$ into GSV API, and extract the correspond
 Finally, we download front and back images at each sampling position by passing $lat, \; long \; \& \; h$ with the default field of view and pitch values into GSV API.
 Together with the downloaded image ($Img$), we model urban forms at human-scale ($UF_{hs}$) at each sampling location as: 
 
-\vspace*{-2mm}
+\vspace*{-5mm}
 \begin{equation}
 \label{c1_eq_sv}
 UF_{hs} \; := \; <pos, \; SI, \; Img>
@@ -43,7 +43,7 @@ $ FV_i \; = {PC_i} / {PC_{Img}} $, where $i \in \{g, s, b, r, v, o\}$ represent 
 Hence, all feature values are in the range of [0, 1].
 Then, we can replace the image ($Img$) with a feature metric ($FM$) as:
 
-\vspace*{-2mm}
+\vspace*{-5mm}
 \begin{equation}
 \label{c1_eq_fm}
 Img \rightarrow FM := \; <FV_g, \; FV_s, \; FV_b, \; FV_r, \; FV_v, \; FV_o>
@@ -90,16 +90,16 @@ Then, we adopt a binary search approach in run time.
 \end{itemize}
 
 %===============================================
-\begin{figure}[t]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\columnwidth]{figure/streetvizor/fig4_data_model/data_model}
 	\vspace{-3mm}
 	\caption{Data model: street views with six-dimensional features of \textit{greenery, sky, building, road, vehicle} and \textit{others}, are organized in an octree structure and a street lookup table.}
-	\vspace{-5mm}
+	\vspace{-1mm}
 	\label{fig:c1_data_model}
 \end{figure}
-
 \vspace*{-2mm}
+
 Fig.~\ref{fig:c1_data_model} illustrates the data model that organizes the street views in an octree structure and a street lookup table.
 Each street view contains the six-dimensional features of \textit{greenery, sky, building, road, vehicle}, and \textit{others}.
 We store these querying and filtering models are stored in a back-end MongoDB database, as shown in Fig.~\ref{fig:c1_sys_overview}.
