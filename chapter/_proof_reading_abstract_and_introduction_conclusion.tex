@@ -1,7 +1,17 @@
-\chapter{Introduction}\label{chap:intro}
+\chapter{}
+\section{Abstract}
+The rapid urbanization has been one of the most important global trends in the recent 50 years. Even though half of the world's people living in urban area contribute to 80 percent of GDP(Global Domestic Product), the ever more crowded urban area results in a series of problems such as traffic congestion, environment pollutant, insufficient resource, unbalanced urban infrastructure, etc. Fortunately, the developed sensing technology makes the data collecting and processing easier and cheaper, which provides the opportunity for people to understand the phenomenon or even figure out the solution to address these problems. However, due to the high-dimensionality, heterogeneity of the dataset as well as the complex analytical tasks, the pure automatics techniques are insufficient in the urban information exploration. On the other hand, the human analysts who have sharp perception and domain expertise cannot deal with large volumes of data without powerful tools. Visualization bridges the gap between analysts and auto-techniques, which has been widely applied in urban information exploration. 
 
-\section{Motivation}
-The ongoing urbanization process has been one of the most important trend after the World War II (WWII). According to the recent urbanization report from United Nations~\cite{error}, between 1950 and 2018, the estimated urban population increased more than fourfold, from 0.8 billion to 4.2 billion. The rapid urbanization also result in a series of problems such as the traffic congestion and environmental pollution, \QMT{which attracts more and more attentions from the research field.} 
+In this proposal, we introduce several novel visual analytics techniques which cover the three domains in urban information exploration: place, people and technology. 
+In the first work, we propose StreetVizor, a visual analytics system which helps the urban planners to explore the fine-scale living environment. The system automatically extracts the human-scale urban form features from street view images through machine learning techniques. Then the comprehensive analysis framework and novel visual designs are proposed to support the free exploration from multi-levels. 
+In the second and third work, we target at visual analytics of massive human movement data. We first propose a RAEB, an edge bundling techniques to visualize the overview of origin-destination trails. By introducing the additional graph structure as constraints, the trail bundles can follow the traffic network in the city. Then, we dig into the contact pattern of human movement. After extracting the contact dataset from movement data, a novel visual design is proposed to support the interactive exploration. 
+In the last work, we focus on the model interpretation in the air pollutant forecast application. We propose MultiRNNExplorer, which visualizes the recurrent neuron network behaviors in multi-dimensional time-series forecast. 
+To validate the effectiveness of the proposed techniques, we conduct several studies based on real-world datasets and domain expert interview.  
+
+\section{Introduction}\label{chap:intro}
+
+\subsection{Motivation}
+The ongoing urbanization process has been one of the most important trend after the World War II (WWII). According to the recent urbanization report from United Nations~\cite{united2018world}, between 1950 and 2018, the estimated urban population increased more than fourfold, from 0.8 billion to 4.2 billion. The rapid urbanization also result in a series of problems such as the traffic congestion and environmental pollution, \QMT{which attracts more and more attentions from the research field.} 
 Traditionally, it will take tremendous effort for researchers and urban planers to understand and explore the large scale urban dynamics due to the limited resource and existing cases. 
 
 Fortunately, the rapid development of information and communication technology(ICT) makes the urban data collection and analysis cheaper and easier, which provides the opportunities for people to study these problems and boost the development of relative discipline such as urban informatics~\cite{foth2011urban} and urban computing~\cite{zheng2014urban}. For example, the street view images allow urban planners to conduct urban environment auditing without going to the field; the position data tracking and acquisition techniques \QMT{embedded} in the mobile devices allow researchers to capture the crowd movement pattern of urban residents; industrial emission and the meteorology data collected from the monitoring stations are able to help domain expert in precisely forecasting the air quality in future and \QMT{provide} the control strategy to the government. 
@@ -11,11 +21,11 @@ Even though the computers have a great advantage in fast computing and large inf
 
 In this chapter, we first introduce the existing visualization techniques in urban data exploration. Then we discuss the major contributions in this proposal which is followed by the proposal organization.
 
-\section{Visualization meets urban information}
+\subsection{Visualization meets urban information}
 
 % The study of urban information leverages the theories from variety of academic fields. 
  
-The analysis of model urban always refers to the intersection of three domains: people, place and technology~\cite{foth2011urban}, which is covered by the proposed work in this proposal. 
+The analysis of model urban information always refers to the intersection of three domains: people, place and technology~\cite{foth2011urban}, which is covered by the proposed work in this proposal. 
 \begin{itemize}
 \item \textbf{People.} People refers to the residents, citizens, community groups as well as the relative data such as commuting, social network, etc.
 \item \textbf{Place.} Place refers to the physical environment such as the urban sites, locales and habitats which if formed by nature or human activities.
@@ -24,23 +34,23 @@ The analysis of model urban always refers to the intersection of three domains: 
 
 Before introducing the contribution of this proposal, we first briefly introduce the existing techniques from these three aspects:
 
-\subsection{Visualization of human movement (People)}
+\subsubsection{Visualization of human movement (People)}
 As a general topic in visualization discipline, how to effectively visualize the human movement has been long studied in recent years.  An overview has been proposed to categorized the existing movement visualization techniques into three classes: \textbf{pattern extraction}, \textbf{direct depiction}, \textbf{summarization} ~\cite{andrienko2013visual, wu2015telcovis}.
 
-The \textbf{pattern extraction} methods leverage effective visualization to discover the mobility pattern from the movement data such as the traffic congestions~\cite{wang2013visual}, route assessment~\cite{wang2014visual, huang2015trajgraph}, commuting patterns~\cite{beecham2014studying, von2015mobilitygraphs}, co-occurrence~\cite{wu2015telcovis, ni2017spatio}. Compare to other two types of techniques, the pattern extract methods aim to solve the specific application problem directly and these techniques are always difficult to extend to other applications.
+The \textbf{pattern extraction} methods leverage effective visualization to discover the mobility pattern from the movement data such as the traffic congestion~\cite{wang2013visual}, route assessment~\cite{wang2014visual, huang2015trajgraph}, commuting patterns~\cite{beecham2014studying, von2015mobilitygraphs}, co-occurrence~\cite{wu2015telcovis, ni2017spatio}. Compare to other two types of techniques, the pattern extract methods aim to solve the specific application problem directly and these techniques are always difficult to extend to other applications.
 
 The \textbf{direct depiction} directly plot the movement data according to the data format: such as the line segments for OD trails, and polylines for trajectories~\cite{andrienko2013visual, ferreira2013visual, kruger2013trajectorylenses}. Such techniques preserve all the information of individual movement. However, when the dataset is large, the visual clutter the render workload will be the major limitation which hinders the analysts’ ability to explore the data.
 
 The \textbf{summarization} techniques aim to provide an overview of movement data. Most of these summarization techniques conduct statistical calculation and aggregation before rendering. The typical visualization can be heatmap~\cite{wilkinson2009history}, density map~\cite{lanir2014visualizing}, flow map~\cite{guo2014origin}, matrix~\cite{wood2010visualisation} and node-link~\cite{von2016mobilitygraphs}. Due to the ability to present the high-level perception and alleviate the data uncertainty~\cite{andrienko2013visual}, the summarization techniques are widely used in movement visualization. 
 
-\subsection{Visual assist urban environment exploration (Place)}
+\subsubsection{Visual assist urban environment exploration (Place)}
 The rapid urbanization cause a series of changes of living environment including the pollutant and urban forms. Visualization techniques has been used in these domain to discover the potential problems and support the decision making. Since the different application have significantly different analysis requirement, most of the existing work target at specific tasks.  
 
 By combining the data mining and cluster visualization, HydroQual~\cite{accorsi2014hydroqual} is proposed to support a visual analysis of river quality. 
-To reason the air pollutant in Hong Kong, Qu et al. ~\cite{qu2007visual} propose a visual analytics system consists of several novel design including  circular pixel bar chart and a parallel coordinates with S-shape axis.  Further more, Deng et al.~\cite{deng2019airvis} propose a visual analytics system assisting the air quality analysts in exploring the air pollutant propagation patterns. 
+To reason the air pollutant in Hong Kong, Qu et al. ~\cite{qu2007visual} propose a viusal analytics system consists of several novel design including  circular pixel bar chart and a parallel coordinates with S-shape axis.  Further more, Deng et al.~\cite{deng2019airvis} propose a visual analytics system assisting the air quality analysts in exploring the air pollutant propagation patterns. 
 
 Visual analytics also enable the urban planers to design and evaluate the city construction. For example, Ferreira et al. ~\cite{ferreira2015urbane} propose Urbane, a 3D multi-resolution framework, which enable the urban planers to conduct the urban development in a data-driven way. Zeng et al.~\cite{zeng2018vitalvizor} proposal a tool to facilitates the urban vitality. Such tool presents both of the physical entities and urban design metrics and allow the expert to quickly discover the city blocks which could be improved.
-\subsection{Visual interpretation for techniques (Technology)}
+\subsubsection{Visual interpretation for techniques (Technology)}
 The computing techniques play an important role in the exploration of urban information. Even though more and more techniques are adapted to urban data exploration, most of them are sill used as a black box. For most of the technique developers and users, the interpretability is an important property of the techniques in a variety of real world applications. The interpretation can help the technique developers to improve the technique performance and help the technique users improve their confidence~\cite{strobelt2018lstmvis}. 
 
 The technique interpretation can be classified into two categories: model reduction and feature contribution.
@@ -63,12 +73,12 @@ One recent work, SHAP~\cite{lundberg2017unified}, also calculates feature attrib
 
 Even though variety of techniques has been proposed to interpret the mechanism of the complex techniques, very few of them target at the application of the urban information exploration which always take large amount, high-dimensioanl and complex data as input.  
 
-\section{Contribution}
+\subsection{Contribution}
 In this proposal, we introduce several visualization techniques in assisting urban data exploration tasks as well as the understanding of urban computing techniques:
 
 \begin{itemize}[noitemsep]
 	\item \textbf{Visual Exploration of Human-Scale Urban Forms}. We propose StreetVizor, an interactive visual analytics system that helps planners leverage their domain knowledge in exploring human-scale urban forms based on street view images. Our system presents two-stage visual exploration: 1) an AOI Explorer for the visual comparison of spatial distributions and quantitative measurements in two areas-of-interest at city- and region-scales; 2) and a Street Explorer with a novel parallel coordinate plot for the exploration of the fine-grained details of the urban forms at the street-scale. We integrate visualization techniques with machine learning models to facilitate the detection of street view patterns. 
-	\item \textbf{An edge bundling technique for visualizing origin-destination trails in urban traffic.} We propose RAEB(route aware edge bundling), a novel edge bundling technique to viusally summary the OD trails in urban traffic data. We identify inconsiderate settings of conventional kernel density estimation edge bundling (KDEEB) when applied to urban traffic data, including non-optimal kernel size and road neglect. The limitations are addressed in RAEB by introduction of a comprehensive pipeline comprising preprocessing, bundling and evaluation processes. A series of new parameters, together with adaptions of existing ones, are employed in the pipeline. 
+	\item \textbf{An edge bundling technique for visualizing origin-destination trails in urban traffic.} We propose RAEB(route aware edge bundling), a novel edge bundling technique to visually summary the OD trails in urban traffic data. We identify inconsiderate settings of conventional kernel density estimation edge bundling (KDEEB) when applied to urban traffic data, including non-optimal kernel size and road neglect. The limitations are addressed in RAEB by introduction of a comprehensive pipeline comprising preprocessing, bundling and evaluation processes. A series of new parameters, together with adaptions of existing ones, are employed in the pipeline. 
 	\item \textbf{Understanding recurrent neural networks on multi-dimensional time-series forecast.} We propose MultiRNNExplorer, a visual analytics system to interpret RNNs on multi-dimensional time-series forecasts.  
 	Specifically, to provide an overview to reveal the model mechanism, we propose a technique to estimate the hidden unit response by measuring how different feature selections affect the hidden unit output distribution. 
 	We then cluster the hidden units and features based on the response embedding vectors. 
@@ -76,7 +86,7 @@ In this proposal, we introduce several visualization techniques in assisting urb
 \end{itemize}
 
 
-\section{Proposal organization}
+\subsection{Proposal organization}
 
 %The thesis consists of \QMT{three work}, the first two works are proposed to support the urban data exploration, the third work aim to interpret the model 
 
@@ -90,3 +100,23 @@ Chapter 4 proposes a MultiRNNExplorer, a visual analytics system to interpret th
 
 
 Chapter 5 concludes the proposal and discusses possible future work.
+
+\subsection{Conclusion and Future Work}
+
+The fast increasing global urbanization process in recent years has greatly changed the world in the recent 50 years. The human migration from the rural area to the urban area results in a series of problems such as environment pollutant, traffic jam and insufficient local resource supply. Meanwhile, with the development of science and technology, a variety of data source can be collected easier and cheaper, which also provide the opportunity for analysts to understand the phenomenon and solve the problems. Although a lot of automatic techniques have been proposed in recent years, most of them still have limitations such as the lack of interpretability, difficulty in handling unexpected cases. Due to the variety of urban applications, these techniques always generate uncontrollable results which is hard to be accepted by the non-expert users. Thus the human experience and knowledge are required to make judgement or provide guidance in the analyzing process. Visual analytics, integrating the intuitive graphics and auto techniques, bridge the gap between users and complex urban data by taking human into the analysis loop.  
+
+This proposal consists of three works that cover the three domains of urban information: place, people and technology. We start with a brief summary of the existing visualization techniques used in urban data exploration. After that, we introduced three visual analytics system target at the human-scale urban form exploration, large scale movement visualization and urban computing technique interpretation. 
+
+In Chapter 2, we introduce Streetvizor, a framework enabling urban analysts to explore the human scale urban from city-, region- and street-level. The proposed system takes the street view images as input and extracts human-scale urban form features by leveraging the advanced machine learning techniques. Then, a visual analytics system is built upon the urban form feature database. The proposed method is evaluated by the real world data from four cities: London, Singapore, Hong Kong, and New York City. 
+
+In Chapter 3, we developed RAEB(route aware edge bundling), a novel edge bundling technique to visualize the overview of a large amount of OD trails in urban traffic data. Target at the limitation of traditional edge bundling techniques, we introduce the urban traffic network as a constraint to the trail bundles. A series of new parameters, together with adaptions of existing ones, are employed in the pipeline.
+
+In Chapter 4, we propose MultiRNNExplorer, a visual analytics system which helps analysts to understand the RNNs in high-dimensional time series forecast. The visual analytics system aims to interpret RNNs from two aspects, the overall model mechanism and the feature importance. Several case studies on air pollutant forecast show the effectiveness of the proposed technique.
+
+Even though several novel designs and comprehensive analytics systems have been discussed in this proposal, the current development of urban related visualization techniques still cannot meet the analysis requirement due to the increasing complexity and variety of the applications. Based on the current work, we list several promising future directions.
+
+\textbf{High-level urban analysis based on street view images.} In Chapter 2, we discuss how to leverage the easily collected street view images and advanced machine learning techniques to help us build the comprehensive visual analytics system for human-scale urban form explorations. In the future, we will extend the current framework to the more complex tasks. For example, an exiting research work uses vehicle classification techniques to estimate the demographic makeup of the US; We can also extract the signboards and building style from the street view images to support the exploration of urban region  functionalities.  
+
+\textbf{Improve the bundling and rendering efficiency for the large trajectory dataset.} In Chapter 3, the edge bundling and rendering process still require tens of seconds to finish the visualization tasks, which makes the interactive exploration impossible. Our proposed technique is built upon the kernel density estimation techniques which can be parallelized. In the future, we will use the GPU-acceleration to improve bundling efficiency. In addition, to improve the computing efficiency, another strategy is to reduce the data amount. Traditional sampling methods, such as uniform and stratified sampling, cannot keep visualization accuracy. We plan to develop visualization aware sampling techniques to support the fast OD trails bundling. 
+
+\textbf{Support model ensemble exploration.} Due to the complexity and variety of urban information exploration, a single forecast technique is always not enough to produce a credible and accurate result. In the future, we will extend the technique interpretation from RNNs to technique ensembles. However, use the same criteria to interpret multiple techniques is difficult due to the different algorithm mechanisms. Thus, we plan to figure out some uniform properties of these techniques (such as the feature importance) to make the them comparable. 
