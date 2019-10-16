@@ -20,17 +20,12 @@
 %\linespread{1.05}        % Palatino needs more leading
 \usepackage[scaled]{helvet} % ss
 \usepackage{courier} % tt
-%\usepackage{euler} % math
-\usepackage{eulervm} % a better implementation of the euler package (not in gwTeX)
+
 \normalfont
 \usepackage[T1]{fontenc}
-% Alan: end the font trial
-% new added
-% \usepackage{arabtex}
-% \usepackage[utf8]{inputenc}
-% \usepackage[LFE,LAE]{fontenc}
-% \usepackage[arabic]{babel}
 
+%\usepackage{euler} % math
+%\usepackage{eulervm} % a better implementation of the euler package (not in gwTeX)
 % 1
 \usepackage{enumitem}
 \makeatletter
@@ -43,6 +38,8 @@
 %\usepackage{mathptmx}                  % use matching math font
 %\usepackage{times}                     % we use Times as the main font
 \renewcommand*\ttdefault{txtt}         % a nicer typewriter font -> lead to error
+\usepackage{mathtools}
+                     
 \usepackage{cite}                      
 \usepackage{tabularx, ragged2e}
 \newcolumntype{C}{>{\Centering\arraybackslash}X} % centered "X" column
@@ -56,6 +53,10 @@
 \usepackage[utf8]{inputenc}
 
 
+\usepackage{mathptmx} 
+% \usepackage{newtxmath} 
+
+
 \renewcommand{\algorithmicrequire}{ \textbf{Input:}} %Use Input in the format of Algorithm  
 \renewcommand{\algorithmicensure}{ \textbf{Output:}} %UseOutput in the format of Algorithm 
 \algnewcommand\algorithmicforeach{\textbf{for each}}
@@ -66,7 +67,7 @@
 \newcommand{\red}[1]{#1}
 \newcommand{\tab}[1]{\hspace{3mm}}
 
-\usepackage{mathtools}
+
 
 % \usepackage{latexsym}
     % Use the "latexsym" package when encountering the following error:
@@ -229,12 +230,14 @@
 % commands of LaTeX are also available.                                 %
 %                                                                       %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \input{chapter/_proof_reading_abstract_and_introduction_conclusion.tex}
+% \input{chapter/_test_.tex}
+
 
 \input{chapter/1_Introduction.tex}
-
-% \input{chapter/2_StreetVizor/0_streetvizor.tex}
-% \input{chapter/3_edgebundling/0_edgebundling.tex}
-% \input{chapter/4_MultiRNNExplorer/0_MultiRNNExplorer.tex}
+\input{chapter/2_StreetVizor/0_streetvizor.tex}
+\input{chapter/3_edgebundling/0_edgebundling.tex}
+\input{chapter/4_MultiRNNExplorer/0_MultiRNNExplorer.tex}
 \input{chapter/4_Conclusion.tex}
 
 
