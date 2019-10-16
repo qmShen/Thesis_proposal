@@ -23,7 +23,7 @@ Similarly, we use $H=\{h_0, h_1, ..., h_{T-1}\}$ to indicate the hidden state se
 As $h_t$ is computed by feeding $x_t$ into an RNN model $L$, we denote $h_t$ = $L(x_t)$.
 Considering a dataset  $\mathbb{X} = \{X_0, X_1, ..., X_{N-1}\}$ consisting of $N$ sequences, we can collect a feature vector set $\mathbb{V} = \{x~|~x \in X, X \in \mathbb{X}\}$ where $|V| = N \times T$. 
 Based on the value ranges of a feature $f$, we can further divide $\mathbb{V}$ into different groups $\mathbb{V}_g^{f}=\{x~|~\Theta_g^{lower} \leq x^f < \Theta_g^{upper}, x \in \mathbb{V}\}$ where $\Theta_g^{lower}$ and $\Theta_g^{upper}$ denote the feature range thresholds of a group $g$.
-In this paper, we set the number of groups to be $3$ where the thresholds are the $25^{th}$ and $75^{th}$ percentiles of each feature.
+In this chapter, we set the number of groups to be $3$ where the thresholds are the $25^{th}$ and $75^{th}$ percentiles of each feature.
 We denote these three groups as $\mathbb{V}_{perc<0.25}^{f}$, $\mathbb{V}_{0.25~\leq~perc<0.75}^{f}$, and $\mathbb{V}_{perc~\geq~0.75}^{f}$. 
 As we can obtain the hidden states by feeding the data into the RNN model, we can compute the corresponding hidden state set $\mathbb{H}_g^{f} = \{L(x)~|~x \in \mathbb{V}_g^{f}\}$ for a feature group $\mathbb{V}_g^{f}$.
 In this way, the distribution of the $j^{th}$ hidden unit for feature group $\mathbb{V}_g^{f}$ can be denoted as $\mathsf{H}_g^{j, f}=\{h^j~|~h \in \mathbb{H}_g^{f}\}$.
