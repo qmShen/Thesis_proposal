@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.9)  16 OCT 2019 23:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.9)  17 OCT 2019 16:03
 entering extended mode
 **./main.tex
 (main.tex
@@ -956,9 +956,9 @@ s and de-sign-ers to ``build more pedestrian-
 CHAPTER 3.
 (chapter/3_edgebundling/1_Introduction.tex [37
 
-] [38])
-(chapter/3_edgebundling/2_relatedwork.tex [39]
-<figure/edgebundling/fig1_alternatives/alternatives.pdf, id=18861, 1186.18156pt
+])
+(chapter/3_edgebundling/2_relatedwork.tex [38] [39]
+<figure/edgebundling/fig1_alternatives/alternatives.pdf, id=18863, 1186.18156pt
  x 779.53734pt>
 File: figure/edgebundling/fig1_alternatives/alternatives.pdf Graphic file (type
  pdf)
@@ -968,7 +968,7 @@ Package pdftex.def Info: figure/edgebundling/fig1_alternatives/alternatives.pdf
 (pdftex.def)             Requested size: 424.82523pt x 279.18207pt.
  [40 <./figure/edgebundling/fig1_alternatives/alternatives.pdf>]) (chapter/3_ed
 gebundling/3_Overview.tex
-<figure/edgebundling/fig2_kernel_size/kernel_size.pdf, id=18936, 2442.82632pt x
+<figure/edgebundling/fig2_kernel_size/kernel_size.pdf, id=18939, 2442.82632pt x
  1576.97151pt>
 File: figure/edgebundling/fig2_kernel_size/kernel_size.pdf Graphic file (type p
 df)
@@ -978,7 +978,7 @@ used on input line 9.
 (pdftex.def)             Requested size: 424.82523pt x 274.24164pt.
 
 [41]
-<figure/edgebundling/fig3_framework/framework2.pdf, id=18954, 1211.96783pt x 23
+<figure/edgebundling/fig3_framework/framework2.pdf, id=18956, 1211.96783pt x 23
 0.34958pt>
 File: figure/edgebundling/fig3_framework/framework2.pdf Graphic file (type pdf)
 
@@ -1236,7 +1236,7 @@ msy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm
 fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
 
-Output written on main.pdf (112 pages, 42775547 bytes).
+Output written on main.pdf (112 pages, 42774960 bytes).
 PDF statistics:
  27568 PDF objects out of 31911 (max. 8388607)
  415 named destinations out of 1000 (max. 500000)
