@@ -8,8 +8,8 @@ This section discusses previous studies closely related to our work.
 \subsection{Street View Analysis}
 GSV system provides high quality and accurate panoramic images of hundreds of cities~\cite{anguelov2010google}.
 In recent years, researchers studying human-scale urban forms have utilized GSV images as a new and convenient data source. 
-For example, researches have shown that the analysis of GSV images can be used to audit neighborhood environments~\cite{rundle_2011_using}, quantify street greenery~\cite{li_2015_accessing}, and predict street safety~\cite{Naik_2014_streetscore}.
-Nonetheless, the majority of these studies face scalability issues given their focus on either a particular feature~\cite{li_2015_accessing} or a small area~\cite{rundle_2011_using, Naik_2014_streetscore, li_2015_accessing}.
+For example, researches have shown that the analysis of GSV images can be used to audit neighborhood environments~\cite{rundle_2011_using}, quantify street greenery~\cite{li_2015_accessing}, and predict street safety~\cite{naik2014streetscore}.
+Nonetheless, the majority of these studies face scalability issues given their focus on either a particular feature~\cite{li_2015_accessing} or a small area~\cite{rundle_2011_using, naik2014streetscore, li_2015_accessing}.
 Thees issues can be addressed by incorporating deep learning techniques, which can be used to summarize city landscapes~\cite{doersch2015makes} and estimate the demographic makeup of a country~\cite{gebru2017using}.
 
 In this work, we collect $\sim$1.7 million GSV images of four representative mega-cities, and apply a deep learning technique~\cite{Badrinarayanan_2015_segnet} to automatically extract desired urban forms from the collected images.
@@ -17,16 +17,16 @@ More importantly, we develop an effective visual analytics tool for urban planne
 
 %===============================================
 \subsection{Urban Data Visualization}
-Vast amounts of urban data, including traffic~\cite{ferreira_visual_2013, wang_2013_visual}, social media~\cite{xu_2013_visual, chen_2015_interactive}, environment~\cite{ferreira_2011_birdvis}, and simulated urban spaces~\cite{vanegas_2009_visualization}, have been collected in an urban context.
+Vast amounts of urban data, including traffic~\cite{ferreira2013visual, wang2013visual}, social media~\cite{xu2013visual, chen2015interactive}, environment~\cite{ferreira2011birdvis}, and simulated urban spaces~\cite{vanegas2009visualization}, have been collected in an urban context.
 Big urban data brings in unprecedented opportunities for evidence-based urban design, and visualization systems can assist domain experts in finding evidence from the data.
-A systematic overview of visualization systems can be found in~\cite{zheng_2016_visual}.
+A systematic overview of visualization systems can be found in~\cite{zheng2016visual}.
 
-Qu et al.~\cite{qu_2007_visual} presented a comprehensive visualization system for the analysis of a city's air pollution that affects the daily lives of residents.
+Qu et al.~\cite{qu2007visual} presented a comprehensive visualization system for the analysis of a city's air pollution that affects the daily lives of residents.
 Their system integrates parallel coordinates and scatterplots to show relationships between high-dimensional air pollutants.
 In addition to air pollution, landmark visibility is related to the daily experience of a city's residents.
-Ortner et al.~\cite{ortner_2016_vis-a-ware} visually compared the effects of candidate buildings on landmark visibility from various viewpoints.
+Ortner et al.~\cite{ortner2016vis} visually compared the effects of candidate buildings on landmark visibility from various viewpoints.
 In this system, users can select a series of ranking schemes, and candidate buildings are then automatically sorted.
-Similar to our present work, Arietta et al.~\cite{arietta_2014_city} associated visual elements with city attributes, including violent crime rates and housing prices.
+Similar to our present work, Arietta et al.~\cite{arietta2014city} associated visual elements with city attributes, including violent crime rates and housing prices.
 They developed various prototype visualizations, such as the visual boundary of urban neighborhoods.
 
 % \vspace{2mm}
@@ -43,29 +43,29 @@ and 2) projecting data points onto a two- or three-dimensional visual space that
 All these approaches have pros and cons.
 For example, although PCP presents all dimensional attributes without information loss, it can easily generate visual clutter with big data and pairwise correlations can only be shown on two nearby coordinates~\cite{heinrich_2012_state}.
 Many improvements have been developed to address these issues.
-These improvements include edge bundling to reduce visual clutter~\cite{zhou2008visual, holten_2010_evaluation}, and hierarchical data clustering and the navigation of resulting structures~\cite{fua1999hierarchical, zhao_2012_structure}.
+These improvements include edge bundling to reduce visual clutter~\cite{zhou2008visual, holten2010evaluation}, and hierarchical data clustering and the navigation of resulting structures~\cite{fua1999hierarchical, zhao_2012_structure}.
 % ., and sort dimensions in order based on their correlations~\cite{zhao_2012_structure, wu_2015_telcovis}.
 
 When multivariate data is dependent upon locations, the analytical tasks become more complex because geographical information needs to be revealed.
-Turkay et al. developed \textit{Attribute Signature}~\cite{turkay_2014_attribute}, which employs a geographical map and small multiples of multivariate attributes to show geographic variability in attribute statistics.
-Goodwin et al.~\cite{goodwin_2016_visualizing} further explored multivariate geographical data across scales by adopting new designs to show correlation, scale, and geographical information.
+Turkay et al. developed \textit{Attribute Signature}~\cite{turkay2014attribute}, which employs a geographical map and small multiples of multivariate attributes to show geographic variability in attribute statistics.
+Goodwin et al.~\cite{goodwin2015visualizing} further explored multivariate geographical data across scales by adopting new designs to show correlation, scale, and geographical information.
 The frameworks proposed by both studies can be generalized to explore multivariate geographical data.
 
 In this work, human-scale urban forms to be explored are also multivariate geographical data: the features are in six dimensions and they are dependent on locations.
 We leverage the advantages of scatterplot matrix and PCP for different analytical tasks.
 Specifically, we employ scatterplot matrix for exploring features at city- and region scales given that it can effectively reveal correlations between all pair-wise features.
-We also arrange the views in a way similar to \textit{Attribute Signature}~\cite{turkay_2014_attribute}, i.e., geographical information is presented on maps and multivariate attributes in small multiples. 
+We also arrange the views in a way similar to \textit{Attribute Signature}~\cite{turkay2014attribute}, i.e., geographical information is presented on maps and multivariate attributes in small multiples.
 In addition, we develop a novel PCP enhanced with a themeriver plot, which fits better with the analytical task of showing feature variations along street layout at street-scale.
 
 %===============================================
 \subsection{Comparative Visualization}
-Gleicher et al.~\cite{gleicher_2011_visual} classified techniques for visual comparison into three categories:
+Gleicher et al.~\cite{gleicher2011visual} classified techniques for visual comparison into three categories:
 1) Juxtaposition, i.e., presenting objects next to each other. 
-For example, NodeTrix~\cite{yang_2017_blockwise} arranges two human brain networks side-by-side. 
+For example, NodeTrix~\cite{yang2016blockwise} arranges two human brain networks side-by-side.
 2) Superposition, i.e., presenting multiple objects on top of one another.
 Typical examples are time-series line graphs that plot the changes in several variables over time in the same coordinate system.
 3) Explicit encoding, i.e., presenting differences or correlations between objects visually.
-For instance, the bivariate density map is employed in~\cite{zeng_2017_visualizing} to show the relationship between departure and arrival movements over space.
+For instance, the bivariate density map is employed in~\cite{zeng2017visualizing} to show the relationship between departure and arrival movements over space.
 In practice, these techniques are combined to address complex analytical tasks.
 
 Our work adopts juxtaposition that arranges maps of two AOIs/streets side-by-side (Fig.~\ref{fig:c1_teaser}(b) \& (d)), and superposition to compare multivariate features of two AOIs/streets in the same coordinate system (Fig.~\ref{fig:c1_teaser}(c) \& (e)).
@@ -77,7 +77,7 @@ A series of pioneering studies~\cite{jacobs_1961_life, gehl_1971_life} claimed t
 Among various types of human-scale urban form, the visible one is particularly important as human beings tend to pay most attentions to surroundings that can be directly seen~\cite{gehl_1971_life}. 
 
 Accompanying with the raising of big open data, e.g., GSV images, researches in studying visible human-scale urban form are focusing on quantitatively measuring the related features nowadays. 
-For example, researches have shown that analyzing GSV images can audit neighborhood environments~\cite{rundle_2011_using}, quantify street greenery~\cite{li_2015_accessing} and predict street safety~\cite{Naik_2014_streetscore}.
+For example, researches have shown that analyzing GSV images can audit neighborhood environments~\cite{rundle_2011_using}, quantify street greenery~\cite{li_2015_accessing} and predict street safety~\cite{naik2014streetscore}.
 Nonetheless, most of these researches got scalability issues as they focused on either a particular feature or a small area.
 The issues can be addressed by incorporating deep learning techniques, by which recent studies have shown its applicability in summarizing landscape of a city~\cite{doersch2015makes} and even estimating demographic makeup of a country~\cite{gebru2017using}.
 

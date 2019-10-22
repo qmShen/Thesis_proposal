@@ -70,7 +70,7 @@ The first column provides general information, such as city and region/street id
 The remaining columns present the six features' mean values as bars, where mean values are normalized and encoded by bar lengths.
 Clicking the body of a feature column of interest will expand the column as a boxplot to show statistical distributions.
 The explorer also allows users to sort candidates against a particular feature and the ranking will update correspondingly.
-Such designs have been well established and evaluated in a previous work~\cite{liu_2017_smartAdP}.
+Such designs have been well established and evaluated in a previous work~\cite{liu2016smartadp}.
 
 Fig.~\ref{fig:c1_teaser}(a) ranks all districts in Hong Kong in accordance with $building$ feature (red dashed box).
 As an example, we observe the detailed statistics of the $sky$ feature.
@@ -103,7 +103,7 @@ Users can select two cities or regions from the navigation panel, or directly ma
 
 Heat map is an alternative design for the point density map.
 However, in this work, we focus on the simultaneous analysis of multiple features of human-scale urban forms.
-Compositing these features into one heat map~\cite{scheepens_2011_composite} will require redundant user interactions.
+Compositing these features into one heat map~\cite{comaniciu2002mean} will require redundant user interactions.
 In addition, sampling positions are generated along the street network.
 Thus, no street views is collected from many places across a city.
 In this case, the heat map will generate ambiguity between the two scenarios of 1) no record or 2) low feature values in a region.
@@ -173,7 +173,7 @@ The six histogram bar charts are arranged in small multiples next to the scatter
 We use standard deviation to indicate the measured feature diversity measured for each cluster, and design diversity views that are arranged as six side-by-side small multiples for each feature as shown in Figure~\ref{fig:c1_statistic_view}(c).
 In every feature diversity view, each cluster is represented as a dot with its x-value indicating the averaged feature value and y-value indicating standard deviation.
 In addition, we use line segments to indicate the largest and smallest feature values in each cluster. 
-In case an AOI may have hundreds of clusters that lead to serious visual clutter problem, we implement a contour map view~\cite{chen_2014_visual} (Fig.~\ref{fig:c1_statistic_view}(h)) to show overall distribution patterns.
+In case an AOI may have hundreds of clusters that lead to serious visual clutter problem, we implement a contour map view~\cite{chen2014visual} (Fig.~\ref{fig:c1_statistic_view}(h)) to show overall distribution patterns.
 Users can interactively choose one of the views in accordance with different requirements.
 
 \end{itemize}
@@ -248,7 +248,7 @@ However, this method was extremely difficult because the rendering space was ful
 
 \vspace*{2mm}
 \noindent
-\textbf{PCP with Street Layout}. Inspired by~\cite{qu_2007_visual}, we ultimately develop a design of a parallel coordinates enhanced with street layouts (Fig.~\ref{fig:c1_street_statistic_view}(d)).
+\textbf{PCP with Street Layout}. Inspired by~\cite{qu2007visual}, we ultimately develop a design of a parallel coordinates enhanced with street layouts (Fig.~\ref{fig:c1_street_statistic_view}(d)).
 We elaborate the construction of this design as follows:
 
 \noindent
@@ -266,14 +266,14 @@ The rotation direction (clockwise or anticlockwise) is determined based on the d
 
 \noindent
 \textit{ThemeRiver Plotting} (Fig.~\ref{fig:c1_street_statistic_view}(c)).
-To fully utilize rendering space, we plot a themeriver-style~\cite{havre_2002_themeriver} visualization to show changes in feature values along a street layout.
+To fully utilize rendering space, we plot a themeriver-style~\cite{havre2002themeriver} visualization to show changes in feature values along a street layout.
 Here, the themeriver is plotted in the vertical instead of the traditionally horizontal direction because the street layout is aligned along the y-axis after rotation.
 Next, given that street views are sampled evenly along the street layout, we map the street views equally onto the y-axis, i.e., y-values of the themeriver plot reflects the relative positions of street views along the street layout.
 
 We start plotting the themeriver visualization using the left side of the rendering space as the baseline and calculate the upper bound x-values for the $greenery$ feature.
 The upper bound x-values of the $greenery$ layer are then used as baseline values for the next feature, i.e., $sky$.
 This process is repeated until all features are plotted.
-To support better feature comparison, our system allows users to reorder feature sequence by clicking on the feature layer of interest and shifting it to the left side~\cite{byron_2008_stacked}.
+To support better feature comparison, our system allows users to reorder feature sequence by clicking on the feature layer of interest and shifting it to the left side~\cite{byron2008stacked}.
 
 \noindent
 \textit{PCP Integration} (Fig.~\ref{fig:c1_street_statistic_view}(d)).

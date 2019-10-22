@@ -45,10 +45,12 @@ Dragomir Anguelov, Carole Dulong, Daniel Filip, Christian Frueh, St{\'e}phane
 \newblock Google street view: Capturing the world at street level.
 \newblock {\em Computer}, 43(6):32--38, 2010.
 
-\bibitem{arietta_2014_city}
-Sean~M. Arietta, Alexei~A. Efros, Ravi Ramamoorthi, and Maneesh Agrawala.
-\newblock {City Forensics}: Using visual elements to predict non-visual city.
-\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 20(12):2624 -- 2633, 2014.
+\bibitem{arietta2014city}
+Sean~M Arietta, Alexei~A Efros, Ravi Ramamoorthi, and Maneesh Agrawala.
+\newblock City forensics: Using visual elements to predict non-visual city
+  attributes.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  20(12):2624--2633, 2014.
 
 \bibitem{bach_2017_towards}
 B.~Bach, N.~H. Riche, C.~Hurter, K.~Marriott, and T.~Dwyer.
@@ -80,10 +82,11 @@ J.~Böttger, A.~Schäfer, G.~Lohmann, A.~Villringer, and D.~S. Margulies.
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics},
   20(3):471--480, 2014.
 
-\bibitem{byron_2008_stacked}
+\bibitem{byron2008stacked}
 Lee Byron and Martin Wattenberg.
-\newblock Stacked graphs -- geometry {\&} aesthetics.
-\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 14(6):1245 -- 1252, 2008.
+\newblock Stacked graphs--geometry \& aesthetics.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  14(6):1245--1252, 2008.
 
 \bibitem{cao2012forecasting}
 Qing Cao, Bradley~T Ewing, and Mark~A Thompson.
@@ -91,17 +94,20 @@ Qing Cao, Bradley~T Ewing, and Mark~A Thompson.
 \newblock {\em European Journal of Operational Research}, 221(1):148--154,
   2012.
 
-\bibitem{chen_2014_visual}
-H.~Chen, W.~Chen, H.~Mei, Z.~Liu, K.~Zhou, W.~Chen, W.~Gu, and K.-L. Ma.
+\bibitem{chen2014visual}
+Haidong Chen, Wei Chen, Honghui Mei, Zhiqi Liu, Kun Zhou, Weifeng Chen, Wentao
+  Gu, and Kwan-Liu Ma.
 \newblock Visual abstraction and exploration of multi-class scatterplots.
-\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 20(12):1683--1692, 2014.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  20(12):1683--1692, 2014.
 
-\bibitem{chen_2015_interactive}
+\bibitem{chen2015interactive}
 Siming Chen, Xiaoru Yuan, Zhenhuang Wang, Cong Guo, Jie Liang, Zuchao Wang,
-  Xiaolong Zhang, and Jiawan Zhang.
+  Xiaolong~Luke Zhang, and Jiawan Zhang.
 \newblock Interactive visual discovering of movement patterns from sparsely
   sampled geo-tagged social media data.
-\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 22(1):270 -- 279, 2016.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  22(1):270--279, 2015.
 
 \bibitem{chen_survey_2015}
 Wei Chen, Fangzhou Guo, and Fei-Yue Wang.
@@ -122,10 +128,11 @@ Kyunghyun Cho, Bart Van~Merri{\"e}nboer, Caglar Gulcehre, Dzmitry Bahdanau,
   statistical machine translation.
 \newblock {\em arXiv preprint arXiv:1406.1078}, 2014.
 
-\bibitem{comaniciu_2002_meanshift}
+\bibitem{comaniciu2002mean}
 Dorin Comaniciu and Peter Meer.
 \newblock Mean shift: A robust approach toward feature space analysis.
-\newblock {\em IEEE Trans. Pattern Anal. Mach. Intell.}, 24(5):603--619, 2002.
+\newblock {\em IEEE Transactions on Pattern Analysis \& Machine Intelligence},
+  (5):603--619, 2002.
 
 \bibitem{cornel_2016_composite}
 D.~Cornel, A.~Konev, B.~Sadransky, Z.~Horváth, A.~Brambilla, I.~Viola, and
@@ -149,7 +156,7 @@ Weiwei Cui, Hong Zhou, Huamin Qu, Pak~Chung Wong, and Xiaoming Li.
 Zikun Deng, Di~Weng, Jiahui Chen, Ren Liu, Zhibin Wang, Jie Bao, Yu~Zheng, and
   Yingcai Wu.
 \newblock Airvis: Visual analytics of air pollution propagation.
-\newblock {\em IEEE transactions on visualization and computer graphics}, 2019.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics}, 2019.
 
 \bibitem{dhillon2001co}
 Inderjit~S Dhillon.
@@ -190,11 +197,12 @@ Nivan Ferreira, Marcos Lage, Harish Doraiswamy, Huy Vo, Luc Wilson, Heidi
 \newblock In {\em 2015 IEEE Conference on Visual Analytics Science and
   Technology (VAST)}, pages 97--104. IEEE, 2015.
 
-\bibitem{ferreira_2011_birdvis}
-Nivan Ferreira, Lauro Lins, Daniel Fink, Steve Kelling, Chris Wood, Juliana
-  Freire, and Cláudio~T. Silva.
-\newblock {BirdVis}: Visualizing and understanding bird populations.
-\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 17(12):2374--2383, 2011.
+\bibitem{ferreira2011birdvis}
+Nivan Ferreira, Lauro Lins, Daniel Fink, Steve Kelling, Christopher Wood,
+  Juliana Freire, and Claudio Silva.
+\newblock Birdvis: Visualizing and understanding bird populations.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  17(12):2374--2383, 2011.
 
 \bibitem{ferreira2013visual}
 Nivan Ferreira, Jorge Poco, Huy~T Vo, Juliana Freire, and Cl{\'a}udio~T Silva.
@@ -203,17 +211,11 @@ Nivan Ferreira, Jorge Poco, Huy~T Vo, Juliana Freire, and Cl{\'a}udio~T Silva.
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics},
   19(12):2149--2158, 2013.
 
-\bibitem{ferreira_visual_2013}
-Nivan Ferreira, Jorge Poco, Huy~T. Vo, Juliana Freire, and Cláudio~T. Silva.
-\newblock Visual exploration of big spatio-temporal urban data: A study of {New
-  York} city taxi trips.
-\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 19(12):2149--2158, 2013.
-
 \bibitem{foth2011urban}
 Marcus Foth, Jaz Hee-jeong Choi, and Christine Satchell.
 \newblock Urban informatics.
-\newblock In {\em Proceedings of the ACM 2011 conference on Computer supported
-  cooperative work}, pages 1--8. ACM, 2011.
+\newblock In {\em Proceedings of the ACM 2011 Conference on Computer Supported
+  Cooperative Work}, pages 1--8. ACM, 2011.
 
 \bibitem{friedman2001greedy}
 Jerome~H Friedman.
@@ -223,7 +225,8 @@ Jerome~H Friedman.
 \bibitem{fua1999hierarchical}
 Ying-Huey Fua, Matthew~O Ward, and Elke~A Rundensteiner.
 \newblock Hierarchical parallel coordinates for exploration of large datasets.
-\newblock In {\em Proc. IEEE Conf. Vis.}, pages 43--50, 1999.
+\newblock In {\em Proceedings of the Conference on Visualization'99:
+  Celebrating Ten Years}, pages 43--50. IEEE Computer Society Press, 1999.
 
 \bibitem{gebru2017using}
 Timnit Gebru, Jonathan Krause, Yilun Wang, Duyun Chen, Jia Deng, Erez~Lieberman
@@ -237,16 +240,17 @@ Jan Gehl.
 \newblock {\em Life between Buildings: Using Public Space}.
 \newblock Van Nostrand Reinhold, 1971.
 
-\bibitem{gleicher_2011_visual}
-Michael Gleicher, Danielle Albers, Rick Walker, Ilir Jusufi, Charles~D. Hansen,
-  and Jonathan~C. Roberts.
+\bibitem{gleicher2011visual}
+Michael Gleicher, Danielle Albers, Rick Walker, Ilir Jusufi, Charles~D Hansen,
+  and Jonathan~C Roberts.
 \newblock Visual comparison for information visualization.
-\newblock {\em Inf. Vis.}, 10(4):289--309, 2011.
+\newblock {\em Information Visualization}, 10(4):289--309, 2011.
 
-\bibitem{goodwin_2016_visualizing}
-S.~Goodwin, J.~Dykes, A.~Slingsby, and C.~Turkay.
+\bibitem{goodwin2015visualizing}
+Sarah Goodwin, Jason Dykes, Aidan Slingsby, and Cagatay Turkay.
 \newblock Visualizing multiple variables across scale and geography.
-\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 22(1):599--608, 2016.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  22(1):599--608, 2015.
 
 \bibitem{gsv_api}
 Google.
@@ -258,7 +262,7 @@ Google.
 Klaus Greff, Rupesh~K Srivastava, Jan Koutn{\'\i}k, Bas~R Steunebrink, and
   J{\"u}rgen Schmidhuber.
 \newblock Lstm: A search space odyssey.
-\newblock {\em IEEE transactions on neural networks and learning systems},
+\newblock {\em IEEE Transactions on Neural Networks and Learning Systems},
   28(10):2222--2232, 2017.
 
 \bibitem{gudmundsson2011computational}
@@ -280,11 +284,12 @@ Diansheng Guo and Xi~Zhu.
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics},
   20(12):2043--2052, 2014.
 
-\bibitem{havre_2002_themeriver}
+\bibitem{havre2002themeriver}
 Susan Havre, Elizabeth Hetzler, Paul Whitney, and Lucy Nowell.
-\newblock {ThemeRiver}: Visualizing thematic changes in large document
+\newblock Themeriver: Visualizing thematic changes in large document
   collections.
-\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 8(1):9--20, 2002.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  8(1):9--20, 2002.
 
 \bibitem{heinrich_2012_state}
 Julian Heinrich and Daniel Weiskopf.
@@ -321,17 +326,18 @@ Danny Holten and Jarke~J van Wijk.
 \newblock Force-directed edge bundling for graph visualization.
 \newblock {\em Computer Graphics Forum}, 28(3):983--990, 2009.
 
-\bibitem{holten_2010_evaluation}
-Danny Holten and Jarke~J. van Wijk.
-\newblock Evaluation of cluster identification performance for different {PCP}
+\bibitem{holten2010evaluation}
+Danny Holten and Jarke~J Van~Wijk.
+\newblock Evaluation of cluster identification performance for different pcp
   variants.
-\newblock {\em Comput. Graph. Forum}, 29(3):793--802, 2010.
+\newblock In {\em Computer Graphics Forum}, volume~29, pages 793--802. Wiley
+  Online Library, 2010.
 
 \bibitem{huang2015trajgraph}
 Xiaoke Huang, Ye~Zhao, Chao Ma, Jing Yang, Xinyue Ye, and Chong Zhang.
 \newblock Trajgraph: A graph-based visual analytics approach to studying urban
   network centralities using taxi trajectory data.
-\newblock {\em IEEE transactions on visualization and computer graphics},
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
   22(1):160--169, 2015.
 
 \bibitem{hurter_2018_functional}
@@ -442,7 +448,7 @@ Xiang Li, Ling Peng, Xiaojing Yao, Shaolong Cui, Yuan Hu, Chengzeng You, and
   Tianhe Chi.
 \newblock Long short-term memory neural network for air pollutant concentration
   predictions: Method development and evaluation.
-\newblock {\em Environmental pollution}, 231:997--1004, 2017.
+\newblock {\em Environmental Pollution}, 231:997--1004, 2017.
 
 \bibitem{li_2015_accessing}
 Xiaojiang Li, Chuanrong Zhang, Weidong Li, Robert Ricard, Qingyan Meng, and
@@ -451,33 +457,29 @@ Xiaojiang Li, Chuanrong Zhang, Weidong Li, Robert Ricard, Qingyan Meng, and
   a modified green view index.
 \newblock {\em Urban For. Urban Gree.}, 14(3):675--685, 2015.
 
-\bibitem{lins_2013_nanocubes}
-L.~Lins, J.~T. Klosowski, and C.~Scheidegger.
+\bibitem{lins2013nanocubes}
+Lauro Lins, James~T Klosowski, and Carlos Scheidegger.
 \newblock Nanocubes for real-time exploration of spatiotemporal datasets.
-\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 19(12):2456--2465, 2013.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  19(12):2456--2465, 2013.
 
 \bibitem{lipton2017doctor}
 Zachary~C Lipton.
 \newblock The doctor just won't accept that!
 \newblock {\em arXiv preprint arXiv:1711.08037}, 2017.
 
-\bibitem{liu_2017_smartAdP}
-D.~Liu, D.~Weng, Y.~Li, J.~Bao, Y.~Zheng, H.~Qu, and Y.~Wu.
-\newblock {SmartAdP}: Visual analytics of large-scale taxi trajectories for
+\bibitem{liu2016smartadp}
+Dongyu Liu, Di~Weng, Yuhong Li, Jie Bao, Yu~Zheng, Huamin Qu, and Yingcai Wu.
+\newblock Smartadp: Visual analytics of large-scale taxi trajectories for
   selecting billboard locations.
-\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 23(1):1--10, 2017.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  23(1):1--10, 2016.
 
 \bibitem{liu2017towards}
 Mengchen Liu, Jiaxin Shi, Zhen Li, Chongxuan Li, Jun Zhu, and Shixia Liu.
 \newblock Towards better analysis of deep convolutional neural networks.
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics},
   23(1):91--100, 2017.
-
-\bibitem{liu2014survey}
-Shixia Liu, Weiwei Cui, Yingcai Wu, and Mengchen Liu.
-\newblock A survey on information visualization: recent advances and
-  challenges.
-\newblock {\em The Visual Computer}, 30(12):1373--1393, 2014.
 
 \bibitem{liu_2015_understanding}
 Xingjian Liu, Yan Song, Kang Wu, Jianghao Wang, Dong Li, and Ying Long.
@@ -528,17 +530,12 @@ Yao Ming, Shaozu Cao, Ruixiang Zhang, Zhen Li, Yuanzhe Chen, Yangqiu Song, and
 \newblock In {\em 2017 IEEE Conference on Visual Analytics Science and
   Technology (VAST)}, pages 13--24. IEEE, 2017.
 
-\bibitem{Naik_2014_streetscore}
-Nikhil Naik, Jade Philipoom, Ramesh Raskar, and Cear Hidalgo.
-\newblock Streetscore -- predicting the perceived safety of one million
+\bibitem{naik2014streetscore}
+Nikhil Naik, Jade Philipoom, Ramesh Raskar, and C{\'e}sar Hidalgo.
+\newblock Streetscore-predicting the perceived safety of one million
   streetscapes.
-\newblock In {\em Proc. IEEE Conf. Comput. Vision and Pattern Recognition
-  Workshops}, pages 793--799, 2014.
-
-\bibitem{united2018world}
-United Nations.
-\newblock World urbanization prospects: The 2018 revision.
-\newblock 2019.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition Workshops}, pages 779--785, 2014.
 
 \bibitem{ni2017spatio}
 Bing Ni, Qiaomu Shen, Jiayi Xu, and Huamin Qu.
@@ -558,11 +555,13 @@ Mihaela Oprea, Marian Popescu, and Sanda~Florentina Mihalache.
 \newblock In {\em 2016 20th International Conference on System Theory, Control
   and Computing (ICSTCC)}, pages 776--781. IEEE, 2016.
 
-\bibitem{ortner_2016_vis-a-ware}
-T.~Ortner, J.~Sorger, H.~Steinlechner, G.~Hesina, H.~Piringer, and E.~Groeller.
-\newblock {Vis-A-Ware}: Integrating spatial and non-spatial visualization for
+\bibitem{ortner2016vis}
+Thomas Ortner, Johannes Sorger, Harald Steinlechner, Gerd Hesina, Harald
+  Piringer, and Eduard Gr{\"o}ller.
+\newblock Vis-a-ware: Integrating spatial and non-spatial visualization for
   visibility-aware urban planning.
-\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 23(2):1139 -- 1151, 2016.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  23(2):1139--1151, 2016.
 
 \bibitem{scikit-learn}
 F.~Pedregosa, G.~Varoquaux, A.~Gramfort, V.~Michel, B.~Thirion, O.~Grisel,
@@ -595,13 +594,8 @@ Doantam Phan, Ling Xiao, Ron Yeh, and Pat Hanrahan.
 \bibitem{qu2007visual}
 Huamin Qu, Wing-Yi Chan, Anbang Xu, Kai-Lun Chung, Kai-Hon Lau, and Ping Guo.
 \newblock Visual analysis of the air pollution problem in hong kong.
-\newblock {\em IEEE Transactions on visualization and Computer Graphics},
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
   13(6):1408--1415, 2007.
-
-\bibitem{qu_2007_visual}
-Huamin Qu, Wing-Yi Chan, Anbang Xu, Kai-Lun Chung, Kai-Hon Lau, and Ping Guo.
-\newblock Visual analysis of the air pollution problem in {Hong Kong}.
-\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 13(6):1408--1415, 2007.
 
 \bibitem{ribeiro2016should}
 Marco~Tulio Ribeiro, Sameer Singh, and Carlos Guestrin.
@@ -622,12 +616,6 @@ Andrew~G Rundle, Michael~DM Bader, Catherine~A Richards, Kathryn~M Neckerman,
   and Julien~O Teitler.
 \newblock Using {Google} street view to audit neighborhood environments.
 \newblock {\em Am. J. Prev. Med.}, 40(1):94--100, 2011.
-
-\bibitem{scheepens_2011_composite}
-Roeland Scheepens, Niels Willems, Huub van~de Wetering, Gennady Andrienko,
-  Natalia Andrienko, and Jarke~J. van Wijk.
-\newblock Composite density maps for multivariate trajectories.
-\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 17(12):2518--2527, 2011.
 
 \bibitem{schuster1997bidirectional}
 Mike Schuster and Kuldip~K Paliwal.
@@ -708,11 +696,12 @@ Waldo~R. Tobler.
 \newblock Experiments in migration mapping by computer.
 \newblock {\em The American Cartographer}, 14(2):155--163, 1987.
 
-\bibitem{turkay_2014_attribute}
+\bibitem{turkay2014attribute}
 Cagatay Turkay, Aidan Slingsby, Helwig Hauser, Jo~Wood, and Jason Dykes.
 \newblock Attribute signatures: Dynamic visual summaries for analyzing
   multivariate geographical data.
-\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 20(12):2033--2042, 2014.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  20(12):2033--2042, 2014.
 
 \bibitem{van2016cubu}
 Matthew van~der Zwan, Valeriu Codreanu, and Alexandru Telea.
@@ -727,11 +716,12 @@ Vincent van Unen, Thomas H{\"o}llt, Nicola Pezzotti, Na~Li, Marcel~JT Reinders,
   neighbour embedding reveals rare cell types.
 \newblock {\em Nature Communications}, 8(1):1740, 2017.
 
-\bibitem{vanegas_2009_visualization}
-C.~A. Vanegas, D.~G. Aliaga, B.~Benes, and P.~Waddell.
-\newblock Visualization of simulated urban spaces: Inferring parameterized
+\bibitem{vanegas2009visualization}
+Carlos~A Vanegas, Daniel~G Aliaga, Bedrich Benes, and Paul Waddell.
+\newblock Visualization of simulated urban spaces: inferring parameterized
   generation of streets, parcels, and aerial imagery.
-\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 15(3):424--435, 2009.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  15(3):424--435, 2009.
 
 \bibitem{verbeek_2011_flow}
 Kevin Verbeek, Kevin Buchin, and Bettina Speckmann.
@@ -777,22 +767,19 @@ Pu~Wang, Timothy Hunter, Alexandre~M Bayen, Katja Schechtner, and Marta~C
 \newblock Understanding road usage patterns in urban areas.
 \newblock {\em Scientific Reports}, 2:1001, 2012.
 
-\bibitem{wang_2017_gaussian}
-Z.~Wang, N.~Ferreira, Y.~Wei, A.~S. Bhaskar, and C.~Scheidegger.
+\bibitem{wang2016gaussian}
+Zhe Wang, Nivan Ferreira, Youhao Wei, Aarthy~Sankari Bhaskar, and Carlos
+  Scheidegger.
 \newblock Gaussian cubes: Real-time modeling for visual exploration of large
   multidimensional datasets.
-\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 23(1):671 -- 680, 2017.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  23(1):681--690, 2016.
 
 \bibitem{wang2013visual}
 Zuchao Wang, Min Lu, Xiaoru Yuan, Junping Zhang, and Huub Van De~Wetering.
 \newblock Visual traffic jam analysis based on trajectory data.
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics},
   19(12):2159--2168, 2013.
-
-\bibitem{wang_2013_visual}
-Zuchao Wang, Min Lu, Xiaoru Yuan, Junping Zhang, and Huub van~de Wetering.
-\newblock Visual traffic jam analysis based on trajectory data.
-\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 19(12):2159--2168, 2013.
 
 \bibitem{wilkinson2009history}
 Leland Wilkinson and Michael Friendly.
@@ -809,28 +796,31 @@ Wenchao Wu, Jiayi Xu, Haipeng Zeng, Yixian Zheng, Huamin Qu, Bing Ni, Mingxuan
   Yuan, and Lionel~M Ni.
 \newblock Telcovis: Visual exploration of co-occurrence in urban human mobility
   based on telco data.
-\newblock {\em IEEE transactions on visualization and computer graphics},
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
   22(1):935--944, 2015.
 
 \bibitem{xingjian2015convolutional}
-SHI Xingjian, Zhourong Chen, Hao Wang, Dit-Yan Yeung, Wai-Kin Wong, and
+Shi Xingjian, Zhourong Chen, Hao Wang, Dit-Yan Yeung, Wai-Kin Wong, and
   Wang-chun Woo.
 \newblock Convolutional lstm network: A machine learning approach for
   precipitation nowcasting.
 \newblock In {\em Advances in Neural Information Processing Systems}, pages
   802--810, 2015.
 
-\bibitem{xu_2013_visual}
-Panpan Xu, Yingcai Wu, Enxun Wei, Tai-Quan Peng, Shixia Liu, Jonathan J.~H.
-  Zhu, and Huamin Qu.
+\bibitem{xu2013visual}
+Panpan Xu, Yingcai Wu, Enxun Wei, Tai-Quan Peng, Shixia Liu, Jonathan~JH Zhu,
+  and Huamin Qu.
 \newblock Visual analysis of topic competition on social media.
-\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 19(12):2012--2021, 2013.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  19(12):2012--2021, 2013.
 
-\bibitem{yang_2017_blockwise}
-X.~Yang, L.~Shi, M.~Daianu, H.~Tong, Q.~Liu, and P.~Thompson.
+\bibitem{yang2016blockwise}
+Xinsong Yang, Lei Shi, Madelaine Daianu, Hanghang Tong, Qingsong Liu, and Paul
+  Thompson.
 \newblock Blockwise human brain network visual comparison using nodetrix
   representation.
-\newblock {\em IEEE Trans. Vis. Comput. Graph.}, 23(1):181 -- 190, 2017.
+\newblock {\em IEEE transactions on visualization and computer graphics},
+  23(1):181--190, 2016.
 
 \bibitem{zeng_2015_visualizing}
 Wei Zeng, C.~W. Fu, S.~Müller~Arisona, A.~Erath, and H.~Qu.
@@ -838,33 +828,28 @@ Wei Zeng, C.~W. Fu, S.~Müller~Arisona, A.~Erath, and H.~Qu.
   massive transportation data.
 \newblock {\em Computer Graphics Forum}, 35(8):95--107, 2016.
 
-\bibitem{zeng_2017_visualizing}
-Wei Zeng, Chi-Wing Fu, Stefan M\"{u}ller~Arisona, Simon Schubiger, Remo
+\bibitem{zeng2017visualizing}
+Wei Zeng, Chi-Wing Fu, Stefan~M{\"u}ller Arisona, Simon Schubiger, Remo
   Burkhard, and Kwan-Liu Ma.
-\newblock Visualizing the relationship between human mobility and
-  points-of-interest.
-\newblock {\em IEEE Trans. Intell. Transp. Syst.}, 2017.
+\newblock Visualizing the relationship between human mobility and points of
+  interest.
+\newblock {\em IEEE Transactions on Intelligent Transportation Systems},
+  18(8):2271--2284, 2017.
 
 \bibitem{zeng2018vitalvizor}
 Wei Zeng and Yu~Ye.
 \newblock Vitalvizor: A visual analytics system for studying urban vitality.
-\newblock {\em IEEE computer graphics and applications}, 38(5):38--53, 2018.
+\newblock {\em IEEE Computer Graphics and Applications}, 38(5):38--53, 2018.
 
 \bibitem{zhao_2012_structure}
 Xin Zhao and Arie Kaufman.
 \newblock Structure revealing techniques based on parallel coordinates plot.
 \newblock {\em Vis. Comput.}, 28(6):541--551, 2012.
 
-\bibitem{zheng_2016_visual}
-Y.~Zheng, W.~Wu, Y.~Chen, H.~Qu, and L.~M. Ni.
+\bibitem{zheng2016visual}
+Yixian Zheng, Wenchao Wu, Yuanzhe Chen, Huamin Qu, and Lionel~M Ni.
 \newblock Visual analytics in urban computing: An overview.
-\newblock {\em IEEE Trans. Big Data}, 2(3):276--296, 2016.
-
-\bibitem{zheng2014urban}
-Yu~Zheng, Licia Capra, Ouri Wolfson, and Hai Yang.
-\newblock Urban computing: concepts, methodologies, and applications.
-\newblock {\em ACM Transactions on Intelligent Systems and Technology (TIST)},
-  5(3):38, 2014.
+\newblock {\em IEEE Transactions on Big Data}, 2(3):276--296, 2016.
 
 \bibitem{zheng2015forecasting}
 Yu~Zheng, Xiuwen Yi, Ming Li, Ruiyuan Li, Zhangqing Shan, Eric Chang, and
@@ -887,7 +872,8 @@ Hong Zhou, Xiaoru Yuan, Weiwei Cui, Huamin Qu, and Baoquan Chen.
 \bibitem{zhou2008visual}
 Hong Zhou, Xiaoru Yuan, Huamin Qu, Weiwei Cui, and Baoquan Chen.
 \newblock Visual clustering in parallel coordinates.
-\newblock In {\em Comput. Graph. Forum}, volume~27, pages 1047--1054, 2008.
+\newblock In {\em Computer Graphics Forum}, volume~27, pages 1047--1054. Wiley
+  Online Library, 2008.
 
 \bibitem{zhou2017prediction}
 Shanshan Zhou, Wenjing Li, and Junfei Qiao.

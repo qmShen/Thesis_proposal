@@ -1,11 +1,18 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: plain.bst
 Database file #1: ref.bib
+You're missing a field name---line 660 of file ref.bib
+ : 
+ : %   author = {Byron, Lee and Wattenberg, Martin},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "comaniciu_2002_meanshift"
 Warning--empty publisher in andrienko2013visual
+Warning--there's a number but no volume in comaniciu2002mean
 Warning--empty publisher in gudmundsson2011computational
+Warning--can't use both volume and number fields in holten2010evaluation
 Warning--can't use both volume and number fields in kruger2013trajectorylenses
 Warning--can't use both volume and number fields in lanir2014visualizing
-Warning--empty journal in united2018world
 Warning--can't use both volume and number fields in pezzotti2016hierarchical
 Warning--can't use both volume and number fields in zhou2008visual
-(There were 7 warnings)
+(There was 1 error message)
