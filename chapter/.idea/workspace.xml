@@ -3,23 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8a07ab72-8653-40a3-bcfb-e8bbc4a0a75e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Introduction.tex" beforeDir="false" afterPath="$PROJECT_DIR$/1_Introduction.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_StreetVizor/10_conclusion.tex" beforeDir="false" afterPath="$PROJECT_DIR$/2_StreetVizor/10_conclusion.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_StreetVizor/1_Introduction.tex" beforeDir="false" afterPath="$PROJECT_DIR$/2_StreetVizor/1_Introduction.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_StreetVizor/2_relatedwork.tex" beforeDir="false" afterPath="$PROJECT_DIR$/2_StreetVizor/2_relatedwork.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_StreetVizor/3_BackgroundAndTask.tex" beforeDir="false" afterPath="$PROJECT_DIR$/2_StreetVizor/3_BackgroundAndTask.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_StreetVizor/6_VisualizationDesign.tex" beforeDir="false" afterPath="$PROJECT_DIR$/2_StreetVizor/6_VisualizationDesign.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_StreetVizor/9_Discussion.tex" beforeDir="false" afterPath="$PROJECT_DIR$/2_StreetVizor/9_Discussion.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_edgebundling/2_Relatedwork.tex" beforeDir="false" afterPath="$PROJECT_DIR$/3_edgebundling/2_Relatedwork.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_edgebundling/9_Conclusion.tex" beforeDir="false" afterPath="$PROJECT_DIR$/3_edgebundling/9_Conclusion.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sec-abstract.tex" beforeDir="false" afterPath="$PROJECT_DIR$/sec-abstract.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../main.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../main.bbl" beforeDir="false" afterPath="$PROJECT_DIR$/../main.bbl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../main.blg" beforeDir="false" afterPath="$PROJECT_DIR$/../main.blg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../main.log" beforeDir="false" afterPath="$PROJECT_DIR$/../main.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../main.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../main.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ref.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../ref.bib" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/4_MultiRNNExplorer/5_Model_interpreter.tex">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
-              <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+              <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
               <folding>
                 <element signature="e#3718#3721#2" expanded="true" />
               </folding>
@@ -85,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2_StreetVizor/6_VisualizationDesign.tex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="3500">
               <caret line="250" column="63" selection-start-line="250" selection-start-column="63" selection-end-line="250" selection-end-column="63" />
             </state>
           </provider>
@@ -229,18 +212,18 @@
       <updated>1571237942120</updated>
       <workItem from="1571237954584" duration="1105000" />
       <workItem from="1571318619129" duration="663000" />
-      <workItem from="1571726003089" duration="3856000" />
+      <workItem from="1571726003089" duration="4455000" />
+      <workItem from="1571969021987" duration="668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5624000" />
+    <option name="totallyTimeSpent" value="6891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="944" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2892363" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29284427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -267,6 +250,16 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/2_StreetVizor/10_conclusion.tex">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_StreetVizor/9_Discussion.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="155" selection-start-line="20" selection-start-column="155" selection-end-line="20" selection-end-column="155" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2_StreetVizor/1_Introduction.tex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -291,7 +284,7 @@
     <entry file="file://$PROJECT_DIR$/4_MultiRNNExplorer/5_Model_interpreter.tex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
           <folding>
             <element signature="e#3718#3721#2" expanded="true" />
           </folding>
@@ -300,18 +293,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2_StreetVizor/6_VisualizationDesign.tex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="3500">
           <caret line="250" column="63" selection-start-line="250" selection-start-column="63" selection-end-line="250" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_StreetVizor/10_conclusion.tex">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_StreetVizor/9_Discussion.tex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="155" selection-start-line="20" selection-start-column="155" selection-end-line="20" selection-end-column="155" />
         </state>
       </provider>
     </entry>
