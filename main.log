@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.9)  4 NOV 2019 08:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.9)  13 NOV 2019 11:42
 entering extended mode
 **./main.tex
 (main.tex
@@ -631,6 +631,86 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 {C:/Users/Qiaomu/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 120.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1ztmcm.fd"
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 120.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\omlztmcm.fd"
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 120.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\omsztmcm.fd"
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 120.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\omxztmcm.fd"
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+20.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 120.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 120.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 120.
+
+Authorization Page
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\nbi' on input line 120.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\nbi' on input line 120.
+
+[2]
+\c@@membersprinted=\count149
+
+Signature Page
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\nbi' on input line 120.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\nbi' on input line 120.
+
+[3] (chapter/sec-ack.tex
+Acknowledgments
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\nbi' on input line 12.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\nbi' on input line 12.
+
+[4
+
+])
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\nbi' on input line 150.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\nbi' on input line 150.
+
+[5]
 Table of Contents
 (main.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
@@ -638,37 +718,37 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nbi' on input line 29.
+(hyperref)                removing `\nbi' on input line 27.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nbi' on input line 29.
+(hyperref)                removing `\nbi' on input line 27.
 
-[2
+[6
 
 ]
-Overfull \hbox (0.60004pt too wide) detected at line 45
+Overfull \hbox (0.60004pt too wide) detected at line 48
 \T1/ptm/m/n/12 2.10 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nbi' on input line 63.
+(hyperref)                removing `\nbi' on input line 61.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nbi' on input line 63.
+(hyperref)                removing `\nbi' on input line 61.
 
-[3]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nbi' on input line 96.
-
+[7]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\nbi' on input line 96.
+(hyperref)                removing `\nbi' on input line 94.
 
-[4])
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\nbi' on input line 94.
+
+[8])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
@@ -681,45 +761,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\nbi' on input line 158.
 
-[5]
+[9]
 List of Figures
 (main.lof
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 12.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1ztmcm.fd"
-File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 12.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\omlztmcm.fd"
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 12.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\omsztmcm.fd"
-File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 12.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\omxztmcm.fd"
-File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-2.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
-
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\nbi' on input line 14.
@@ -728,7 +772,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\nbi' on input line 14.
 
-[6
+[10
 
 ]
 Overfull \hbox (1.29268pt too wide) in paragraph at lines 24--24
@@ -744,7 +788,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\nbi' on input line 31.
 
-[7])
+[11])
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
@@ -757,7 +801,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\nbi' on input line 166.
 
-[8]
+[12]
 List of Tables
 (main.lot)
 \tf@lot=\write6
@@ -773,7 +817,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\nbi' on input line 1.
 
-[9
+[13
 
 ]
 
@@ -784,7 +828,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\nbi' on input line 5.
 
-[10]) (chapter/1_Introduction.tex
+[14]) (chapter/1_Introduction.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\nbi' on input line 1.
@@ -793,9 +837,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\nbi' on input line 1.
 
-[11]
-
-Warning: No acknowledgment page. 
+[15]
 
 Warning: No abstract. 
 
@@ -826,7 +868,7 @@ CHAPTER 2.
 (chapter/2_StreetVizor/2_relatedwork.tex [9] [10] [11])
 (chapter/2_StreetVizor/3_BackgroundAndTask.tex [12] [13])
 (chapter/2_StreetVizor/4_DesignAndSystemOverview.tex
-<figure/streetvizor/fig2_framework/framework.pdf, id=866, 675.9915pt x 612.6378
+<figure/streetvizor/fig2_framework/framework.pdf, id=896, 675.9915pt x 612.6378
 pt>
 File: figure/streetvizor/fig2_framework/framework.pdf Graphic file (type pdf)
 <use figure/streetvizor/fig2_framework/framework.pdf>
@@ -836,7 +878,7 @@ on input line 9.
  [14])
 (chapter/2_StreetVizor/5_DataProcess.tex [15 <./figure/streetvizor/fig2_framewo
 rk/framework.pdf>]
-<figure/streetvizor/fig3_data_preprocess/data_process.pdf, id=933, 1379.1525pt 
+<figure/streetvizor/fig3_data_preprocess/data_process.pdf, id=962, 1379.1525pt 
 x 303.1325pt>
 File: figure/streetvizor/fig3_data_preprocess/data_process.pdf Graphic file (ty
 pe pdf)
@@ -845,7 +887,7 @@ Package pdftex.def Info: figure/streetvizor/fig3_data_preprocess/data_process.p
 df  used on input line 7.
 (pdftex.def)             Requested size: 472.03123pt x 103.74825pt.
  [16 <./figure/streetvizor/fig3_data_preprocess/data_process.pdf>] [17]
-<figure/streetvizor/fig4_data_model/data_model.pdf, id=967, 322.20375pt x 174.9
+<figure/streetvizor/fig4_data_model/data_model.pdf, id=997, 322.20375pt x 174.9
 8674pt>
 File: figure/streetvizor/fig4_data_model/data_model.pdf Graphic file (type pdf)
 
@@ -854,7 +896,7 @@ Package pdftex.def Info: figure/streetvizor/fig4_data_model/data_model.pdf  use
 d on input line 95.
 (pdftex.def)             Requested size: 377.62642pt x 205.0941pt.
 ) (chapter/2_StreetVizor/6_VisualizationDesign.tex
-<figure/streetvizor/fig1_teaser/teaser.pdf, id=970, 976.3145pt x 288.15958pt>
+<figure/streetvizor/fig1_teaser/teaser.pdf, id=1000, 976.3145pt x 288.15958pt>
 File: figure/streetvizor/fig1_teaser/teaser.pdf Graphic file (type pdf)
 <use figure/streetvizor/fig1_teaser/teaser.pdf>
 Package pdftex.def Info: figure/streetvizor/fig1_teaser/teaser.pdf  used on inp
@@ -872,7 +914,7 @@ vizor/fig1_teaser/teaser.pdf>] [20]
 LaTeX Warning: Citation `comaniciu_2002_meanshift' on page 21 undefined on inpu
 t line 120.
 
-<figure/streetvizor/fig5_statistic_view/statistic_view.pdf, id=1036, 768.27928p
+<figure/streetvizor/fig5_statistic_view/statistic_view.pdf, id=1065, 768.27928p
 t x 421.59105pt>
 File: figure/streetvizor/fig5_statistic_view/statistic_view.pdf Graphic file (t
 ype pdf)
@@ -881,7 +923,7 @@ Package pdftex.def Info: figure/streetvizor/fig5_statistic_view/statistic_view.
 pdf  used on input line 124.
 (pdftex.def)             Requested size: 424.82523pt x 233.12378pt.
 [21] [22 <./figure/streetvizor/fig5_statistic_view/statistic_view.pdf>]
-<figure/streetvizor/fig6_street_map_view/street_map_view.pdf, id=5261, 781.4354
+<figure/streetvizor/fig6_street_map_view/street_map_view.pdf, id=5291, 781.4354
 2pt x 346.27669pt>
 File: figure/streetvizor/fig6_street_map_view/street_map_view.pdf Graphic file 
 (type pdf)
@@ -891,7 +933,7 @@ w.pdf  used on input line 196.
 (pdftex.def)             Requested size: 424.82523pt x 188.25471pt.
 
 [23] [24 <./figure/streetvizor/fig6_street_map_view/street_map_view.pdf>]
-<figure/streetvizor/fig7_street_model/street_pcp.pdf, id=5290, 374.0645pt x 322
+<figure/streetvizor/fig7_street_model/street_pcp.pdf, id=5320, 374.0645pt x 322
 .70563pt>
 File: figure/streetvizor/fig7_street_model/street_pcp.pdf Graphic file (type pd
 f)
@@ -901,7 +943,7 @@ sed on input line 238.
 (pdftex.def)             Requested size: 424.82523pt x 366.49472pt.
 
 [25 <./figure/streetvizor/fig7_street_model/street_pcp.pdf>]
-<figure/streetvizor/fig8_study_1/study_1_spatial.pdf, id=5348, 1037.26523pt x 3
+<figure/streetvizor/fig8_study_1/study_1_spatial.pdf, id=5378, 1037.26523pt x 3
 84.49448pt>
 File: figure/streetvizor/fig8_study_1/study_1_spatial.pdf Graphic file (type pd
 f)
@@ -911,7 +953,7 @@ sed on input line 294.
 (pdftex.def)             Requested size: 448.42822pt x 166.22116pt.
  [26] [27 <./figure/streetvizor/fig8_study_1/study_1_spatial.pdf>])
 (chapter/2_StreetVizor/7_CaseStudies.tex
-<figure/streetvizor/fig8_study_1/study_1_statistic.pdf, id=5372, 1239.63126pt x
+<figure/streetvizor/fig8_study_1/study_1_statistic.pdf, id=5401, 1239.63126pt x
  499.8675pt>
 File: figure/streetvizor/fig8_study_1/study_1_statistic.pdf Graphic file (type 
 pdf)
@@ -920,7 +962,7 @@ Package pdftex.def Info: figure/streetvizor/fig8_study_1/study_1_statistic.pdf
  used on input line 7.
 (pdftex.def)             Requested size: 472.03123pt x 190.3406pt.
  [28 <./figure/streetvizor/fig8_study_1/study_1_statistic.pdf>]
-<figure/streetvizor/fig9_study_2/region-functionality.png, id=12342, 1706.375pt
+<figure/streetvizor/fig9_study_2/region-functionality.png, id=12372, 1706.375pt
  x 982.67125pt>
 File: figure/streetvizor/fig9_study_2/region-functionality.png Graphic file (ty
 pe png)
@@ -929,7 +971,7 @@ Package pdftex.def Info: figure/streetvizor/fig9_study_2/region-functionality.p
 ng  used on input line 50.
 (pdftex.def)             Requested size: 462.5886pt x 266.38937pt.
  [29]
-<figure/streetvizor/fig9_study_2/study_2_2.pdf, id=12348, 788.50383pt x 454.583
+<figure/streetvizor/fig9_study_2/study_2_2.pdf, id=12378, 788.50383pt x 454.583
 33pt>
 File: figure/streetvizor/fig9_study_2/study_2_2.pdf Graphic file (type pdf)
 <use figure/streetvizor/fig9_study_2/study_2_2.pdf>
@@ -938,7 +980,7 @@ Package pdftex.def Info: figure/streetvizor/fig9_study_2/study_2_2.pdf  used on
 (pdftex.def)             Requested size: 472.03123pt x 272.12782pt.
  [30 <./figure/streetvizor/fig9_study_2/region-functionality.png (PNG copy)>] [
 31 <./figure/streetvizor/fig9_study_2/study_2_2.pdf>]
-<figure/streetvizor/fig10_study_3/study_3.pdf, id=18740, 718.685pt x 619.0116pt
+<figure/streetvizor/fig10_study_3/study_3.pdf, id=18770, 718.685pt x 619.0116pt
 >
 File: figure/streetvizor/fig10_study_3/study_3.pdf Graphic file (type pdf)
 <use figure/streetvizor/fig10_study_3/study_3.pdf>
@@ -964,7 +1006,7 @@ CHAPTER 3.
 
 ])
 (chapter/3_edgebundling/2_relatedwork.tex [38] [39]
-<figure/edgebundling/fig1_alternatives/alternatives.pdf, id=18851, 1186.18156pt
+<figure/edgebundling/fig1_alternatives/alternatives.pdf, id=18880, 1186.18156pt
  x 779.53734pt>
 File: figure/edgebundling/fig1_alternatives/alternatives.pdf Graphic file (type
  pdf)
@@ -974,7 +1016,7 @@ Package pdftex.def Info: figure/edgebundling/fig1_alternatives/alternatives.pdf
 (pdftex.def)             Requested size: 424.82523pt x 279.18207pt.
  [40 <./figure/edgebundling/fig1_alternatives/alternatives.pdf>]) (chapter/3_ed
 gebundling/3_Overview.tex
-<figure/edgebundling/fig2_kernel_size/kernel_size.pdf, id=18927, 2442.82632pt x
+<figure/edgebundling/fig2_kernel_size/kernel_size.pdf, id=18957, 2442.82632pt x
  1576.97151pt>
 File: figure/edgebundling/fig2_kernel_size/kernel_size.pdf Graphic file (type p
 df)
@@ -984,7 +1026,7 @@ used on input line 9.
 (pdftex.def)             Requested size: 424.82523pt x 274.24164pt.
 
 [41]
-<figure/edgebundling/fig3_framework/framework2.pdf, id=18944, 1211.96783pt x 23
+<figure/edgebundling/fig3_framework/framework2.pdf, id=18974, 1211.96783pt x 23
 0.34958pt>
 File: figure/edgebundling/fig3_framework/framework2.pdf Graphic file (type pdf)
 
@@ -995,7 +1037,7 @@ d on input line 61.
  [42 <./figure/edgebundling/fig2_kernel_size/kernel_size.pdf>] [43 <./figure/ed
 gebundling/fig3_framework/framework2.pdf>])
 (chapter/3_edgebundling/4_InputAndPreprocessing.tex [44] [45] [46]
-<figure/edgebundling/fig4_od_abstraction/OD_Abstraction.pdf, id=19072, 442.3194
+<figure/edgebundling/fig4_od_abstraction/OD_Abstraction.pdf, id=19102, 442.3194
 9pt x 273.6895pt>
 File: figure/edgebundling/fig4_od_abstraction/OD_Abstraction.pdf Graphic file (
 type pdf)
@@ -1013,7 +1055,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [48 <./figure/edgebundling/fig4_od_abstraction/OD_Abstraction.pdf>] [49])
 (chapter/3_edgebundling/6_Evaluation.tex
-<figure/edgebundling/fig5_NMI/bundle_termination.pdf, id=19128, 599.08817pt x 2
+<figure/edgebundling/fig5_NMI/bundle_termination.pdf, id=19158, 599.08817pt x 2
 32.3641pt>
 File: figure/edgebundling/fig5_NMI/bundle_termination.pdf Graphic file (type pd
 f)
@@ -1028,21 +1070,21 @@ $\OML/ztmcm/m/it/12 p[]$ \T1/ptm/m/n/12 is in-tro-duced for mea-sur-ing vi-sual
  []
 
 ) (chapter/3_edgebundling/7_ExperimentalResults.tex
-<figure/edgebundling/fig7_hierar/artifical.pdf, id=19195, 3251.49767pt x 1466.9
+<figure/edgebundling/fig7_hierar/artifical.pdf, id=19224, 3251.49767pt x 1466.9
 3039pt>
 File: figure/edgebundling/fig7_hierar/artifical.pdf Graphic file (type pdf)
 <use figure/edgebundling/fig7_hierar/artifical.pdf>
 Package pdftex.def Info: figure/edgebundling/fig7_hierar/artifical.pdf  used on
  input line 3.
 (pdftex.def)             Requested size: 330.42041pt x 149.0519pt.
-<figure/edgebundling/fig6_grid/route.pdf, id=19196, 3795.51007pt x 914.28276pt>
+<figure/edgebundling/fig6_grid/route.pdf, id=19225, 3795.51007pt x 914.28276pt>
 
 File: figure/edgebundling/fig6_grid/route.pdf Graphic file (type pdf)
 <use figure/edgebundling/fig6_grid/route.pdf>
 Package pdftex.def Info: figure/edgebundling/fig6_grid/route.pdf  used on input
  line 19.
 (pdftex.def)             Requested size: 469.66876pt x 113.12714pt.
-<figure/edgebundling/fig8_study2/NYC.pdf, id=19197, 4556.98482pt x 1545.50397pt
+<figure/edgebundling/fig8_study2/NYC.pdf, id=19226, 4556.98482pt x 1545.50397pt
 >
 File: figure/edgebundling/fig8_study2/NYC.pdf Graphic file (type pdf)
 <use figure/edgebundling/fig8_study2/NYC.pdf>
@@ -1050,7 +1092,7 @@ Package pdftex.def Info: figure/edgebundling/fig8_study2/NYC.pdf  used on input
  line 31.
 (pdftex.def)             Requested size: 469.66876pt x 159.27594pt.
  [52 <./figure/edgebundling/fig7_hierar/artifical.pdf>]
-<figure/edgebundling/fig9_study2-2/NYC-zoom.pdf, id=19227, 2713.33694pt x 1589.
+<figure/edgebundling/fig9_study2-2/NYC-zoom.pdf, id=19257, 2713.33694pt x 1589.
 83965pt>
 File: figure/edgebundling/fig9_study2-2/NYC-zoom.pdf Graphic file (type pdf)
 <use figure/edgebundling/fig9_study2-2/NYC-zoom.pdf>
@@ -1063,7 +1105,7 @@ udy2/NYC.pdf
 pdfTeX warning: pdflatex.exe (file ./figure/edgebundling/fig8_study2/NYC.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<figure/edgebundling/fig10_study3/shenzhen.pdf, id=19325, 3197.76689pt x 1057.3
+<figure/edgebundling/fig10_study3/shenzhen.pdf, id=19355, 3197.76689pt x 1057.3
 5028pt>
 File: figure/edgebundling/fig10_study3/shenzhen.pdf Graphic file (type pdf)
 <use figure/edgebundling/fig10_study3/shenzhen.pdf>
@@ -1096,7 +1138,7 @@ CHAPTER 4.
 ] [64])
 (chapter/4_MultiRNNExplorer/2_RelatedWork.tex [65] [66])
 (chapter/4_MultiRNNExplorer/3_RNN_Modeling_and_background.tex [67] [68]
-<figure/MultiRNNExplorer/model_description/model.pdf, id=19554, 1127.8838pt x 2
+<figure/MultiRNNExplorer/model_description/model.pdf, id=19583, 1127.8838pt x 2
 78.70824pt>
 File: figure/MultiRNNExplorer/model_description/model.pdf Graphic file (type pd
 f)
@@ -1107,7 +1149,7 @@ sed on input line 84.
 )
 (chapter/4_MultiRNNExplorer/4_Analytics_Tasks.tex [69 <./figure/MultiRNNExplore
 r/model_description/model.pdf>]
-<figure/MultiRNNExplorer/System_framework.pdf, id=19585, 2070.1339pt x 695.5636
+<figure/MultiRNNExplorer/System_framework.pdf, id=19614, 2070.1339pt x 695.5636
 4pt>
 File: figure/MultiRNNExplorer/System_framework.pdf Graphic file (type pdf)
 <use figure/MultiRNNExplorer/System_framework.pdf>
@@ -1117,7 +1159,7 @@ input line 102.
  [70])
 (chapter/4_MultiRNNExplorer/5_Model_interpreter.tex [71 <./figure/MultiRNNExplo
 rer/System_framework.pdf>] [72]
-<figure/MultiRNNExplorer/methods/unit_response_kdeplot.pdf, id=19632, 1038.5500
+<figure/MultiRNNExplorer/methods/unit_response_kdeplot.pdf, id=19662, 1038.5500
 6pt x 488.49199pt>
 File: figure/MultiRNNExplorer/methods/unit_response_kdeplot.pdf Graphic file (t
 ype pdf)
@@ -1132,7 +1174,7 @@ uster tech-niques: Spec-tral Co-clustering(SCoC)
  []
 
 [74]
-<figure/MultiRNNExplorer/methods/cluster_parameters.png, id=19677, 793.46437pt 
+<figure/MultiRNNExplorer/methods/cluster_parameters.png, id=19706, 793.46437pt 
 x 186.6975pt>
 File: figure/MultiRNNExplorer/methods/cluster_parameters.png Graphic file (type
  png)
@@ -1142,7 +1184,7 @@ Package pdftex.def Info: figure/MultiRNNExplorer/methods/cluster_parameters.png
 (pdftex.def)             Requested size: 448.42822pt x 105.51561pt.
  [75 <./figure/MultiRNNExplorer/methods/cluster_parameters.png>])
 (chapter/4_MultiRNNExplorer/6_ViusalizationDesign.tex
-<figure/MultiRNNExplorer/teaser.pdf, id=19696, 1545.49393pt x 877.7352pt>
+<figure/MultiRNNExplorer/teaser.pdf, id=19725, 1545.49393pt x 877.7352pt>
 File: figure/MultiRNNExplorer/teaser.pdf Graphic file (type pdf)
 <use figure/MultiRNNExplorer/teaser.pdf>
 Package pdftex.def Info: figure/MultiRNNExplorer/teaser.pdf  used on input line
@@ -1150,7 +1192,7 @@ Package pdftex.def Info: figure/MultiRNNExplorer/teaser.pdf  used on input line
 (pdftex.def)             Requested size: 448.42822pt x 254.67061pt.
 
 (chapter/4_MultiRNNExplorer/6_VIsualizationSections/ClusterView.tex [76]
-<figure/MultiRNNExplorer/design/cluster_design.pdf, id=19705, 505.38812pt x 185
+<figure/MultiRNNExplorer/design/cluster_design.pdf, id=19735, 505.38812pt x 185
 .88145pt>
 File: figure/MultiRNNExplorer/design/cluster_design.pdf Graphic file (type pdf)
 
@@ -1174,7 +1216,7 @@ d-ual case. There are many multi-dimensional
  []
 
 [79]) (chapter/4_MultiRNNExplorer/6_VIsualizationSections/SequenceView.tex
-<figure/MultiRNNExplorer/design/alternative_design.pdf, id=24562, 641.062pt x 4
+<figure/MultiRNNExplorer/design/alternative_design.pdf, id=24592, 641.062pt x 4
 56.372pt>
 File: figure/MultiRNNExplorer/design/alternative_design.pdf Graphic file (type 
 pdf)
@@ -1215,7 +1257,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 308.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 308.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 308.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F81D0A3A626C2D0220EF5BCC93E6F1FD;6739.
+(rerunfilecheck)             Checksum: 558D5CDF413745DE4C20AD833B253ADA;6895.
 
 
 LaTeX Warning: There were undefined references.
@@ -1223,10 +1265,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 308.
  ) 
 Here is how much of TeX's memory you used:
- 10112 strings out of 492452
- 161011 string characters out of 3129805
- 269485 words of memory out of 3000000
- 13689 multiletter control sequences out of 15000+200000
+ 10127 strings out of 492452
+ 160763 string characters out of 3129805
+ 270352 words of memory out of 3000000
+ 13696 multiletter control sequences out of 15000+200000
  54387 words of font info for 89 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,16n,37p,1294b,468s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1242,9 +1284,9 @@ msy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm
 fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
 
-Output written on main.pdf (111 pages, 42772008 bytes).
+Output written on main.pdf (115 pages, 42782028 bytes).
 PDF statistics:
- 27550 PDF objects out of 31911 (max. 8388607)
- 407 named destinations out of 1000 (max. 500000)
- 898 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 27581 PDF objects out of 31911 (max. 8388607)
+ 412 named destinations out of 1000 (max. 500000)
+ 922 words of extra memory for PDF output out of 10000 (max. 10000000)
 

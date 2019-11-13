@@ -1,8 +1,11 @@
 \contentsline {chapter}{Title Page}{\nbi i}{Doc-Start}% 
-\contentsline {chapter}{Table of Contents}{\nbi ii}{chapter*.1}% 
-\contentsline {chapter}{List of Figures}{\nbi vi}{chapter*.2}% 
-\contentsline {chapter}{List of Tables}{\nbi ix}{chapter*.3}% 
-\contentsline {chapter}{Abstract}{\nbi x}{chapter*.3}% 
+\contentsline {chapter}{Authorization Page}{\nbi ii}{Doc-Start}% 
+\contentsline {chapter}{Signature Page}{\nbi iii}{Doc-Start}% 
+\contentsline {chapter}{Acknowledgments}{\nbi iv}{chapter*.1}% 
+\contentsline {chapter}{Table of Contents}{\nbi vi}{chapter*.2}% 
+\contentsline {chapter}{List of Figures}{\nbi x}{chapter*.3}% 
+\contentsline {chapter}{List of Tables}{\nbi xiii}{chapter*.4}% 
+\contentsline {chapter}{Abstract}{\nbi xiv}{chapter*.4}% 
 \contentsline {chapter}{{Chapter 1}\hspace {1em}Introduction}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}Visualization meets urban information}{2}{section.1.2}% 
@@ -30,11 +33,11 @@
 \contentsline {subsection}{\numberline {2.6.1}Design Rationales}{18}{subsection.2.6.1}% 
 \contentsline {subsection}{\numberline {2.6.2}Ranking Explorer}{20}{subsection.2.6.2}% 
 \contentsline {subsection}{\numberline {2.6.3}AOI Explorer}{20}{subsection.2.6.3}% 
-\contentsline {subsubsection}{AOI Map View}{20}{section*.4}% 
-\contentsline {subsubsection}{AOI Statistic View}{21}{section*.5}% 
+\contentsline {subsubsection}{AOI Map View}{20}{section*.5}% 
+\contentsline {subsubsection}{AOI Statistic View}{21}{section*.6}% 
 \contentsline {subsection}{\numberline {2.6.4}Street Explorer}{23}{subsection.2.6.4}% 
-\contentsline {subsubsection}{Street Map View}{24}{section*.6}% 
-\contentsline {subsubsection}{Street Statistic View}{24}{section*.7}% 
+\contentsline {subsubsection}{Street Map View}{24}{section*.7}% 
+\contentsline {subsubsection}{Street Statistic View}{24}{section*.8}% 
 \contentsline {subsection}{\numberline {2.6.5}User Interactions}{27}{subsection.2.6.5}% 
 \contentsline {section}{\numberline {2.7}Case Studies}{28}{section.2.7}% 
 \contentsline {subsection}{\numberline {2.7.1}City-scale Comparison}{28}{subsection.2.7.1}% 
@@ -84,8 +87,8 @@
 \contentsline {subsection}{\numberline {4.4.2}System Overview}{70}{subsection.4.4.2}% 
 \contentsline {section}{\numberline {4.5}Model Interpretation}{71}{section.4.5}% 
 \contentsline {subsection}{\numberline {4.5.1}Relationships between Hidden States and Features}{71}{subsection.4.5.1}% 
-\contentsline {subsubsection}{Hidden State Distribution}{72}{section*.8}% 
-\contentsline {subsubsection}{Relationship Strength Estimation}{73}{section*.9}% 
+\contentsline {subsubsection}{Hidden State Distribution}{72}{section*.9}% 
+\contentsline {subsubsection}{Relationship Strength Estimation}{73}{section*.10}% 
 \contentsline {subsection}{\numberline {4.5.2}Hidden Unit and Feature Clustering}{74}{subsection.4.5.2}% 
 \contentsline {subsection}{\numberline {4.5.3}Local Feature Importance}{76}{subsection.4.5.3}% 
 \contentsline {section}{\numberline {4.6}Visualization Design}{76}{section.4.6}% 
@@ -97,4 +100,4 @@
 \contentsline {section}{\numberline {4.7}Case study}{82}{section.4.7}% 
 \contentsline {section}{\numberline {4.8}Discussion and Conclusion}{83}{section.4.8}% 
 \contentsline {chapter}{{Chapter 5}\hspace {1em}Conclusion and Future Work}{85}{chapter.5}% 
-\contentsline {chapter}{References}{87}{chapter*.10}% 
+\contentsline {chapter}{References}{87}{chapter*.11}% 
