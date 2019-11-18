@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.9)  17 NOV 2019 14:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.9)  18 NOV 2019 11:16
 entering extended mode
 **./main.tex
 (main.tex
@@ -1256,9 +1256,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 308.
  (main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 308.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 308.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 558D5CDF413745DE4C20AD833B253ADA;6895.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 558D5CDF413745DE4C20AD833B253ADA;6895
+(rerunfilecheck)             After:  91C07417F03FF4348CBC4A20287A0B14;6893.
 
 LaTeX Warning: There were undefined references.
 
@@ -1267,11 +1273,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 308.
 Here is how much of TeX's memory you used:
  10127 strings out of 492452
  160763 string characters out of 3129805
- 270353 words of memory out of 3000000
+ 269353 words of memory out of 3000000
  13696 multiletter control sequences out of 15000+200000
  54387 words of font info for 89 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,16n,37p,1294b,468s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,16n,37p,1291b,468s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
@@ -1284,7 +1290,7 @@ msy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm
 fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
 
-Output written on main.pdf (115 pages, 42782202 bytes).
+Output written on main.pdf (115 pages, 42782189 bytes).
 PDF statistics:
  27581 PDF objects out of 31911 (max. 8388607)
  412 named destinations out of 1000 (max. 500000)

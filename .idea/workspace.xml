@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7e7175f-5d44-4d5e-b792-a661fa72be3c" name="Default Changelist" comment="" />
+    <list default="true" id="b7e7175f-5d44-4d5e-b792-a661fa72be3c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/chapter/1_Introduction.tex" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/1_Introduction.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter/4_Conclusion.tex" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/4_Conclusion.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter/_proof_reading_abstract_and_introduction_conclusion.tex" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/_proof_reading_abstract_and_introduction_conclusion.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter/_test_.tex" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/_test_.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter/sec-abstract.tex" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/sec-abstract.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thesis.pdf" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,17 +20,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.tex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="1918">
               <caret line="137" column="24" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ustthesis.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="1760" column="43" selection-start-line="1760" selection-start-column="43" selection-end-line="1760" selection-end-column="43" />
+            <state relative-caret-position="135">
+              <caret line="1738" column="9" selection-start-line="1738" selection-start-column="9" selection-end-line="1738" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter/1_Introduction.tex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="89" column="30" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter/4_Conclusion.tex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="12" column="104" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter/_proof_reading_abstract_and_introduction_conclusion.tex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="634">
+              <caret line="115" column="104" selection-start-line="115" selection-start-column="98" selection-end-line="115" selection-end-column="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter/sec-abstract.tex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter/_test_.tex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -42,9 +94,11 @@
       <find>algpseudocode</find>
       <find>inputenc</find>
       <find>thesis submi</find>
+      <find>proposal</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Qiaomu\Desktop\me\Thesis_proposal</dir>
+      <dir>C:\Users\Qiaomu\Desktop\me\Thesis\chapter</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -55,6 +109,11 @@
       <list>
         <option value="$PROJECT_DIR$/main.tex" />
         <option value="$PROJECT_DIR$/ustthesis.cls" />
+        <option value="$PROJECT_DIR$/chapter/1_Introduction.tex" />
+        <option value="$PROJECT_DIR$/chapter/4_Conclusion.tex" />
+        <option value="$PROJECT_DIR$/chapter/_proof_reading_abstract_and_introduction_conclusion.tex" />
+        <option value="$PROJECT_DIR$/chapter/sec-abstract.tex" />
+        <option value="$PROJECT_DIR$/chapter/_test_.tex" />
       </list>
     </option>
   </component>
@@ -67,8 +126,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1527" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="645" />
+    <option name="y" value="-14" />
     <option name="width" value="1044" />
     <option name="height" value="792" />
   </component>
@@ -77,18 +137,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Thesis_proposal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Thesis_proposal" type="462c0819:PsiDirectoryNode" />
+              <item name="Thesis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Thesis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Thesis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Thesis" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -122,17 +187,18 @@
       <updated>1570958056455</updated>
       <workItem from="1570958069273" duration="807000" />
       <workItem from="1571034133878" duration="657000" />
+      <workItem from="1574000846017" duration="988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1464000" />
+    <option name="totallyTimeSpent" value="2452000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1018" y="0" width="696" height="528" extended-state="1" />
+    <frame x="-7" y="-7" width="1721" height="944" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.6583072" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1521347" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -161,15 +227,50 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.tex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="1918">
           <caret line="137" column="24" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ustthesis.cls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="1760" column="43" selection-start-line="1760" selection-start-column="43" selection-end-line="1760" selection-end-column="43" />
+        <state relative-caret-position="135">
+          <caret line="1738" column="9" selection-start-line="1738" selection-start-column="9" selection-end-line="1738" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter/1_Introduction.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="89" column="30" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter/4_Conclusion.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="104" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter/_proof_reading_abstract_and_introduction_conclusion.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="115" column="104" selection-start-line="115" selection-start-column="98" selection-end-line="115" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter/sec-abstract.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter/_test_.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
         </state>
       </provider>
     </entry>

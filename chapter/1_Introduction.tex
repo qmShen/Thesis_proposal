@@ -7,20 +7,20 @@ Fortunately, the rapid development of information and communications technology 
 
 Although computers have a great advantage in fast computing and large information storage, fully automated techniques still have limitations in analyzing urban data due to the complexity and variety of analytical tasks in the real world. Final decisions in analyzing data require human intervention, as humans possess acute perception and considerable experience in the domain field. Visualization, which is defined as “the study of transforming data, information, and knowledge into interactive visual representations”  [15], bridges the gap between humans and computing techniques.
 
-In this chapter, we first introduce the existing visualization techniques in urban data exploration. Then, we discuss the major contributions of this proposal, followed by the proposal organization.
+In this chapter, we first introduce the existing visualization techniques in urban data exploration. Then, we discuss the major contributions of this thesis, followed by the thesis organization.
 
 \section{Visualization meets urban information}
 
 % The study of urban information leverages the theories from variety of academic fields. 
  
-The analysis of model urban always refers to the intersection of three domains: people, place and technology~\cite{foth2011urban}, which is covered by the proposed work in this proposal. 
+The analysis of model urban always refers to the intersection of three domains: people, place and technology~\cite{foth2011urban}, which is covered by the proposed work in this thesis.
 \begin{itemize}
 \item \textbf{People.} People refers to the residents, citizens, community groups as well as the relative data such as commuting, social network, etc.
 \item \textbf{Place.} Place refers to the physical environment such as the urban sites, locales and habitats which if formed by nature or human activities.
 \item \textbf{Technology.} Technology refers to a variety of techniques span informatics, computing techniques, wearable devices, etc.
 \end{itemize}
 
-Before introducing the contribution of this proposal, we first briefly introduce the existing techniques from these three aspects:
+Before introducing the contribution of this thesis, we first briefly introduce the existing techniques from these three aspects:
 
 \subsection{Visualization of human movement (People)}
 As a general topic in visualization discipline, how to effectively visualize the human movement has been long studied in recent years.  An overview has been proposed to categorized the existing movement visualization techniques into three classes: \textbf{pattern extraction}, \textbf{direct depiction}, \textbf{summarization} ~\cite{andrienko2013visual, wu2015telcovis}.
@@ -37,7 +37,7 @@ The rapid urbanization cause a series of changes of living environment including
 By combining the data mining and cluster visualization, HydroQual~\cite{accorsi2014hydroqual} is proposed to support a visual analysis of river quality. 
 To reason the air pollutant in Hong Kong, Qu et al. ~\cite{qu2007visual} propose a visual analytics system consists of several novel design including  circular pixel bar chart and a parallel coordinates with S-shape axis.  Further more, Deng et al.~\cite{deng2019airvis} propose a visual analytics system assisting the air quality analysts in exploring the air pollutant propagation patterns. 
 
-Visual analytics also enable the urban planers to design and evaluate the city construction. For example, Ferreira et al. ~\cite{ferreira2015urbane} propose Urbane, a 3D multi-resolution framework, which enable the urban planers to conduct the urban development in a data-driven way. Zeng et al.~\cite{zeng2018vitalvizor} proposal a tool to facilitates the urban vitality. Such tool presents both of the physical entities and urban design metrics and allow the expert to quickly discover the city blocks which could be improved.
+Visual analytics also enable the urban planers to design and evaluate the city construction. For example, Ferreira et al. ~\cite{ferreira2015urbane} propose Urbane, a 3D multi-resolution framework, which enable the urban planers to conduct the urban development in a data-driven way. Zeng et al.~\cite{zeng2018vitalvizor} thesis a tool to facilitates the urban vitality. Such tool presents both of the physical entities and urban design metrics and allow the expert to quickly discover the city blocks which could be improved.
 \subsection{Visual interpretation for techniques (Technology)}
 The computing techniques play an important role in the exploration of urban information. Even though more and more techniques are adapted to urban data exploration, most of them are sill used as a black box. For most of the technique developers and users, the interpretability is an important property of the techniques in a variety of real world applications. The interpretation can help the technique developers to improve the technique performance and help the technique users improve their confidence~\cite{strobelt2018lstmvis}. 
 
@@ -62,7 +62,7 @@ One recent work, SHAP~\cite{lundberg2017unified}, also calculates feature attrib
 Even though variety of techniques has been proposed to interpret the mechanism of the complex techniques, very few of them target at the application of the urban information exploration which always take large amount, high-dimensioanl and complex data as input.  
 
 \section{Contribution}
-In this proposal, we introduce several visualization techniques in assisting urban data exploration tasks as well as the understanding of urban computing techniques:
+In this thesis, we introduce several visualization techniques in assisting urban data exploration tasks as well as the understanding of urban computing techniques:
 
 \begin{itemize}[noitemsep]
 	\item \textbf{Visual Exploration of Human-Scale Urban Forms}. We propose StreetVizor, an interactive visual analytics system that helps planners leverage their domain knowledge in exploring human-scale urban forms based on street view images. Our system presents two-stage visual exploration: 1) an AOI Explorer for the visual comparison of spatial distributions and quantitative measurements in two areas-of-interest at city- and region-scales; 2) and a Street Explorer with a novel parallel coordinate plot for the exploration of the fine-grained details of the urban forms at the street-scale. We integrate visualization techniques with machine learning models to facilitate the detection of street view patterns. 
@@ -74,11 +74,11 @@ In this proposal, we introduce several visualization techniques in assisting urb
 \end{itemize}
 
 
-\section{Proposal organization}
+\section{Thesis organization}
 
 %The thesis consists of \QMT{three work}, the first two works are proposed to support the urban data exploration, the third work aim to interpret the model 
 
-The rest of this proposal is organized as follows:
+The rest of this thesis is organized as follows:
 
 Chapter 2 introduces the design of Streetvizor: specific analysis requirements are described by a collaborating urban planner, and the designs are evaluated and refined against requirements. We illustrate the applicability of our approach with case studies on the real-world datasets of four cities, i.e., Hong Kong, Singapore, Greater London and New York City. Interviews with domain experts demonstrate the effectiveness of our system in facilitating various analytical tasks.
 
@@ -87,4 +87,4 @@ Chapter 3 presents the details about the implementation of RAEB(route aware edge
 Chapter 4 proposes a MultiRNNExplorer, a visual analytics system to interpret the recurrent neural networks on multi-dimensional time-series forecast. We introduce the system design and demonstrate the effectiveness of the proposed technique with case studies of air pollutant forecast applications.
 
 
-Chapter 5 concludes the proposal and discusses possible future work.
+Chapter 5 concludes the thesis and discusses possible future work.
