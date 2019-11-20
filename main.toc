@@ -99,6 +99,12 @@
 \contentsline {subsection}{\numberline {4.6.5}Interactions and Linkage}{82}{subsection.4.6.5}% 
 \contentsline {section}{\numberline {4.7}Case study}{82}{section.4.7}% 
 \contentsline {subsection}{\numberline {4.7.1}Changes Over Epochs}{83}{subsection.4.7.1}% 
-\contentsline {section}{\numberline {4.8}Discussion and Conclusion}{85}{section.4.8}% 
-\contentsline {chapter}{{Chapter 5}\hspace {1em}Conclusion and Future Work}{86}{chapter.5}% 
-\contentsline {chapter}{References}{88}{chapter*.11}% 
+\contentsline {subsection}{\numberline {4.7.2}Understand Model Behaviors}{85}{subsection.4.7.2}% 
+\contentsline {subsubsection}{Model Mechanism}{85}{section*.11}% 
+\contentsline {subsubsection}{Feature importance}{85}{section*.12}% 
+\contentsline {subsection}{\numberline {4.7.3}Case exploration}{87}{subsection.4.7.3}% 
+\contentsline {subsubsection}{Overview of the model behavior across seasons}{87}{section*.13}% 
+\contentsline {subsubsection}{Explore the model behavior in winter}{87}{section*.14}% 
+\contentsline {section}{\numberline {4.8}Discussion and Conclusion}{88}{section.4.8}% 
+\contentsline {chapter}{{Chapter 5}\hspace {1em}Conclusion and Future Work}{90}{chapter.5}% 
+\contentsline {chapter}{References}{92}{chapter*.15}% 
