@@ -98,6 +98,7 @@
 \contentsline {subsection}{\numberline {4.6.4}Individual View}{80}{subsection.4.6.4}% 
 \contentsline {subsection}{\numberline {4.6.5}Interactions and Linkage}{82}{subsection.4.6.5}% 
 \contentsline {section}{\numberline {4.7}Case study}{82}{section.4.7}% 
-\contentsline {section}{\numberline {4.8}Discussion and Conclusion}{83}{section.4.8}% 
-\contentsline {chapter}{{Chapter 5}\hspace {1em}Conclusion and Future Work}{85}{chapter.5}% 
-\contentsline {chapter}{References}{87}{chapter*.11}% 
+\contentsline {subsection}{\numberline {4.7.1}Changes Over Epochs}{83}{subsection.4.7.1}% 
+\contentsline {section}{\numberline {4.8}Discussion and Conclusion}{85}{section.4.8}% 
+\contentsline {chapter}{{Chapter 5}\hspace {1em}Conclusion and Future Work}{86}{chapter.5}% 
+\contentsline {chapter}{References}{88}{chapter*.11}% 

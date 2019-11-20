@@ -1,5 +1,11 @@
 \begin{thebibliography}{100}
 
+\bibitem{SO2TOPM25}
+Sulfur dioxide (so$_2$) pollution.
+\newblock
+  \url{https://www.epa.gov/so2-pollution/sulfur-dioxide-basics#effects}.
+\newblock Accessed: 2019-09-07.
+
 \bibitem{accorsi2014hydroqual}
 Pierre Accorsi, Nathalie Lalande, Mick{\"a}el Fabr{\`e}gue, Agn{\`e}s Braud,
   Pascal Poncelet, Arnaud Sallaberry, Sandra Bringay, Maguelonne Teisseire,
@@ -75,6 +81,12 @@ Dirk Brockmann, Lars Hufnagel, and Theo Geisel.
 \newblock The scaling laws of human travel.
 \newblock {\em Nature}, 439(7075):462--465, 2006.
 
+\bibitem{brownlee2017long}
+Jason Brownlee.
+\newblock {\em Long Short-term Memory Networks with Python: Develop Sequence
+  Prediction Models with Deep Learning}.
+\newblock Machine Learning Mastery, 2017.
+
 \bibitem{2014_bottger_three-d}
 J.~Böttger, A.~Schäfer, G.~Lohmann, A.~Villringer, and D.~S. Margulies.
 \newblock Three-dimensional mean-shift edge bundling for the visualization of
@@ -87,6 +99,13 @@ Lee Byron and Martin Wattenberg.
 \newblock Stacked graphs--geometry \& aesthetics.
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics},
   14(6):1245--1252, 2008.
+
+\bibitem{cao2003characteristics}
+JJ~Cao, SC~Lee, KF~Ho, XY~Zhang, SC~Zou, Kochy Fung, Judith~C Chow, and John~G
+  Watson.
+\newblock Characteristics of carbonaceous aerosol in pearl river delta region,
+  china during 2001 winter period.
+\newblock {\em Atmospheric Environment}, 37(11):1451--1460, 2003.
 
 \bibitem{cao2012forecasting}
 Qing Cao, Bradley~T Ewing, and Mark~A Thompson.
@@ -239,6 +258,12 @@ Timnit Gebru, Jonathan Krause, Yilun Wang, Duyun Chen, Jia Deng, Erez~Lieberman
 Jan Gehl.
 \newblock {\em Life between Buildings: Using Public Space}.
 \newblock Van Nostrand Reinhold, 1971.
+
+\bibitem{gers2002applying}
+Felix~A Gers, Douglas Eck, and J{\"u}rgen Schmidhuber.
+\newblock Applying lstm to time series predictable through time-window
+  approaches.
+\newblock In {\em Neural Nets WIRN Vietri-01}, pages 193--200. Springer, 2002.
 
 \bibitem{gleicher2011visual}
 Michael Gleicher, Danielle Albers, Rick Walker, Ilir Jusufi, Charles~D Hansen,
@@ -504,6 +529,13 @@ Yin Lou, Chengyang Zhang, Yu~Zheng, Xing Xie, Wei Wang, and Yan Huang.
 \newblock In {\em Proceedings of ACM SIGSPATIAL International Conference on
   Advances in Geographic Information Systems}, pages 352--361, 1653820, 2009.
 
+\bibitem{louie2005seasonal}
+Peter~KK Louie, John~G Watson, Judith~C Chow, Antony Chen, Della~WM Sin, and
+  Alexis~KH Lau.
+\newblock Seasonal characteristics and regional transport of pm2. 5 in hong
+  kong.
+\newblock {\em Atmospheric Environment}, 39(9):1695--1710, 2005.
+
 \bibitem{lundberg2017unified}
 Scott~M Lundberg and Su-In Lee.
 \newblock A unified approach to interpreting model predictions.
@@ -529,6 +561,12 @@ Yao Ming, Shaozu Cao, Ruixiang Zhang, Zhen Li, Yuanzhe Chen, Yangqiu Song, and
 \newblock Understanding hidden memories of recurrent neural networks.
 \newblock In {\em 2017 IEEE Conference on Visual Analytics Science and
   Technology (VAST)}, pages 13--24. IEEE, 2017.
+
+\bibitem{murakami1979winter}
+Takio Murakami.
+\newblock Winter monsoonal surges over east and southeast asia1.
+\newblock {\em Journal of the Meteorological Society of Japan. Ser. II},
+  57(2):133--158, 1979.
 
 \bibitem{naik2014streetscore}
 Nikhil Naik, Jade Philipoom, Ramesh Raskar, and C{\'e}sar Hidalgo.
@@ -634,6 +672,14 @@ David Selassie, Brandon Heller, and Jeffrey Heer.
 \newblock Divided edge bundling for directional network data.
 \newblock {\em IEEE Transactions on Visualization and Computer Graphics},
   17(12):2354--2363, 2011.
+
+\bibitem{shen2017streetvizor}
+Qiaomu Shen, Wei Zeng, Yu~Ye, Stefan~M{\"u}ller Arisona, Simon Schubiger, Remo
+  Burkhard, and Huamin Qu.
+\newblock Streetvizor: Visual exploration of human-scale urban forms based on
+  street views.
+\newblock {\em IEEE transactions on visualization and computer graphics},
+  24(1):1004--1013, 2017.
 
 \bibitem{shi2017deep}
 Heng Shi, Minghao Xu, and Ran Li.
@@ -835,6 +881,13 @@ Wei Zeng, Chi-Wing Fu, Stefan~M{\"u}ller Arisona, Simon Schubiger, Remo
   interest.
 \newblock {\em IEEE Transactions on Intelligent Transportation Systems},
   18(8):2271--2284, 2017.
+
+\bibitem{zeng2019route}
+Wei Zeng, Qiaomu Shen, Yuzhe Jiang, and Alexandru Telea.
+\newblock Route-aware edge bundling for visualizing origin-destination trails
+  in urban traffic.
+\newblock In {\em Computer Graphics Forum}, volume~38, pages 581--593. Wiley
+  Online Library, 2019.
 
 \bibitem{zeng2018vitalvizor}
 Wei Zeng and Yu~Ye.
